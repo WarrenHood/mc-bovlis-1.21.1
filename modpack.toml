@@ -214,16 +214,16 @@ version = "*"
 name = "curios"
 version = "*"
 
-[mods.dangerous]
-name = "dangerous"
-version = "*"
-
 [mods.deeperdarker]
 name = "deeperdarker"
 version = "*"
 
 [mods.diabolical-islands]
 name = "diabolical-islands"
+version = "*"
+
+[mods.dimensional-dungeons]
+name = "dimensional-dungeons"
 version = "*"
 
 [mods.doespotatotick]
@@ -352,6 +352,10 @@ version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/7369/21/ftb-teams-neoforge-2101.1.9.jar"
 
+[mods.gateways-to-eternity]
+name = "gateways-to-eternity"
+version = "*"
+
 [mods.geckolib]
 name = "geckolib"
 version = "*"
@@ -421,6 +425,10 @@ name = "jei"
 version = "*"
 server_side = true
 client_side = true
+
+[mods.l2hostility]
+name = "l2hostility"
+version = "*"
 
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
@@ -835,11 +843,6 @@ apply_policy = "Always"
 
 [files."./common/config/aiimprovements-common.toml"]
 target_path = "config/aiimprovements-common.toml"
-side = "Both"
-apply_policy = "Always"
-
-[files."./common/config/dangerous-common.toml"]
-target_path = "config/dangerous-common.toml"
 side = "Both"
 apply_policy = "Always"
 
