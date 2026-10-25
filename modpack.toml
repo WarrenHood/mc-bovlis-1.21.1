@@ -582,10 +582,6 @@ client_side = true
 name = "pv-addon-whisper"
 version = "*"
 
-[mods.rad-gyms]
-name = "rad-gyms"
-version = "*"
-
 [mods.relics-mod]
 name = "relics-mod"
 version = "*"

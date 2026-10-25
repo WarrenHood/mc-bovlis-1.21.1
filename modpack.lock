@@ -2586,19 +2586,6 @@ name = "plasmo-voice"
 version = "neoforge-1.21.1-2.2.0-beta.2"
 providers = ["Modrinth"]
 
-[mods.rad-gyms]
-version = "1.8.1_0.5.0"
-server_side = true
-client_side = true
-
-[[mods.rad-gyms.source]]
-
-[mods.rad-gyms.source.Download]
-url = "https://cdn.modrinth.com/data/eF8kqlHd/versions/GczZp4sE/rad-gyms-neoforge-0.5.0.jar"
-sha1 = "41e734b6a7371757a800ad2a052f9c166d1d82f7"
-sha512 = "c70f5735c591172612a4e204d68a1ae29d7f4e751a82b2c21e6869d1963606c99a4a916cecfbee50434c6c98b4d9178e70cd12b9bfd1b9e499cb8943f9dc9e15"
-filename = "rad-gyms-neoforge-0.5.0.jar"
-
 [mods.relics-mod]
 version = "0.12.9"
 server_side = true
