@@ -670,10 +670,6 @@ version = "*"
 name = "spark"
 version = "*"
 
-[mods.spectrum]
-name = "spectrum"
-version = "*"
-
 [mods.storagedrawers]
 name = "storagedrawers"
 version = "*"

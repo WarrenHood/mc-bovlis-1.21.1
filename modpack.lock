@@ -3031,19 +3031,6 @@ sha1 = "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
 sha512 = "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
 filename = "spark-1.10.124-neoforge.jar"
 
-[mods.spectrum]
-version = "1.12.9-1.21.1-neo"
-server_side = true
-client_side = true
-
-[[mods.spectrum.source]]
-
-[mods.spectrum.source.Download]
-url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/ODbJTcVf/spectrum-1.12.9-1.21.1-neo.jar"
-sha1 = "9f93a810e822a725d25ef526e9c0a10b6444fbe1"
-sha512 = "3e16ec10b963702c2ab9f4dda328db4ed058fe2457360b63e3819749d501e19016151e215dd281010a4f4f220a6c0ed5c2248f3c15b7c638441a784dec47809a"
-filename = "spectrum-1.12.9-1.21.1-neo.jar"
-
 [mods.storagedrawers]
 version = "1.21.1-13.11.4"
 server_side = true
