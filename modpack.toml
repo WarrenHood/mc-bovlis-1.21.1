@@ -10,6 +10,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.advanced-chimneys]
+name = "advanced-chimneys"
+version = "*"
+
 [mods.ae2]
 name = "ae2"
 version = "*"
@@ -142,6 +146,10 @@ version = "*"
 name = "chunky"
 version = "*"
 
+[mods.clear-void]
+name = "clear-void"
+version = "*"
+
 [mods.clumps]
 name = "clumps"
 version = "*"
@@ -212,6 +220,10 @@ version = "*"
 
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
+version = "*"
+
+[mods.create-smog]
+name = "create-smog"
 version = "*"
 
 [mods.cubes-without-borders]
@@ -556,6 +568,10 @@ version = "*"
 
 [mods.playerrevive]
 name = "playerrevive"
+version = "*"
+
+[mods.pollution-of-the-realms]
+name = "pollution-of-the-realms"
 version = "*"
 
 [mods.polymorph]

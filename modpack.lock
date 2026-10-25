@@ -11,6 +11,24 @@ sha1 = "3d328e772b19d6d12f4b075cca2120bbcca2b09d"
 sha512 = "8b5daf057985f1cec4b3d6f27e202ccc91b6e0c008b4c8ea4900c33508471c0c518c9830da61f85aa100c43b4fa08857eb6ecb82ae53205ef5db0bc02f959e04"
 filename = "AdvancedBackups-neoforge-1.21-3.7.1.jar"
 
+[mods.advanced-chimneys]
+version = "11.1.14.0"
+server_side = true
+client_side = true
+
+[[mods.advanced-chimneys.source]]
+
+[mods.advanced-chimneys.source.Download]
+url = "https://cdn.modrinth.com/data/r2rWUhnP/versions/A2wTbGn9/AdChimneys-1.21.1-11.1.14.0-NeoForge-build.1236.jar"
+sha1 = "ed8f019a41063e23500575a0210f61f8eb4a1766"
+sha512 = "ff0e11c2b6d252a783d5009541302c49b2f383187b9363072e40d3fd2b31fc9242d67a1ff9f70b06e18d33b76bab85550d099a0cbd12d4cb95c5b6a6a4d4a7e2"
+filename = "AdChimneys-1.21.1-11.1.14.0-NeoForge-build.1236.jar"
+
+[[mods.advanced-chimneys.deps]]
+name = "forgeendertech"
+version = "12.1.4.0"
+providers = ["Modrinth"]
+
 [mods.ae2]
 version = "19.2.18"
 server_side = true
@@ -680,6 +698,19 @@ sha1 = "ab0c74743a653020fe2dfc4986b43e893947f3e9"
 sha512 = "2db769dd723f243a21e1881e7c9f825e9c193da6f2bed454b70cb6fa9e51c57f63fdcf017c0657bbd26f7bba30815413e27c74d3c7be0783390a96ee9baa4bf7"
 filename = "Chunky-NeoForge-1.4.23.jar"
 
+[mods.clear-void]
+version = "1.3.1"
+server_side = false
+client_side = true
+
+[[mods.clear-void.source]]
+
+[mods.clear-void.source.Download]
+url = "https://cdn.modrinth.com/data/xsFn8GIq/versions/kNr2s3Ct/clearvoid-mc1.21.1-1.3.1.jar"
+sha1 = "5223ec7cccf1d7f4121e60295ac076f9e59aeee1"
+sha512 = "762705e4c8d3c08cc96a0a00f616b502fbfc9a995870f40966ef61a636edd3a61a34c11ecf057c5a913867844f0c779fa91daa745979508802430fe086283d37"
+filename = "clearvoid-mc1.21.1-1.3.1.jar"
+
 [mods.cloth-config]
 version = "15.0.140+neoforge"
 server_side = true
@@ -1077,6 +1108,24 @@ sha512 = "1507ebcd07d3185aac3ae6ce768b4d6bab16cb6f39776d25a850c8133a4dc5826b8ddb
 filename = "createdieselgenerators-1.21.1-1.3.15.jar"
 
 [[mods.create-diesel-generators.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-smog]
+version = "0.5.0"
+server_side = true
+client_side = true
+
+[[mods.create-smog.source]]
+
+[mods.create-smog.source.Download]
+url = "https://cdn.modrinth.com/data/x6ANh9Im/versions/IuPaCzrH/smog-0.5.0%2Bmc1.21.1.jar"
+sha1 = "e4b513d861bad1b279f6001d38668b760f5a9415"
+sha512 = "1484d809ba8de1e380488ccb0a7016d0b679be3d87b29a8168024e2ca4b6602a1912c2f94efd7b8c2620c0a446dc723b7f8f19dcddafd976549e28430417a068"
+filename = "smog-0.5.0+mc1.21.1.jar"
+
+[[mods.create-smog.deps]]
 name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
@@ -1564,6 +1613,19 @@ filename = "forbidden_arcanus-2.6.1.jar"
 name = "valhelsia-core"
 version = "1.1.4"
 providers = ["Modrinth"]
+
+[mods.forgeendertech]
+version = "12.1.4.0"
+server_side = true
+client_side = true
+
+[[mods.forgeendertech.source]]
+
+[mods.forgeendertech.source.Download]
+url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/r9lM1yuJ/ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
+sha1 = "57552932d2b40961fe80eeca4937b917fe166ceb"
+sha512 = "76886ee847cc140239fd430ddec2739affb4f0b7054084ca6a17ba27ddf8be480ea72a5ebbd459c1cde583a7f152f7589f59c46a754c9fcab277aa3d119a4a8a"
+filename = "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
 
 [mods.ftb-library]
 version = "Unknown"
@@ -2493,6 +2555,24 @@ filename = "PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar"
 [[mods.playerrevive.deps]]
 name = "creativecore"
 version = "2.13.51"
+providers = ["Modrinth"]
+
+[mods.pollution-of-the-realms]
+version = "9.1.13.0"
+server_side = true
+client_side = true
+
+[[mods.pollution-of-the-realms.source]]
+
+[mods.pollution-of-the-realms.source.Download]
+url = "https://cdn.modrinth.com/data/SN8xUUfR/versions/t9xaRLuT/AdPother-1.21.1-9.1.13.0-NeoForge-build.1236.jar"
+sha1 = "ec025bc39f5dc4f132bec0d3aac1aade4031df07"
+sha512 = "4839bcf7db2ab0ba2bb9a0c2190488f0decb2a119f8c0b98969963b65a9c5e3ff9612894b50a4a077f5d3625057ab4473d277680a03421f1eeec86e8a27baa0e"
+filename = "AdPother-1.21.1-9.1.13.0-NeoForge-build.1236.jar"
+
+[[mods.pollution-of-the-realms.deps]]
+name = "forgeendertech"
+version = "12.1.4.0"
 providers = ["Modrinth"]
 
 [mods.polymorph]
