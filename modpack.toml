@@ -614,10 +614,6 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
-[mods.sky-archipelago]
-name = "sky-archipelago"
-version = "*"
-
 [mods.sky-whales]
 name = "sky-whales"
 version = "*"
