@@ -4,10 +4,6 @@ modloader = "NeoForge"
 default_providers = ["Modrinth"]
 forbidden_mods = ["fabric-api"]
 
-[mods.aces-spell-utils]
-name = "aces-spell-utils"
-version = "*"
-
 [mods.advanced-backups]
 name = "advanced-backups"
 version = "*"
@@ -54,12 +50,24 @@ version = "*"
 name = "apotheoticcreation"
 version = "*"
 
+[mods.apothic-flux]
+name = "apothic-flux"
+version = "*"
+
 [mods.appleskin]
 name = "appleskin"
 version = "*"
 
+[mods.applied-mekanistics]
+name = "applied-mekanistics"
+version = "*"
+
 [mods.ars-additions]
 name = "ars-additions"
+version = "*"
+
+[mods.ars-elemancy]
+name = "ars-elemancy"
 version = "*"
 
 [mods.ars-elemental]
@@ -118,6 +126,18 @@ version = "*"
 name = "caelus"
 version = "*"
 
+[mods.cc-deep-seas]
+name = "cc-deep-seas"
+version = "*"
+
+[mods.cc-sable]
+name = "cc-sable"
+version = "*"
+
+[mods.cc-tweaked]
+name = "cc-tweaked"
+version = "*"
+
 [mods.chunky]
 name = "chunky"
 version = "*"
@@ -172,6 +192,10 @@ version = "*"
 
 [mods.create-aeronautics-discovery]
 name = "create-aeronautics-discovery"
+version = "*"
+
+[mods.create-applied-kinetics]
+name = "create-applied-kinetics"
 version = "*"
 
 [mods.create-cosmonatics]
@@ -382,14 +406,6 @@ version = "*"
 
 [mods.iris]
 name = "iris"
-version = "*"
-
-[mods.irons-lib]
-name = "irons-lib"
-version = "*"
-
-[mods.irons-spells-n-spellbooks]
-name = "irons-spells-n-spellbooks"
 version = "*"
 
 [mods.item-obliterator]
@@ -860,16 +876,6 @@ target_path = "./config/iceandfire/iaf-common.json"
 side = "Both"
 apply_policy = "Always"
 
-[files."./common/config/irons_spellbooks_spell_config/irons_spellbooks/angel_wing.json"]
-target_path = "./config/irons_spellbooks_spell_config/irons_spellbooks/angel_wing.json"
-side = "Both"
-apply_policy = "Always"
-
-[files."./common/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"]
-target_path = "./config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"
-side = "Both"
-apply_policy = "Always"
-
 [files."./common/config/item_obliterator.json5"]
 target_path = "config/item_obliterator.json5"
 side = "Both"
@@ -892,11 +898,6 @@ apply_policy = "Always"
 
 [files."./common/config/treechop-common.toml"]
 target_path = "config/treechop-common.toml"
-side = "Both"
-apply_policy = "Always"
-
-[files."./common/scripts/gating_and_balance.zs"]
-target_path = "scripts/gating_and_balance.zs"
 side = "Both"
 apply_policy = "Always"
 

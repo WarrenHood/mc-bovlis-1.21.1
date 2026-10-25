@@ -1,21 +1,3 @@
-[mods.aces-spell-utils]
-version = "1.2.7.4-1.21.1"
-server_side = true
-client_side = true
-
-[[mods.aces-spell-utils.source]]
-
-[mods.aces-spell-utils.source.Download]
-url = "https://cdn.modrinth.com/data/7Jy4rK9m/versions/KKU7lsAt/aces_spell_utils-1.2.7.4-1.21.1.jar"
-sha1 = "9e52e16d97b22a105c13ed85ddb4a8795429987f"
-sha512 = "0150287f2e520fd1e6c5c8470c142bfee48332ba6bb205838b53dc79c264a6332dbe2044bc762b2a5490afa905a186076fa67faf5ee8d2c2e2baa599ccfcf483"
-filename = "aces_spell_utils-1.2.7.4-1.21.1.jar"
-
-[[mods.aces-spell-utils.deps]]
-name = "irons-spells-n-spellbooks"
-version = "1.21.1-3.16.3"
-providers = ["Modrinth"]
-
 [mods.advanced-backups]
 version = "3.7.1"
 server_side = true
@@ -234,6 +216,19 @@ name = "placebo"
 version = "1.21.1-9.9.4"
 providers = ["Modrinth"]
 
+[mods.apothic-flux]
+version = "1.21.1-1.4.1"
+server_side = true
+client_side = true
+
+[[mods.apothic-flux.source]]
+
+[mods.apothic-flux.source.Download]
+url = "https://cdn.modrinth.com/data/KwvwhAAf/versions/1TPGD749/apothic_flux-1.21.1-1.4.1.jar"
+sha1 = "07ad503ba2213237ad79f232d4b46e878ac6af29"
+sha512 = "d18be21c888479e3161d725529af1426098a994e565049a4047fcc585d078c28fd07ab353fa8071314a0bacd8c7c455ab8ebbe42e5ea9c78c3985ba5b0df8dba"
+filename = "apothic_flux-1.21.1-1.4.1.jar"
+
 [mods.apothic-spawners]
 version = "1.21.1-1.4.0"
 server_side = true
@@ -264,6 +259,29 @@ url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neofor
 sha1 = "81cf0e668f991f83ac8820c386fbd6c9c3602246"
 sha512 = "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937"
 filename = "appleskin-neoforge-mc1.21-3.0.9.jar"
+
+[mods.applied-mekanistics]
+version = "1.6.3"
+server_side = true
+client_side = true
+
+[[mods.applied-mekanistics.source]]
+
+[mods.applied-mekanistics.source.Download]
+url = "https://cdn.modrinth.com/data/IiATswDj/versions/TpUCzFaW/Applied-Mekanistics-1.6.3.jar"
+sha1 = "bec4a47269ec23bca2329742e13409bfde69c5c3"
+sha512 = "1a693c3c05862805bd88cf1265fd4b9b98b2da4efe986c9ff26efa0e675df14373983ffdf7ededb26f07864b6702fabc299ac1a06fb8fa35de0b341b596dbf9b"
+filename = "Applied-Mekanistics-1.6.3.jar"
+
+[[mods.applied-mekanistics.deps]]
+name = "ae2"
+version = "19.2.18"
+providers = ["Modrinth"]
+
+[[mods.applied-mekanistics.deps]]
+name = "mekanism"
+version = "10.7.19.85"
+providers = ["Modrinth"]
 
 [mods.architectury-api]
 version = "13.0.11+neoforge"
@@ -300,6 +318,19 @@ providers = ["Modrinth"]
 name = "curios"
 version = "9.5.1+1.21.1"
 providers = ["Modrinth"]
+
+[mods.ars-elemancy]
+version = "1.17"
+server_side = true
+client_side = true
+
+[[mods.ars-elemancy.source]]
+
+[mods.ars-elemancy.source.Download]
+url = "https://cdn.modrinth.com/data/mR4yp7HM/versions/LMOUcsOQ/ars_elemancy-1.21.1-1.17.jar"
+sha1 = "58d23540e87bf147047b6596c9768e7b88bbb290"
+sha512 = "c271007a8c40e67b184f6f4fd8801e5d9cc070346a30d674f6c3cdefc48a9d8e5d3f9a4d3fc20e66fbce4e11d2e1072d13ec36c99d0db2fe71e35e661d493db8"
+filename = "ars_elemancy-1.21.1-1.17.jar"
 
 [mods.ars-elemental]
 version = "Unknown"
@@ -558,6 +589,65 @@ url = "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-
 sha1 = "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
 sha512 = "3763f95304ade2bacb217828c74eeef7905a114f71d41537d56121af58c182c2685467a5afb7e03ddb3997ec3d7496bdfdf71a9946a9f33e3470393e7a13306d"
 filename = "caelus-neoforge-7.0.1+1.21.1.jar"
+
+[mods.cc-deep-seas]
+version = "1.1.1"
+server_side = true
+client_side = true
+
+[[mods.cc-deep-seas.source]]
+
+[mods.cc-deep-seas.source.Download]
+url = "https://cdn.modrinth.com/data/FFRmzdEr/versions/qKkaeGSS/cc_deepseas-1.1.1.jar"
+sha1 = "a867c01dc72bf07338e74694588cfe78080b2dce"
+sha512 = "10e2d5f82d420666c0a570d01886a42f758ea4fe91e7b4bd50f2a599cd6a535430242b76269863f033ab15b3611dbb5ccd81df7f6ceecd357ca86ab18ec3ac56"
+filename = "cc_deepseas-1.1.1.jar"
+
+[[mods.cc-deep-seas.deps]]
+name = "cc-tweaked"
+version = "1.120.2"
+providers = ["Modrinth"]
+
+[[mods.cc-deep-seas.deps]]
+name = "create-deep-seas"
+version = "3.4.5"
+providers = ["Modrinth"]
+
+[mods.cc-sable]
+version = "1.3.4"
+server_side = true
+client_side = true
+
+[[mods.cc-sable.source]]
+
+[mods.cc-sable.source.Download]
+url = "https://cdn.modrinth.com/data/OPNBxiZD/versions/j0UWQoMG/cc_sable-neoforge-1.3.4.jar"
+sha1 = "cdc65c3a991519fb96a72904a02a5a16145431fa"
+sha512 = "70e7e09c8a4a566fe8bd67a8d53069083e8285a15cb680412b415f5104b5be3ad3b623c9ccd99f165996933ef5d81aa1966633796d7439f562b6e35ae59af717"
+filename = "cc_sable-neoforge-1.3.4.jar"
+
+[[mods.cc-sable.deps]]
+name = "cc-tweaked"
+version = "1.120.2"
+providers = ["Modrinth"]
+
+[[mods.cc-sable.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.cc-tweaked]
+version = "1.120.2"
+server_side = true
+client_side = true
+
+[[mods.cc-tweaked.source]]
+
+[mods.cc-tweaked.source.Download]
+url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/1ewzHZYg/cc-tweaked-1.21.1-forge-1.120.2.jar"
+sha1 = "f35d4f636c2eb1b30c5d3f5c08e110c6acb8e02f"
+sha512 = "009fcf48b7d123018a61b2c55f0fede7dd1f6a6325226bf9cc926342185ca8a7e059e13662816d24595aac243abf622b682583631cfe42c3757505b2e864ff73"
+filename = "cc-tweaked-1.21.1-forge-1.120.2.jar"
 
 [mods.cerbons-api]
 version = "1.3.0"
@@ -875,6 +965,19 @@ url = "https://cdn.modrinth.com/data/MtpVp9HL/versions/bhDula1K/aeronauticsdisco
 sha1 = "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373"
 sha512 = "05daa85e4bac2bf402a5d9a9210ee4375703690a0d40a7db71a7b1fc307430700b2ae3777aa9bb76c01bd5ab24883f32a007c6455b4aac80a80dcf75fcf3f562"
 filename = "aeronauticsdiscovery-2.2.0.jar"
+
+[mods.create-applied-kinetics]
+version = "1.5.4"
+server_side = true
+client_side = true
+
+[[mods.create-applied-kinetics.source]]
+
+[mods.create-applied-kinetics.source.Download]
+url = "https://cdn.modrinth.com/data/mYGTCuZY/versions/Sk7TlTkT/createappliedkinetics-1.5.4-1.21.1.jar"
+sha1 = "dd2df3b8febb78721be502aceff16af979a91314"
+sha512 = "1542a8395c91ff8de610206484c3a7acd2b0519854bc3a07e13a0d1230917e4f60a10cc3178de4bd01df733dca05d0a1ccdbf9f855c3252297cf0bbfb23a37ff"
+filename = "createappliedkinetics-1.5.4-1.21.1.jar"
 
 [mods.create-cosmonatics]
 version = "26.08.307"
@@ -1739,32 +1842,6 @@ url = "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.
 sha1 = "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
 sha512 = "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5"
 filename = "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
-
-[mods.irons-lib]
-version = "1.21.1-2.2.0"
-server_side = true
-client_side = true
-
-[[mods.irons-lib.source]]
-
-[mods.irons-lib.source.Download]
-url = "https://cdn.modrinth.com/data/9nfaJPtX/versions/lUwUKYPl/irons_lib-1.21.1-2.2.0.jar"
-sha1 = "33ca1a58dc0b384a6de26171f34b3bf608aaeeb2"
-sha512 = "2a7c61843b57a93d80f963469c4c4cad027a0bf11bc39112112444a41da2283704547037254cd732f12d781a3b8a3f17f3d0d45c965f3ebc5fe8d63adbe6a1ab"
-filename = "irons_lib-1.21.1-2.2.0.jar"
-
-[mods.irons-spells-n-spellbooks]
-version = "1.21.1-3.16.3"
-server_side = true
-client_side = true
-
-[[mods.irons-spells-n-spellbooks.source]]
-
-[mods.irons-spells-n-spellbooks.source.Download]
-url = "https://cdn.modrinth.com/data/s4OWxYQQ/versions/slKLosTb/irons_spellbooks-1.21.1-3.16.3.jar"
-sha1 = "e8832385c01db56b9fcb19c48fcedc76a3a70d92"
-sha512 = "fd782f98c6c59b193c4832f33775291d2a7e639e1e23dd47510bfb494d99d182bec1253566b9394f96c733a0d0108be34bd729614b82dc29e55e096fdeb96f5b"
-filename = "irons_spellbooks-1.21.1-3.16.3.jar"
 
 [mods.item-obliterator]
 version = "2.3.0"
