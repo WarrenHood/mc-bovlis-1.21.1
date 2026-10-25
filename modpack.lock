@@ -247,6 +247,19 @@ name = "apotheosis"
 version = "1.21.1-8.9.0"
 providers = ["Modrinth"]
 
+[mods.apothic-combat]
+version = "1.2.1+1.21.1"
+server_side = true
+client_side = true
+
+[[mods.apothic-combat.source]]
+
+[mods.apothic-combat.source.Download]
+url = "https://cdn.modrinth.com/data/N29BujGY/versions/8gwHTe22/apothiccombat-1.2.1.jar"
+sha1 = "01c58c5fa571179832b53fd121b9f32b36880c44"
+sha512 = "8176ec8107465aa02a46548b74d391657358888bee01e76708d5ab679b10dad3dad80f7d030a3ba5c5fe730601087081a167ade4a6cef8238967188a998a667d"
+filename = "apothiccombat-1.2.1.jar"
+
 [mods.apothic-compats]
 version = "Unknown"
 server_side = true
@@ -510,6 +523,29 @@ sha1 = "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74"
 sha512 = "0262d51c0e931d10c3dccefb3b5426a1622edecab243d4b15dce07a23309641370184776739765067d292d808242d088c6fbf249762689824eff9ba42c2d1e63"
 filename = "balm-neoforge-1.21.1-21.0.66.jar"
 
+[mods.better-combat]
+version = "2.4.0+1.21.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.better-combat.source]]
+
+[mods.better-combat.source.Download]
+url = "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar"
+sha1 = "bacbc8c86671663e9998b141c5732250c1f4d4fb"
+sha512 = "db24730a42ae7e2dd546ee031d2f5e0dd6f9896418417a529fa21a44121761ebb29c8b8299db8f20500f7497f7b60a7d793b66c93abf37a8ea0aa3edafd80eb6"
+filename = "bettercombat-neoforge-2.4.0+1.21.1.jar"
+
+[[mods.better-combat.deps]]
+name = "cloth-config"
+version = "15.0.140+neoforge"
+providers = ["Modrinth"]
+
+[[mods.better-combat.deps]]
+name = "playeranimator"
+version = "2.0.4+1.21.1-forge"
+providers = ["Modrinth"]
+
 [mods.betterf3]
 version = "11.0.3"
 server_side = false
@@ -656,6 +692,29 @@ url = "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-
 sha1 = "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
 sha512 = "3763f95304ade2bacb217828c74eeef7905a114f71d41537d56121af58c182c2685467a5afb7e03ddb3997ec3d7496bdfdf71a9946a9f33e3470393e7a13306d"
 filename = "caelus-neoforge-7.0.1+1.21.1.jar"
+
+[mods.cataclysm-x-bettercombat-compat]
+version = "1.0.2"
+server_side = true
+client_side = true
+
+[[mods.cataclysm-x-bettercombat-compat.source]]
+
+[mods.cataclysm-x-bettercombat-compat.source.Download]
+url = "https://cdn.modrinth.com/data/53TJSd8P/versions/CGWHkq5m/cataclysm_compat_1.21.1-1.0.2.jar"
+sha1 = "34e9b705c62e8e947b9e37f899782e1e2db976a8"
+sha512 = "34dc455e184632bd0b53d835626a382b9694e11aae30d9a9e67b0bfd3b058d285a92cfd8b2227024da2e5c813ab38581880cd2d655748d271a8e31dabfe97ea9"
+filename = "cataclysm_compat_1.21.1-1.0.2.jar"
+
+[[mods.cataclysm-x-bettercombat-compat.deps]]
+name = "better-combat"
+version = "2.4.0+1.21.1-neoforge"
+providers = ["Modrinth"]
+
+[[mods.cataclysm-x-bettercombat-compat.deps]]
+name = "l_enders-cataclysm"
+version = "3.33"
+providers = ["Modrinth"]
 
 [mods.cc-deep-seas]
 version = "1.1.1"
@@ -2754,6 +2813,19 @@ filename = "pv-addon-whisper-1.1.0.jar"
 name = "plasmo-voice"
 version = "neoforge-1.21.1-2.2.0-beta.2"
 providers = ["Modrinth"]
+
+[mods.realm-rpg-fallen-adventurers]
+version = "1.1.0"
+server_side = true
+client_side = true
+
+[[mods.realm-rpg-fallen-adventurers.source]]
+
+[mods.realm-rpg-fallen-adventurers.source.Download]
+url = "https://cdn.modrinth.com/data/tu54PMAb/versions/x1Blh0Gt/realmrpg_skeletons-1.1.0-neoforge-1.21.1.jar"
+sha1 = "769deb829b0299356d02b3c44c2bb91b3b524de7"
+sha512 = "92c1ae32f93102251503f223a7780636c84e142a0de52cbd5aa62eadf39d452b0270b57166d429e8f00f9693c45e3b81d42598d0b0a3859f88ae15324784c286"
+filename = "realmrpg_skeletons-1.1.0-neoforge-1.21.1.jar"
 
 [mods.relics-mod]
 version = "0.12.9"

@@ -62,6 +62,10 @@ version = "*"
 name = "apothic-category-compat"
 version = "*"
 
+[mods.apothic-combat]
+name = "apothic-combat"
+version = "*"
+
 [mods.apothic-compats]
 name = "apothic-compats"
 version = "*"
@@ -118,6 +122,10 @@ version = "*"
 name = "badoptimizations"
 version = "*"
 
+[mods.better-combat]
+name = "better-combat"
+version = "*"
+
 [mods.betterf3]
 name = "betterf3"
 version = "*"
@@ -144,6 +152,10 @@ version = "*"
 
 [mods.caelus]
 name = "caelus"
+version = "*"
+
+[mods.cataclysm-x-bettercombat-compat]
+name = "cataclysm-x-bettercombat-compat"
 version = "*"
 
 [mods.cc-deep-seas]
@@ -614,6 +626,10 @@ client_side = true
 
 [mods.pv-addon-whisper]
 name = "pv-addon-whisper"
+version = "*"
+
+[mods.realm-rpg-fallen-adventurers]
+name = "realm-rpg-fallen-adventurers"
 version = "*"
 
 [mods.relics-mod]
