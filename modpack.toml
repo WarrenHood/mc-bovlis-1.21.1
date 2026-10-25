@@ -18,16 +18,12 @@ client_side = true
 name = "ae2"
 version = "*"
 
-[mods.aeroscapes-islands]
-name = "aeroscapes-islands"
-version = "*"
-
 [mods.aether]
 name = "aether"
 version = "*"
 
-[mods.aetherial-structure-compatibility]
-name = "aetherial-structure-compatibility"
+[mods.aetherial-islands]
+name = "aetherial-islands"
 version = "*"
 server_side = true
 client_side = true
@@ -442,6 +438,12 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
+[mods.no-void-structures]
+name = "no-void-structures"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.noisium]
 name = "noisium"
 version = "*"
@@ -544,6 +546,10 @@ version = "*"
 
 [mods.simple-discord-rpc]
 name = "simple-discord-rpc"
+version = "*"
+
+[mods.sky-archipelago]
+name = "sky-archipelago"
 version = "*"
 
 [mods.sky-whales]

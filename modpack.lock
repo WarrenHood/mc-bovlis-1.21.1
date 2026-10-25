@@ -47,24 +47,6 @@ name = "guideme"
 version = "21.1.20"
 providers = ["Modrinth"]
 
-[mods.aeroscapes-islands]
-version = "1.1.1"
-server_side = true
-client_side = true
-
-[[mods.aeroscapes-islands.source]]
-
-[mods.aeroscapes-islands.source.Download]
-url = "https://cdn.modrinth.com/data/tGVwBATM/versions/bzJ2edxy/aeroscapes-1.1.1.jar"
-sha1 = "5ba013f9be3804016a31187504a148044b7a8de5"
-sha512 = "6ced9b88562a3f14f3fc2cbc8b496557a7b1e5908b27f5813bc5784a9246bd7560f83b6045f85455aa8b93b54ac2613d3cf0032a53229a1a336732f9b03eb5a5"
-filename = "aeroscapes-1.1.1.jar"
-
-[[mods.aeroscapes-islands.deps]]
-name = "lithostitched"
-version = "1.7.13-neoforge-21.1"
-providers = ["Modrinth"]
-
 [mods.aether]
 version = "1.21.1-1.5.10-neoforge"
 server_side = true
@@ -83,18 +65,19 @@ name = "owo-lib"
 version = "0.12.15.6-beta.1+1.21"
 providers = ["Modrinth"]
 
-[mods.aetherial-structure-compatibility]
-version = "1.0.0g"
+[mods.aetherial-islands]
+version = "2.0.2+mod"
+deps = []
 server_side = true
 client_side = true
 
-[[mods.aetherial-structure-compatibility.source]]
+[[mods.aetherial-islands.source]]
 
-[mods.aetherial-structure-compatibility.source.Download]
-url = "https://cdn.modrinth.com/data/VMRWxo2A/versions/unmujRzx/ASC-1.0.0g-NeoForge-1.21.1-21.1.242plus.jar"
-sha1 = "031019b8c0cef650a2655fc5eb03492c9620a3db"
-sha512 = "3a1181b62d346f59b92178e16d31e90c7ba5e81f6503746e82c9230194c66abf1e4b616b25d43916ca4d64ee1a5fb44ac1d4fee01c298aea06cd9bff957172ff"
-filename = "ASC-1.0.0g-NeoForge-1.21.1-21.1.242plus.jar"
+[mods.aetherial-islands.source.Download]
+url = "https://cdn.modrinth.com/data/CHh9WEKT/versions/kcSMOEhD/aetherial-islands-2.0.2.jar"
+sha1 = "93dea890d111c115a88fb9a0a275473f90e99be9"
+sha512 = "af850919b5d43c74bcfdcc462bc2e9e756127855cacf744c8c405be0c8a985b040b3b559bf956a5176dddef760902d84e1ba25a434e5dd64b55a4c8134f2fc2a"
+filename = "aetherial-islands-2.0.2.jar"
 
 [mods.ai-improvements]
 version = "0.5.3"
@@ -1912,6 +1895,24 @@ sha1 = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
 sha512 = "fc564e55e8cc2050261db9540afbdbab9ebf6559c1c5cae58ab4a3d4d1b7f1b0842459e5ea1bc780e03fed620a0a2af6bbe1eace037d6a1411ae853dc5e77dae"
 filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
 
+[mods.no-void-structures]
+version = "2.0.1+mod"
+server_side = true
+client_side = true
+
+[[mods.no-void-structures.source]]
+
+[mods.no-void-structures.source.Download]
+url = "https://cdn.modrinth.com/data/iWMeHtdv/versions/T0kgpBJv/no-void-structures-2.0.1.jar"
+sha1 = "4b99d747c3e60f0ebe55a9bcc764a22077d7c977"
+sha512 = "6d5f63f97733d3b4dc0beeaae400b52c32591446b2dbdb66e86e4fd8b71b576d5b1031da5067ffdd7dac19eee3e79a0daccc469087ceac959888816d505ae625"
+filename = "no-void-structures-2.0.1.jar"
+
+[[mods.no-void-structures.deps]]
+name = "lithostitched"
+version = "1.8.1-neoforge-21.1"
+providers = ["Modrinth"]
+
 [mods.noisium]
 version = "2.3.0+mc1.21-1.21.1"
 server_side = true
@@ -2450,6 +2451,19 @@ url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/8tfcI2wU/puffish_skills-0
 sha1 = "e7439fa56036bfacf228269b8b89f10cbbba13fd"
 sha512 = "0dd07a6ca391ce00975f5b6c147cd993ce83d4ab3dde634885bc124f2d7fdfdcb631425539e2dbfdf7e0925795737c27bd4560aa5a6940ac0547dbd72c130b7f"
 filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
+
+[mods.sky-archipelago]
+version = "1.3.6"
+server_side = true
+client_side = true
+
+[[mods.sky-archipelago.source]]
+
+[mods.sky-archipelago.source.Download]
+url = "https://cdn.modrinth.com/data/sHFNUlBU/versions/RwLz4CJb/sky_archipelago-1.3.6.jar"
+sha1 = "9594e849d072021bf4b0d7563b48e4765a0f59ae"
+sha512 = "4acaa8fb29a6eb94ad40e0d6efceec2db561fa38e1dae1bf4803b78b3a0c4b03cac68ebbc97bed487e3c21704a0d48243e124974ac6b309f693d022c9021167c"
+filename = "sky_archipelago-1.3.6.jar"
 
 [mods.sky-whales]
 version = "0.1.8"
