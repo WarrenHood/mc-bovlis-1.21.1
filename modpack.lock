@@ -1977,6 +1977,19 @@ sha1 = "88ee316e68900080b017f60c12162e2731924cf8"
 sha512 = "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2"
 filename = "Jade-1.21.1-NeoForge-15.10.6.jar"
 
+[mods.jauml]
+version = "3.0.0+neoforge-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.jauml.source]]
+
+[mods.jauml.source.Download]
+url = "https://cdn.modrinth.com/data/ihvBalM2/versions/ckXjNUBa/jauml-neoforge-1.21.1-3.0.0.jar"
+sha1 = "386c13eda9a471f456d1ef0d6bf4bd46993d2659"
+sha512 = "b56c166f00ffdf5fc1e1a639834e696e7295d429feffd0d180b66a2bf94df8e5bc84b8b2982bc4239fc76351aebad64ab8a12b2af88a5f485137eb10c1154da4"
+filename = "jauml-neoforge-1.21.1-3.0.0.jar"
+
 [mods.jei]
 version = "19.64.0.455"
 server_side = true
@@ -2086,6 +2099,29 @@ url = "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/7GS7JBkX/l2library-3.0.9.
 sha1 = "72f9a5d20f82e1cc65ba9ce4aa97478b3e79e1af"
 sha512 = "e13aaa2203b4b927ea946ef3d0f5d3fdb006179fd41e8cb6c1bd1e06421588aab8af6f6096150aa3f01d32e30a3dc3c546ceb71d97fdd6ffc7b476b54bbb6e74"
 filename = "l2library-3.0.9.jar"
+
+[mods.l2weaponry]
+version = "3.1.4"
+server_side = true
+client_side = true
+
+[[mods.l2weaponry.source]]
+
+[mods.l2weaponry.source.Download]
+url = "https://cdn.modrinth.com/data/7q7kOZix/versions/SxvXBKBF/l2weaponry-3.1.4.jar"
+sha1 = "b027b97cedc592900bf8eb1b3320739ca91e93fc"
+sha512 = "f54c5e0b50d4e6a2703aa99e16d6249e9d69f270eb3c8686a241fed3b3b7421d506f09f581c7cc58b4f3c945d0e81a9396d5d026fb61c28630ad37ebe8ac8ace"
+filename = "l2weaponry-3.1.4.jar"
+
+[[mods.l2weaponry.deps]]
+name = "l2-complements"
+version = "3.1.3"
+providers = ["Modrinth"]
+
+[[mods.l2weaponry.deps]]
+name = "l2library"
+version = "3.0.9"
+providers = ["Modrinth"]
 
 [mods.l_enders-cataclysm]
 version = "3.33"
@@ -2866,6 +2902,29 @@ providers = ["Modrinth"]
 [[mods.reliquified-ars-nouveau.deps]]
 name = "relics-mod"
 version = "0.12.10"
+providers = ["Modrinth"]
+
+[mods.remnants-eclipsed-realm]
+version = "3.1.0+neoforge-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.remnants-eclipsed-realm.source]]
+
+[mods.remnants-eclipsed-realm.source.Download]
+url = "https://cdn.modrinth.com/data/coZxDAGe/versions/HSEZGrga/remnant_bosses-neoforge-1.21.1-3.1.0.jar"
+sha1 = "4746e41123d356f55e5f6f92955b5b480afd7b05"
+sha512 = "9c6741c6e44259c448195cfc283982957d3d0f294678f2f00d9703197afc4df52be9025631e9ef21ba6bd5cdd24644156953971579e639bfdaf3700c8959263e"
+filename = "remnant_bosses-neoforge-1.21.1-3.1.0.jar"
+
+[[mods.remnants-eclipsed-realm.deps]]
+name = "geckolib"
+version = "4.9.3"
+providers = ["Modrinth"]
+
+[[mods.remnants-eclipsed-realm.deps]]
+name = "jauml"
+version = "3.0.0+neoforge-1.21.1"
 providers = ["Modrinth"]
 
 [mods.resourceful-lib]

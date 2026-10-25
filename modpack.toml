@@ -458,6 +458,10 @@ client_side = true
 name = "l2hostility"
 version = "*"
 
+[mods.l2weaponry]
+name = "l2weaponry"
+version = "*"
+
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
 version = "*"
@@ -638,6 +642,10 @@ version = "*"
 
 [mods.reliquified-ars-nouveau]
 name = "reliquified-ars-nouveau"
+version = "*"
+
+[mods.remnants-eclipsed-realm]
+name = "remnants-eclipsed-realm"
 version = "*"
 
 [mods.revelationary]
