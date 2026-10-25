@@ -46,6 +46,10 @@ version = "*"
 name = "alternate-current"
 version = "*"
 
+[mods.ancient-reforging]
+name = "ancient-reforging"
+version = "*"
+
 [mods.apotheosis]
 name = "apotheosis"
 version = "*"
@@ -53,6 +57,18 @@ version = "*"
 [mods.apotheoticcreation]
 name = "apotheoticcreation"
 version = "*"
+
+[mods.apothic-category-compat]
+name = "apothic-category-compat"
+version = "*"
+
+[mods.apothic-compats]
+name = "apothic-compats"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/9244/917/apothic_compats-0.2.6.jar"
+server_side = true
+client_side = true
 
 [mods.apothic-flux]
 name = "apothic-flux"
@@ -490,6 +506,10 @@ version = "*"
 name = "mekanism"
 version = "*"
 
+[mods.mekanism-tools]
+name = "mekanism-tools"
+version = "*"
+
 [mods.miners-delight]
 name = "miners-delight"
 version = "*"
@@ -660,6 +680,10 @@ version = "*"
 
 [mods.terrablender]
 name = "terrablender"
+version = "*"
+
+[mods.the-bumblezone]
+name = "the-bumblezone"
 version = "*"
 
 [mods.theurgy]

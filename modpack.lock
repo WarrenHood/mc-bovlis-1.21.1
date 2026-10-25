@@ -132,6 +132,24 @@ sha1 = "1201c14362f2bad7062d315f8a9b26afbabd2c9c"
 sha512 = "e7715d92987ad902f316ae657558a58e647b4f076d6962e6ac5b6bdb802755f1a37c2380b69002ce930b29dc02fe96989d41818462f7bc236c4ad709b0842480"
 filename = "alternate_current-mc1.21-1.9.0.jar"
 
+[mods.ancient-reforging]
+version = "1.8.6"
+server_side = true
+client_side = true
+
+[[mods.ancient-reforging.source]]
+
+[mods.ancient-reforging.source.Download]
+url = "https://cdn.modrinth.com/data/S8F0jey8/versions/WmeRPRXI/ancientreforging-1.8.6.jar"
+sha1 = "01de749206d67529a01081e1166b5f38cf061ede"
+sha512 = "9102fe6dbb41c3d324dfb0b516de626b442d3e9d693009d6157b5329c69856bfadb862a3350d0f2d9d7465f55e02a15a9616258d627529d6ccf07e90e2a0194a"
+filename = "ancientreforging-1.8.6.jar"
+
+[[mods.ancient-reforging.deps]]
+name = "apotheosis"
+version = "1.21.1-8.9.0"
+providers = ["Modrinth"]
+
 [mods.apotheosis]
 version = "1.21.1-8.9.0"
 server_side = true
@@ -210,6 +228,37 @@ filename = "ApothicAttributes-1.21.1-2.11.0.jar"
 name = "placebo"
 version = "1.21.1-9.9.4"
 providers = ["Modrinth"]
+
+[mods.apothic-category-compat]
+version = "2.1.0"
+server_side = true
+client_side = false
+
+[[mods.apothic-category-compat.source]]
+
+[mods.apothic-category-compat.source.Download]
+url = "https://cdn.modrinth.com/data/Uonyc6M4/versions/sTeXh64S/apothic_category_compat-2.1.0.jar"
+sha1 = "da85ef9f6e9d7caf9da4b66eda4bc443e75ee3c7"
+sha512 = "96552e2a75422100a67ebc8d49293451d8107a2e14e0bb778fd03a715895a7109751fdfa932643501005c49566eaf8f5886c7ac4883279656d7b5d5da4c0592d"
+filename = "apothic_category_compat-2.1.0.jar"
+
+[[mods.apothic-category-compat.deps]]
+name = "apotheosis"
+version = "1.21.1-8.9.0"
+providers = ["Modrinth"]
+
+[mods.apothic-compats]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.apothic-compats.source]]
+
+[mods.apothic-compats.source.Download]
+url = "https://mediafilez.forgecdn.net/files/9244/917/apothic_compats-0.2.6.jar"
+sha1 = "7d6717790869f7ff003a17bbdbf7f4b415c9d86a"
+sha512 = "1e3664d3a43394e49a00737b13c7c2004990502b114f9b42dfb626e674e47b51bd6923bba4c6662696d2ce5115eb20f9779061b90e82eae348f358bb17a6f6fa"
+filename = "apothic_compats-0.2.6.jar"
 
 [mods.apothic-enchanting]
 version = "1.21.1-1.6.4"
@@ -2190,6 +2239,24 @@ sha1 = "b78945c40cfe7640408f3fd1e44da385a8c8b805"
 sha512 = "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b"
 filename = "Mekanism-1.21.1-10.7.19.85.jar"
 
+[mods.mekanism-tools]
+version = "10.7.19.85"
+server_side = true
+client_side = true
+
+[[mods.mekanism-tools.source]]
+
+[mods.mekanism-tools.source.Download]
+url = "https://cdn.modrinth.com/data/tqQpq1lt/versions/v5zlSE9s/MekanismTools-1.21.1-10.7.19.85.jar"
+sha1 = "4433b3eec0a5a0bf415d873e710a1cecea5850bc"
+sha512 = "0dccc47efbb9e3bf3b7df886cefff4a6b9a3f683bf0df3e54409dc3a4c6459eef95ce0af93adf345b868e5b7dcb7a2bb0af68f0a94acfa69975bfbb278e4902f"
+filename = "MekanismTools-1.21.1-10.7.19.85.jar"
+
+[[mods.mekanism-tools.deps]]
+name = "mekanism"
+version = "10.7.19.85"
+providers = ["Modrinth"]
+
 [mods.mezzconfig]
 version = "0.6.8"
 server_side = true
@@ -3002,6 +3069,24 @@ url = "https://cdn.modrinth.com/data/kkmrDlKT/versions/6e8GCrLb/TerraBlender-neo
 sha1 = "744394d979b422be560babf9df7a6800ede9ac5b"
 sha512 = "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50"
 filename = "TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+
+[mods.the-bumblezone]
+version = "7.17.1+1.21.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.the-bumblezone.source]]
+
+[mods.the-bumblezone.source.Download]
+url = "https://cdn.modrinth.com/data/38tpSycf/versions/NQLxCJ37/the_bumblezone-7.17.1%2B1.21.1-neoforge.jar"
+sha1 = "3fe084f98516cfdaad948129c35b9a51041262a3"
+sha512 = "04e1944dbcce5ee13147b083e9ee9eb3319c31b872a265fdb0747e1cd3bdcd3b43194105ff2ce8cfc6f84be45ef5bef372749bae032dc1f63d795f781bfa2b2c"
+filename = "the_bumblezone-7.17.1+1.21.1-neoforge.jar"
+
+[[mods.the-bumblezone.deps]]
+name = "resourceful-lib"
+version = "3.0.12"
+providers = ["Modrinth"]
 
 [mods.theurgy]
 version = "1.21.1-neoforge-1.78.0"
