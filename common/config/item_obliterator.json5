@@ -16,18 +16,18 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "!rustic_engineer:.*glider.*",
-    "!.*elytra.*",
-    "tconstruct:slime_chestplate",
-    "aether:valkyrie_helmet",
-    "aether:valkyrie_chestplate",
-    "aether:valkyrie_leggings",
-    "aether:valkyrie_boots",
-    "aether:valkyrie_gloves",
-    "aether:valkyrie_cape",
-    "enderio:staff_of_levity",
-    "enderio:staff_of_travelling",
-    "botania:flight_tiara"
+    // "!rustic_engineer:.*glider.*",
+    // "!.*elytra.*",
+    // "tconstruct:slime_chestplate",
+    // "aether:valkyrie_helmet",
+    // "aether:valkyrie_chestplate",
+    // "aether:valkyrie_leggings",
+    // "aether:valkyrie_boots",
+    // "aether:valkyrie_gloves",
+    // "aether:valkyrie_cape",
+    // "enderio:staff_of_levity",
+    // "enderio:staff_of_travelling",
+    // "botania:flight_tiara"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

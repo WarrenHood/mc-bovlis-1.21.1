@@ -14,6 +14,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.ae2]
+name = "ae2"
+version = "*"
+
 [mods.aether]
 name = "aether"
 version = "*"
@@ -36,6 +40,10 @@ version = "*"
 name = "alternate-current"
 version = "*"
 
+[mods.apotheosis]
+name = "apotheosis"
+version = "*"
+
 [mods.appleskin]
 name = "appleskin"
 version = "*"
@@ -46,6 +54,34 @@ version = "*"
 
 [mods.aquaculture-delight]
 name = "aquaculture-delight"
+version = "*"
+
+[mods.ars-additions]
+name = "ars-additions"
+version = "*"
+
+[mods.ars-elemental]
+name = "ars-elemental"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/9057/244/ars_elemental-1.21.1-0.7.10.4.jar"
+server_side = true
+client_side = true
+
+[mods.ars-energistique]
+name = "ars-energistique"
+version = "*"
+
+[mods.ars-nouveau]
+name = "ars-nouveau"
+version = "*"
+
+[mods.ars-ocultas]
+name = "ars-ocultas"
+version = "*"
+
+[mods.arsdelight]
+name = "arsdelight"
 version = "*"
 
 [mods.athena-ctm]
@@ -88,10 +124,6 @@ version = "*"
 name = "caelus"
 version = "*"
 
-[mods.cataclysm-spellbooks]
-name = "cataclysm-spellbooks"
-version = "*"
-
 [mods.chunky]
 name = "chunky"
 version = "*"
@@ -128,10 +160,6 @@ version = "*"
 name = "cobblemore-library"
 version = "*"
 
-[mods.compat-delight]
-name = "compat-delight"
-version = "*"
-
 [mods.controlling]
 name = "controlling"
 version = "*"
@@ -142,6 +170,14 @@ version = "*"
 
 [mods.crafttweaker]
 name = "crafttweaker"
+version = "*"
+
+[mods.create]
+name = "create"
+version = "*"
+
+[mods.create-aeronautics]
+name = "create-aeronautics"
 version = "*"
 
 [mods.ct-overhaul-village]
@@ -166,10 +202,6 @@ version = "*"
 name = "dangerous"
 version = "*"
 
-[mods.dark-doppelganger]
-name = "dark-doppelganger"
-version = "*"
-
 [mods.deeperdarker]
 name = "deeperdarker"
 version = "*"
@@ -189,10 +221,6 @@ name = "duplicationless"
 version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/8122/786/duplicationless-1.21.1-1.2.0.jar"
-
-[mods.effortless]
-name = "effortless"
-version = "*"
 
 [mods.emi]
 name = "emi"
@@ -346,10 +374,6 @@ version = "*"
 name = "irons-spells-n-spellbooks"
 version = "*"
 
-[mods.irons-spells-n-spellbooks-dynamic-skill-trees]
-name = "irons-spells-n-spellbooks-dynamic-skill-trees"
-version = "*"
-
 [mods.item-obliterator]
 name = "item-obliterator"
 version = "*"
@@ -436,10 +460,6 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
-[mods.neoforge-carpet]
-name = "neoforge-carpet"
-version = "*"
-
 [mods.noisium]
 name = "noisium"
 version = "*"
@@ -524,6 +544,10 @@ version = "*"
 name = "relics-mod"
 version = "*"
 
+[mods.reliquified-ars-nouveau]
+name = "reliquified-ars-nouveau"
+version = "*"
+
 [mods.revelationary]
 name = "revelationary"
 version = "*"
@@ -586,10 +610,6 @@ version = "*"
 
 [mods.theurgy]
 name = "theurgy"
-version = "*"
-
-[mods.toms-storage]
-name = "toms-storage"
 version = "*"
 
 [mods.too-fast]
