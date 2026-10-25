@@ -400,10 +400,6 @@ version = "*"
 name = "handcrafted"
 version = "*"
 
-[mods.hexerei]
-name = "hexerei"
-version = "*"
-
 [mods.iceandfire-ce]
 name = "iceandfire-ce"
 version = "*"
@@ -827,11 +823,6 @@ target_path = "resourcepacks/Better-Leaves-9.5.zip"
 side = "Client"
 apply_policy = "Always"
 
-[files."./client/resourcepacks/Better-Leaves-Hexerei.zip"]
-target_path = "resourcepacks/Better-Leaves-Hexerei.zip"
-side = "Client"
-apply_policy = "Always"
-
 [files."./client/resourcepacks/Chickens Dont Click.zip"]
 target_path = "resourcepacks/Chickens Dont Click.zip"
 side = "Client"
@@ -927,6 +918,16 @@ target_path = "config/treechop-common.toml"
 side = "Both"
 apply_policy = "Always"
 
+[files."./server/bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
+target_path = "bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/bovlis/serverconfig"]
+target_path = "bovlis/serverconfig"
+side = "Server"
+apply_policy = "Always"
+
 [files."./server/config/AdvancedBackups.properties"]
 target_path = "config/AdvancedBackups.properties"
 side = "Server"
@@ -944,16 +945,6 @@ apply_policy = "Always"
 
 [files."./server/config/rats-common.toml"]
 target_path = "config/rats-common.toml"
-side = "Server"
-apply_policy = "Always"
-
-[files."./server/bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
-target_path = "bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
-side = "Server"
-apply_policy = "Always"
-
-[files."./server/bovlis/serverconfig"]
-target_path = "bovlis/serverconfig"
 side = "Server"
 apply_policy = "Always"
 
