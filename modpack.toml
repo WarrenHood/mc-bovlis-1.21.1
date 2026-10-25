@@ -154,30 +154,6 @@ version = "*"
 name = "clumps"
 version = "*"
 
-[mods.cobble-caf-forms]
-name = "cobble-caf-forms"
-version = "*"
-
-[mods.cobblemon]
-name = "cobblemon"
-version = "*"
-
-[mods.cobblemon-fight-or-flight-reborn]
-name = "cobblemon-fight-or-flight-reborn"
-version = "*"
-
-[mods.cobblemon-integrations]
-name = "cobblemon-integrations"
-version = "*"
-
-[mods.cobblemon-myths-and-legends-sidemod]
-name = "cobblemon-myths-and-legends-sidemod"
-version = "*"
-
-[mods.cobblemore-library]
-name = "cobblemore-library"
-version = "*"
-
 [mods.controlling]
 name = "controlling"
 version = "*"
@@ -610,10 +586,6 @@ version = "*"
 name = "rad-gyms"
 version = "*"
 
-[mods.rctmod]
-name = "rctmod"
-version = "*"
-
 [mods.relics-mod]
 name = "relics-mod"
 version = "*"
@@ -828,11 +800,6 @@ target_path = "resourcepacks/Chickens Dont Click.zip"
 side = "Client"
 apply_policy = "Always"
 
-[files."./client/resourcepacks/CobbleFolk Skin Pack (for 1.6).zip"]
-target_path = "resourcepacks/CobbleFolk Skin Pack (for 1.6).zip"
-side = "Client"
-apply_policy = "Always"
-
 [files."./client/resourcepacks/Excalibur_V1.21.11.zip"]
 target_path = "resourcepacks/Excalibur_V1.21.11.zip"
 side = "Client"
@@ -916,11 +883,6 @@ apply_policy = "Always"
 [files."./common/config/treechop-common.toml"]
 target_path = "config/treechop-common.toml"
 side = "Both"
-apply_policy = "Always"
-
-[files."./server/bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
-target_path = "bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
-side = "Server"
 apply_policy = "Always"
 
 [files."./server/bovlis/serverconfig"]

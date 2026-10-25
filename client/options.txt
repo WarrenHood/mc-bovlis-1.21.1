@@ -48,7 +48,7 @@ mouseSensitivity:0.37793427230046944
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","file/Faithful 32x - 1.21.1.zip","file/TwilightJAPPAPack-1.21.1-1.2.0.zip","file/CobbleFolk Skin Pack (for 1.6).zip","file/Better-Leaves-9.5.zip","file/Chickens Dont Click.zip"]
+resourcePacks:["vanilla","mod_resources","file/Faithful 32x - 1.21.1.zip","file/TwilightJAPPAPack-1.21.1-1.2.0.zip","file/Better-Leaves-9.5.zip","file/Chickens Dont Click.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -128,18 +128,6 @@ key_iris.keybind.toggleShaders:key.keyboard.f7
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
-key_key.cobblemon.hideparty:key.keyboard.o
-key_key.cobblemon.summary:key.keyboard.f8
-key_key.cobblemon.downshiftparty:key.keyboard.down
-key_key.cobblemon.upshiftparty:key.keyboard.up
-key_key.cobblemon.throwpartypokemon:key.keyboard.r
-key_key.cobblemon.ridingfreelook:key.keyboard.left.alt
-key_key.effortless.settings.desc:key.keyboard.unknown
-key_key.effortless.build_mode_radial.desc:key.keyboard.left.alt
-key_key.effortless.passive_build_modifier.desc:key.keyboard.unknown
-key_key.effortless.undo.desc:key.keyboard.left.bracket
-key_key.effortless.redo.desc:key.keyboard.right.bracket
-key_key.effortless.toggle_clipboard.desc:key.keyboard.unknown
 key_key.effortless.toggle_pattern.desc:key.keyboard.unknown
 key_key.effortless.toggle_replace.desc:key.keyboard.unknown
 key_key.effortless.edit_clipboard.desc:key.keyboard.unknown
