@@ -50,6 +50,10 @@ version = "*"
 name = "apotheosis"
 version = "*"
 
+[mods.apotheoticcreation]
+name = "apotheoticcreation"
+version = "*"
+
 [mods.appleskin]
 name = "appleskin"
 version = "*"
@@ -88,6 +92,18 @@ version = "*"
 
 [mods.betterf3]
 name = "betterf3"
+version = "*"
+
+[mods.boss-checklist]
+name = "boss-checklist"
+version = "*"
+
+[mods.bosses-of-mass-destruction-forge]
+name = "bosses-of-mass-destruction-forge"
+version = "*"
+
+[mods.bossesrise]
+name = "bossesrise"
 version = "*"
 
 [mods.brewin-and-chewin]
@@ -158,6 +174,22 @@ version = "*"
 name = "create-aeronautics-discovery"
 version = "*"
 
+[mods.create-cosmonatics]
+name = "create-cosmonatics"
+version = "*"
+
+[mods.create-cosmonautics-expansion]
+name = "create-cosmonautics-expansion"
+version = "*"
+
+[mods.create-deep-seas]
+name = "create-deep-seas"
+version = "*"
+
+[mods.create-diesel-generators]
+name = "create-diesel-generators"
+version = "*"
+
 [mods.cubes-without-borders]
 name = "cubes-without-borders"
 version = "*"
@@ -183,6 +215,10 @@ name = "doespotatotick"
 version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/8208/414/doespotatotick-1.21.1-5.6.4.jar"
+
+[mods.draconic-evolution]
+name = "draconic-evolution"
+version = "*"
 
 [mods.dungeons_delight]
 name = "dungeons_delight"
@@ -215,6 +251,10 @@ name = "enchantment-descriptions"
 version = "*"
 server_side = false
 client_side = true
+
+[mods.enderio]
+name = "enderio"
+version = "*"
 
 [mods.enhanced-celestials-2-core]
 name = "enhanced-celestials-2-core"
@@ -298,6 +338,10 @@ version = "*"
 name = "geophilic"
 version = "*"
 
+[mods.gliders]
+name = "gliders"
+version = "*"
+
 [mods.gravestone-mod]
 name = "gravestone-mod"
 version = "*"
@@ -372,6 +416,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.legendary-monsters]
+name = "legendary-monsters"
+version = "*"
+
 [mods.lionfish-api]
 name = "lionfish-api"
 version = "*"
@@ -385,6 +433,10 @@ name = "lithostitched"
 version = "*"
 server_side = true
 client_side = true
+
+[mods.lootr]
+name = "lootr"
+version = "*"
 
 [mods.macaws-bridges]
 name = "macaws-bridges"
@@ -408,6 +460,10 @@ version = "*"
 
 [mods.malum]
 name = "malum"
+version = "*"
+
+[mods.mekanism]
+name = "mekanism"
 version = "*"
 
 [mods.miners-delight]
@@ -594,6 +650,10 @@ version = "*"
 name = "theurgy"
 version = "*"
 
+[mods.time-in-a-bottle-universal]
+name = "time-in-a-bottle-universal"
+version = "*"
+
 [mods.too-fast]
 name = "too-fast"
 version = "*"
@@ -621,6 +681,12 @@ client_side = true
 [mods.waystones]
 name = "waystones"
 version = "*"
+
+[mods.when-dungeons-arise]
+name = "when-dungeons-arise"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.xaeros-minimap]
 name = "xaeros-minimap"

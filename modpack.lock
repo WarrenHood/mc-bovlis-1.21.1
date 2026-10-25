@@ -170,6 +170,29 @@ name = "placebo"
 version = "1.21.1-9.9.4"
 providers = ["Modrinth"]
 
+[mods.apotheoticcreation]
+version = "2.0.0"
+server_side = true
+client_side = true
+
+[[mods.apotheoticcreation.source]]
+
+[mods.apotheoticcreation.source.Download]
+url = "https://cdn.modrinth.com/data/RmI01fbW/versions/kPimGExn/apotheoticcreation-2.0.0.jar"
+sha1 = "6bbb91aea834941b47a6af3318b091f64e4375ab"
+sha512 = "48065d4bff5b24ed7f3145456815f9c0c9376d9d6079c97a48001697d60df275b67ecf46fda4d1d6ad4cd2d8fca90d29cc660a1108e029ccfd1f32b11b004f24"
+filename = "apotheoticcreation-2.0.0.jar"
+
+[[mods.apotheoticcreation.deps]]
+name = "apotheosis"
+version = "1.21.1-8.9.0"
+providers = ["Modrinth"]
+
+[[mods.apotheoticcreation.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.apothic-attributes]
 version = "1.21.1-2.11.0"
 server_side = true
@@ -420,6 +443,83 @@ sha1 = "efc4cda6da4dd879f24d057ed0a6413764c9ba40"
 sha512 = "78d4577a8e8fbb241216968475dd73f5b9e5efeb7da802b18a4e6c290e49af6cb4a5676e9855d0d8ff3613f967812e4bd363bbb9196c17c954d19454f84b2214"
 filename = "bookshelf-neoforge-1.21.1-21.1.81.jar"
 
+[mods.boss-checklist]
+version = "5.3.2"
+server_side = true
+client_side = true
+
+[[mods.boss-checklist.source]]
+
+[mods.boss-checklist.source.Download]
+url = "https://cdn.modrinth.com/data/z1Dv56jq/versions/nyFzb1HZ/boss_checklist-neoforge-5.3.2.jar"
+sha1 = "480d3bf568bd636dc391b44e138a51a508ef944d"
+sha512 = "055d8277ea4a4e0a373d37dabd99015ac9eff4387804db9ad1e9ab0bf6c9ce29ba2b8c1b68149ec0b097c7634dcf71be63769f9d0b9c0d17fbc61ceb972ce0ae"
+filename = "boss_checklist-neoforge-5.3.2.jar"
+
+[mods.bosses-of-mass-destruction-forge]
+version = "1.3.3"
+server_side = true
+client_side = true
+
+[[mods.bosses-of-mass-destruction-forge.source]]
+
+[mods.bosses-of-mass-destruction-forge.source.Download]
+url = "https://cdn.modrinth.com/data/hFUzfDsn/versions/snhDYBxP/BOMD-NeoForge-1.21-1.3.3.jar"
+sha1 = "446ff63afb858ad49149d24b72541739de83d38d"
+sha512 = "29a35ed7ce6d0832614b526295f33c3b92a136c1c235ccea3ce0312543e05ee7353d22e4814cbad884824e4381d32a7835e73d72d06c0fed53a9f5fc6b275951"
+filename = "BOMD-NeoForge-1.21-1.3.3.jar"
+
+[[mods.bosses-of-mass-destruction-forge.deps]]
+name = "cerbons-api"
+version = "1.3.0"
+providers = ["Modrinth"]
+
+[[mods.bosses-of-mass-destruction-forge.deps]]
+name = "cloth-config"
+version = "15.0.140+neoforge"
+providers = ["Modrinth"]
+
+[[mods.bosses-of-mass-destruction-forge.deps]]
+name = "geckolib"
+version = "4.9.3"
+providers = ["Modrinth"]
+
+[mods.bossesrise]
+version = "2.1.2"
+server_side = true
+client_side = true
+
+[[mods.bossesrise.source]]
+
+[mods.bossesrise.source.Download]
+url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar"
+sha1 = "249a5f2ba43fd341d4a2831691c154d92aa5a12d"
+sha512 = "9a2b58bd7c15c15f089d87bdd1ac5b8cccaeab6a28518b9a10336e811334aba7e42c9cae7733a5fd7125ebce28554b0dea530cb7f86ecb85617203d948590344"
+filename = "block_factorys_bosses-2.1.2-neo-1.21.1.jar"
+
+[[mods.bossesrise.deps]]
+name = "geckolib"
+version = "4.8.4"
+providers = ["Modrinth"]
+
+[mods.brandons-core]
+version = "3.2.1.309"
+server_side = true
+client_side = true
+
+[[mods.brandons-core.source]]
+
+[mods.brandons-core.source.Download]
+url = "https://cdn.modrinth.com/data/iFDWVIFV/versions/56nwe5IX/BrandonsCore-1.21.1-3.2.1.309.jar"
+sha1 = "ef00bdaaca4e469cc3925d573434d2f84b9d8a14"
+sha512 = "c7ce3d22cca5555aa0a41afd0d6ca4b9f11b9d49f7bfda7595db60ba68b2a96377318bfaf27747ed24d356e79ca796fe0239b5825363110b1a654d26eb2774ad"
+filename = "BrandonsCore-1.21.1-3.2.1.309.jar"
+
+[[mods.brandons-core.deps]]
+name = "codechicken-lib"
+version = "4.6.1.529"
+providers = ["Modrinth"]
+
 [mods.brewin-and-chewin]
 version = "4.5.0+1.21.1-neoforge"
 server_side = true
@@ -458,6 +558,24 @@ url = "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-
 sha1 = "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
 sha512 = "3763f95304ade2bacb217828c74eeef7905a114f71d41537d56121af58c182c2685467a5afb7e03ddb3997ec3d7496bdfdf71a9946a9f33e3470393e7a13306d"
 filename = "caelus-neoforge-7.0.1+1.21.1.jar"
+
+[mods.cerbons-api]
+version = "1.3.0"
+server_side = true
+client_side = true
+
+[[mods.cerbons-api.source]]
+
+[mods.cerbons-api.source.Download]
+url = "https://cdn.modrinth.com/data/GkIc6rRo/versions/5wbxkBQ1/CerbonsAPI-NeoForge-1.21-1.3.0.jar"
+sha1 = "3f0d3eed4633d9ef3a713de4b39ee4e683aa9389"
+sha512 = "6bd24b718d532cdd0c49150eefc223b4d7c3550bbc81d5c65ed84b704bf3c8e20d3cb3524082688383cc4aba38e190921976b056b84d5755670c5399a7c7e627"
+filename = "CerbonsAPI-NeoForge-1.21-1.3.0.jar"
+
+[[mods.cerbons-api.deps]]
+name = "cerbons-api"
+version = "1.3.0"
+providers = ["Modrinth"]
 
 [mods.chunky]
 version = "1.4.23"
@@ -621,6 +739,19 @@ name = "architectury-api"
 version = "13.0.11+neoforge"
 providers = ["Modrinth"]
 
+[mods.codechicken-lib]
+version = "4.6.1.529"
+server_side = true
+client_side = true
+
+[[mods.codechicken-lib.source]]
+
+[mods.codechicken-lib.source.Download]
+url = "https://cdn.modrinth.com/data/2gq0ALnz/versions/vLDGhjNJ/CodeChickenLib-1.21.1-4.6.1.529.jar"
+sha1 = "354d850ca72568b88d67e3c903efced7e62dc90f"
+sha512 = "acc300da463672a4091e0f48266df4a5b0704bc23e044e71ca47c3d56390d09eef3690baad8f8744d657bac8d5e02a2b4a2bb77ed0478dba9ad9b8c35901645f"
+filename = "CodeChickenLib-1.21.1-4.6.1.529.jar"
+
 [mods.controlling]
 version = "19.0.5"
 server_side = false
@@ -745,6 +876,108 @@ sha1 = "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373"
 sha512 = "05daa85e4bac2bf402a5d9a9210ee4375703690a0d40a7db71a7b1fc307430700b2ae3777aa9bb76c01bd5ab24883f32a007c6455b4aac80a80dcf75fcf3f562"
 filename = "aeronauticsdiscovery-2.2.0.jar"
 
+[mods.create-cosmonatics]
+version = "26.08.307"
+server_side = true
+client_side = true
+
+[[mods.create-cosmonatics.source]]
+
+[mods.create-cosmonatics.source.Download]
+url = "https://cdn.modrinth.com/data/micg1iTH/versions/HuCMavv8/cosmonautics-26.08.307.jar"
+sha1 = "9b70ebf3ff2beaee0ab0ba6c8f46643da3e4f4fc"
+sha512 = "72ff1be7f31767eb64635a5fd827428410b0899fe5431f951bb4ab2a006ed105bf1cae24b803d51a5b18b067f5f956c493bb827573b22567e204b6b2d84a0de8"
+filename = "cosmonautics-26.08.307.jar"
+
+[[mods.create-cosmonatics.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-cosmonatics.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-cosmonatics.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-cosmonautics-expansion]
+version = "1.0.0"
+server_side = true
+client_side = true
+
+[[mods.create-cosmonautics-expansion.source]]
+
+[mods.create-cosmonautics-expansion.source.Download]
+url = "https://cdn.modrinth.com/data/gD7M0IgY/versions/48ItKoZ3/rocketnautics_addon-1.0.0.jar"
+sha1 = "b9a95f48bdd4928f448ed0125edca80534bc66f9"
+sha512 = "bc45672327218fcc365ff5fbb7d16a1a56818e655212e90c54ab8b960c6c6f3736b0a8953eb117bc99df9f259f7e3394ae55ab44d580c902b4109827d2ba9de7"
+filename = "rocketnautics_addon-1.0.0.jar"
+
+[[mods.create-cosmonautics-expansion.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-cosmonautics-expansion.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-cosmonautics-expansion.deps]]
+name = "create-cosmonatics"
+version = "26.08.307"
+providers = ["Modrinth"]
+
+[mods.create-deep-seas]
+version = "3.4.5"
+server_side = true
+client_side = true
+
+[[mods.create-deep-seas.source]]
+
+[mods.create-deep-seas.source.Download]
+url = "https://cdn.modrinth.com/data/mva5q4qZ/versions/twCxciVp/create_submarine-3.4.5.jar"
+sha1 = "a5ba5d5af6e11a546e901f90b287b50274f6c172"
+sha512 = "48bab64ff6566f53d98c0fbff81aaae6b4e2647188732f6133bee39798e8568732a40db128997a3c067d03a070eb85838e4cbb5e60b35ad521af6b08d7567458"
+filename = "create_submarine-3.4.5.jar"
+
+[[mods.create-deep-seas.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-deep-seas.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-deep-seas.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-diesel-generators]
+version = "1.21.1-1.3.15"
+server_side = true
+client_side = true
+
+[[mods.create-diesel-generators.source]]
+
+[mods.create-diesel-generators.source.Download]
+url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/UoPH8lO1/createdieselgenerators-1.21.1-1.3.15.jar"
+sha1 = "7f751dabfa83c141c1d13025cd16f06553ba459b"
+sha512 = "1507ebcd07d3185aac3ae6ce768b4d6bab16cb6f39776d25a850c8133a4dc5826b8ddbeca112d76afc64deaa37ec177cac4237c6c34621c4b65e73d83f8ab43f"
+filename = "createdieselgenerators-1.21.1-1.3.15.jar"
+
+[[mods.create-diesel-generators.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.creativecore]
 version = "2.13.51"
 server_side = true
@@ -854,6 +1087,29 @@ url = "https://mediafilez.forgecdn.net/files/8208/414/doespotatotick-1.21.1-5.6.
 sha1 = "b57775ba0d7f2b20f91f5e1f19e9ff044d1bb396"
 sha512 = "875a6319770dd9dec9260612ae506c354501344a533ad97767ace1a033e2bc6ff737dde5d7660caf0b72eb7db610c25faef422d546b32099430e5461d2955eff"
 filename = "doespotatotick-1.21.1-5.6.4.jar"
+
+[mods.draconic-evolution]
+version = "3.1.4.633"
+server_side = true
+client_side = true
+
+[[mods.draconic-evolution.source]]
+
+[mods.draconic-evolution.source.Download]
+url = "https://cdn.modrinth.com/data/nBqivi8H/versions/84xwXpNh/Draconic-Evolution-1.21.1-3.1.4.633.jar"
+sha1 = "42ccf634a2a167db9cda533507909dd0524f2798"
+sha512 = "9740f5750a916db8927d8051430b49eba9ebc37e5545aef09b83872a561a721e7eb8fed82e6ed2aad15ba016d6f8ea2ce566a5cafacc4a2879239119cdbaff31"
+filename = "Draconic-Evolution-1.21.1-3.1.4.633.jar"
+
+[[mods.draconic-evolution.deps]]
+name = "brandons-core"
+version = "3.2.1.309"
+providers = ["Modrinth"]
+
+[[mods.draconic-evolution.deps]]
+name = "codechicken-lib"
+version = "4.6.1.529"
+providers = ["Modrinth"]
 
 [mods.dungeons_delight]
 version = "1.5.1"
@@ -975,6 +1231,20 @@ providers = ["Modrinth"]
 name = "prickle"
 version = "21.1.11"
 providers = ["Modrinth"]
+
+[mods.enderio]
+version = "v8.2.12-beta"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.enderio.source]]
+
+[mods.enderio.source.Download]
+url = "https://cdn.modrinth.com/data/49ZofO4f/versions/2bHl1dCW/enderio-8.2.12-beta.jar"
+sha1 = "4e1d16a227eb36a6ac16d9f615765480027b8e82"
+sha512 = "c4415c1e835fa7eaf7f4528fd685412151968b092e9be91528add11dd981943ba6243eee41ff73923df64d59d8f907901cb006edcb5c02783e73ab656524c995"
+filename = "enderio-8.2.12-beta.jar"
 
 [mods.enhanced-celestials-2-core]
 version = "2.0.3.3-neoforge"
@@ -1274,6 +1544,19 @@ url = "https://cdn.modrinth.com/data/hl5OLM95/versions/5kFV8CEz/Geophilic%20v3.7
 sha1 = "4d668978e18b450c030ed4be096fce52d3a9ceca"
 sha512 = "7731d6d7f85af0dc9eb232138b1dc1096f083d13a9f3e592b84f6c89a97cca0c642c68d5943e0e63bd35e93002708b945554991f519b754a04c6eec058305c19"
 filename = "Geophilic v3.7.mod.jar"
+
+[mods.gliders]
+version = "1.1.8+neoforge"
+server_side = true
+client_side = true
+
+[[mods.gliders.source]]
+
+[mods.gliders.source.Download]
+url = "https://cdn.modrinth.com/data/XiC6HzoU/versions/XMduptKZ/gliders-1.21.1-neoforge-1.1.8.jar"
+sha1 = "f68e8fa4fb1a126cfb660df32fb009b2cc900c6b"
+sha512 = "d9ec07ce20f84648dfedf0ec23b0364138eea3db60e87d332ed6e05762673340e890a79da82efd6209eeb36ed3a31dd70b6916c586311e8a2ffe6f47aec211af"
+filename = "gliders-1.21.1-neoforge-1.1.8.jar"
 
 [mods.glitchcore]
 version = "2.1.0.2"
@@ -1601,6 +1884,19 @@ name = "puzzles-lib"
 version = "21.1.64"
 providers = ["Modrinth"]
 
+[mods.legendary-monsters]
+version = "2.2.4"
+server_side = true
+client_side = true
+
+[[mods.legendary-monsters.source]]
+
+[mods.legendary-monsters.source.Download]
+url = "https://cdn.modrinth.com/data/9d9Bkqva/versions/zkH9rSlF/legendary_monsters-2.2.4%20MC%201.21.1.jar"
+sha1 = "85778d7f4b7c1546279be9374be3b71b47e2c47d"
+sha512 = "2e6f073d6358778fecde1554a40b8208836bca018156f2abb1ba497d65d15cbe0c37dcc541fe9252cfd16e7b4ff8fdfe668ea230e7ee9ef315e710eb425a90f3"
+filename = "legendary_monsters-2.2.4 MC 1.21.1.jar"
+
 [mods.lionfish-api]
 version = "3.1"
 server_side = true
@@ -1652,6 +1948,19 @@ url = "https://cdn.modrinth.com/data/bN3xUWdo/versions/CohX6yP1/lodestone-1.21.1
 sha1 = "d1f7c638fac5192e01b1873f27e694a3c262ad11"
 sha512 = "6917080339b982d96cb4a7c98205ade5d89730191bc9113f4f8cd36bb1a760a91ad2421c8869c7063f8dea22a200d7d1896e0bb5e0e64119bb7590e32a998a23"
 filename = "lodestone-1.21.1-1.8.2.jar"
+
+[mods.lootr]
+version = "1.21.1-1.11.38.127"
+server_side = true
+client_side = true
+
+[[mods.lootr.source]]
+
+[mods.lootr.source.Download]
+url = "https://cdn.modrinth.com/data/EltpO5cN/versions/SPOrIzX8/lootr-neoforge-1.21.1-1.11.38.127.jar"
+sha1 = "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58"
+sha512 = "7496051c1ba98f8801b8eb81773d1baec16166c3d2c5682476bd6f9433f794095099cea609fd5610525edb7c450b1bacd0011a31763e91c77c9a0034c8245ca3"
+filename = "lootr-neoforge-1.21.1-1.11.38.127.jar"
 
 [mods.macaws-bridges]
 version = "3.1.2"
@@ -1730,6 +2039,20 @@ url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/BIbVs1fo/malum-1.21.1-1.8
 sha1 = "7bea3f874f186a17ad3e271df145c179e81c2a1d"
 sha512 = "dd9ccc1dea3b090f69f807be3e7a8b99ec6d3d7d6b047e2893cb49ca505860bbf640cf767082c1a32ea403b35e2a9f9d1755327890bbfb2f8778058a9597a99e"
 filename = "malum-1.21.1-1.8.2.jar"
+
+[mods.mekanism]
+version = "10.7.19.85"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.mekanism.source]]
+
+[mods.mekanism.source.Download]
+url = "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar"
+sha1 = "b78945c40cfe7640408f3fd1e44da385a8c8b805"
+sha512 = "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b"
+filename = "Mekanism-1.21.1-10.7.19.85.jar"
 
 [mods.mezzconfig]
 version = "0.6.8"
@@ -2621,6 +2944,20 @@ name = "modonomicon"
 version = "1.21.1-1.120.7"
 providers = ["Modrinth"]
 
+[mods.time-in-a-bottle-universal]
+version = "6.5.4"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.time-in-a-bottle-universal.source]]
+
+[mods.time-in-a-bottle-universal.source.Download]
+url = "https://cdn.modrinth.com/data/LQdpBqdS/versions/rG10hU1G/tiab-neoforge-6.5.4.jar"
+sha1 = "3e6beaac5dbc48627263fee0a864db16eda53529"
+sha512 = "c43e6d9d626b8180f3091ba54f8fd4b3290fcfd0abd16c9520a76427193bccd16d2cd67470151f42fb3f18ae9938e9b3c4cb931dd013f0664e8a46d2c77fd5c9"
+filename = "tiab-neoforge-6.5.4.jar"
+
 [mods.too-fast]
 version = "0.4.3.5"
 server_side = true
@@ -2717,6 +3054,19 @@ filename = "waystones-neoforge-1.21.1-21.1.46.jar"
 name = "balm"
 version = "21.0.66+neoforge-1.21.1"
 providers = ["Modrinth"]
+
+[mods.when-dungeons-arise]
+version = "2.1.68"
+server_side = true
+client_side = true
+
+[[mods.when-dungeons-arise.source]]
+
+[mods.when-dungeons-arise.source.Download]
+url = "https://cdn.modrinth.com/data/8DfbfASn/versions/XIRJSFQ0/DungeonsArise-1.21.1-2.1.68-release.jar"
+sha1 = "c651339154da7b9e9cf47a80fdef22c4d59cad5c"
+sha512 = "cf87e06c8a49c9147fac2cf4d218d0e0eb56bb75819ab85f84ed7ae775bb3e259e2ebd5c423696d4d9026f6a69698babf5e7c82c74e480fbbf107359ef30a97e"
+filename = "DungeonsArise-1.21.1-2.1.68-release.jar"
 
 [mods.xaeros-minimap]
 version = "neoforge-1.21.1-26.6.0"
