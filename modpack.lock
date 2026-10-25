@@ -339,29 +339,6 @@ sha1 = "541b3286d187deeb9a1297a509d0d3539d8af0f6"
 sha512 = "30f188cfc932bd58c95740488732df7e92d98e7345e271b1a223e41a43fc3dd52284d0ff07fc3e8a95e914082f899394eff3a0f37c174d317e6e37fb68b083df"
 filename = "ars_nouveau-1.21.1-5.13.3.jar"
 
-[mods.ars-ocultas]
-version = "1.21.1-2.6.2"
-server_side = true
-client_side = true
-
-[[mods.ars-ocultas.source]]
-
-[mods.ars-ocultas.source.Download]
-url = "https://cdn.modrinth.com/data/Tsw8vbks/versions/qLGJRyji/ars_ocultas-1.21.1-2.6.2.jar"
-sha1 = "de39ec2ee0503e3f938bb167565414d16314d26c"
-sha512 = "4a673096a2d0b9a5a83aca2747a8a08211205ed40875b4c22061f774146d9d4fff9c872e2c1b6b59e5fef2d1bf3b3a08732f22743ade4e0a82ba08636dc701a5"
-filename = "ars_ocultas-1.21.1-2.6.2.jar"
-
-[[mods.ars-ocultas.deps]]
-name = "ars-nouveau"
-version = "5.13.3"
-providers = ["Modrinth"]
-
-[[mods.ars-ocultas.deps]]
-name = "occultism"
-version = "1.21.1-neoforge-1.224.5"
-providers = ["Modrinth"]
-
 [mods.arsdelight]
 version = "2.2.5"
 server_side = true
@@ -2000,39 +1977,6 @@ providers = ["Modrinth"]
 [[mods.observable.deps]]
 name = "kotlin-for-forge"
 version = "5.12.0"
-providers = ["Modrinth"]
-
-[mods.occultism]
-version = "1.21.1-neoforge-1.224.5"
-server_side = true
-client_side = true
-
-[[mods.occultism.source]]
-
-[mods.occultism.source.Download]
-url = "https://cdn.modrinth.com/data/sbJh4AZw/versions/vPoehZTj/occultism-1.21.1-neoforge-1.224.5.jar"
-sha1 = "23e856a9757540169179fbc27d7fecef2a31a07b"
-sha512 = "118b6ff851ba070ab50c126ad99bdd043c9b0f12ce8998414f73b523405a1473af340d8ce4ac9d29d33991c9ec1a4f93f6321684f2ade16c3df9f9bf920fcc8b"
-filename = "occultism-1.21.1-neoforge-1.224.5.jar"
-
-[[mods.occultism.deps]]
-name = "curios"
-version = "9.5.1+1.21.1"
-providers = ["Modrinth"]
-
-[[mods.occultism.deps]]
-name = "geckolib"
-version = "4.9.3"
-providers = ["Modrinth"]
-
-[[mods.occultism.deps]]
-name = "modonomicon"
-version = "1.21.1-1.120.7"
-providers = ["Modrinth"]
-
-[[mods.occultism.deps]]
-name = "smartbrainlib"
-version = "1.16.11"
 providers = ["Modrinth"]
 
 [mods.owo-lib]

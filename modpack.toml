@@ -76,10 +76,6 @@ version = "*"
 name = "ars-nouveau"
 version = "*"
 
-[mods.ars-ocultas]
-name = "ars-ocultas"
-version = "*"
-
 [mods.arsdelight]
 name = "arsdelight"
 version = "*"
@@ -466,10 +462,6 @@ version = "*"
 
 [mods.observable]
 name = "observable"
-version = "*"
-
-[mods.occultism]
-name = "occultism"
 version = "*"
 
 [mods.patchouli]
