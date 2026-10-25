@@ -18,9 +18,19 @@ client_side = true
 name = "ae2"
 version = "*"
 
+[mods.aeroscapes-islands]
+name = "aeroscapes-islands"
+version = "*"
+
 [mods.aether]
 name = "aether"
 version = "*"
+
+[mods.aetherial-structure-compatibility]
+name = "aetherial-structure-compatibility"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.ai-improvements]
 name = "ai-improvements"
@@ -156,11 +166,9 @@ version = "*"
 name = "create-aeronautics"
 version = "*"
 
-[mods.ct-overhaul-village]
-name = "ct-overhaul-village"
+[mods.create-aeronautics-discovery]
+name = "create-aeronautics-discovery"
 version = "*"
-server_side = true
-client_side = true
 
 [mods.cubes-without-borders]
 name = "cubes-without-borders"
@@ -262,6 +270,12 @@ download_url = "https://mediafilez.forgecdn.net/files/7280/584/FarmersStructures
 server_side = true
 client_side = true
 
+[mods.feature-recycler]
+name = "feature-recycler"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.ferrite-core]
 name = "ferrite-core"
 version = "*"
@@ -310,10 +324,6 @@ version = "*"
 
 [mods.hexerei]
 name = "hexerei"
-version = "*"
-
-[mods.hybrid-beta]
-name = "hybrid-beta"
 version = "*"
 
 [mods.iceandfire-ce]
@@ -428,6 +438,10 @@ version = "*"
 name = "mouse-tweaks"
 version = "*"
 
+[mods.mss-moogs-soaring-structures]
+name = "mss-moogs-soaring-structures"
+version = "*"
+
 [mods.natures-aura]
 name = "natures-aura"
 version = "*"
@@ -540,6 +554,10 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
+[mods.sky-whales]
+name = "sky-whales"
+version = "*"
+
 [mods.small-ships]
 name = "small-ships"
 version = "*"
@@ -561,12 +579,6 @@ version = "*"
 [mods.spark]
 name = "spark"
 version = "*"
-
-[mods.sparsestructures]
-name = "sparsestructures"
-version = "*"
-server_side = true
-client_side = true
 
 [mods.spectrum]
 name = "spectrum"

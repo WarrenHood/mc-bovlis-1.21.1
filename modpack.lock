@@ -47,6 +47,24 @@ name = "guideme"
 version = "21.1.20"
 providers = ["Modrinth"]
 
+[mods.aeroscapes-islands]
+version = "1.1.1"
+server_side = true
+client_side = true
+
+[[mods.aeroscapes-islands.source]]
+
+[mods.aeroscapes-islands.source.Download]
+url = "https://cdn.modrinth.com/data/tGVwBATM/versions/bzJ2edxy/aeroscapes-1.1.1.jar"
+sha1 = "5ba013f9be3804016a31187504a148044b7a8de5"
+sha512 = "6ced9b88562a3f14f3fc2cbc8b496557a7b1e5908b27f5813bc5784a9246bd7560f83b6045f85455aa8b93b54ac2613d3cf0032a53229a1a336732f9b03eb5a5"
+filename = "aeroscapes-1.1.1.jar"
+
+[[mods.aeroscapes-islands.deps]]
+name = "lithostitched"
+version = "1.7.13-neoforge-21.1"
+providers = ["Modrinth"]
+
 [mods.aether]
 version = "1.21.1-1.5.10-neoforge"
 server_side = true
@@ -64,6 +82,19 @@ filename = "aether-1.21.1-1.5.10-neoforge.jar"
 name = "owo-lib"
 version = "0.12.15.6-beta.1+1.21"
 providers = ["Modrinth"]
+
+[mods.aetherial-structure-compatibility]
+version = "1.0.0g"
+server_side = true
+client_side = true
+
+[[mods.aetherial-structure-compatibility.source]]
+
+[mods.aetherial-structure-compatibility.source.Download]
+url = "https://cdn.modrinth.com/data/VMRWxo2A/versions/unmujRzx/ASC-1.0.0g-NeoForge-1.21.1-21.1.242plus.jar"
+sha1 = "031019b8c0cef650a2655fc5eb03492c9620a3db"
+sha512 = "3a1181b62d346f59b92178e16d31e90c7ba5e81f6503746e82c9230194c66abf1e4b616b25d43916ca4d64ee1a5fb44ac1d4fee01c298aea06cd9bff957172ff"
+filename = "ASC-1.0.0g-NeoForge-1.21.1-21.1.242plus.jar"
 
 [mods.ai-improvements]
 version = "0.5.3"
@@ -731,6 +762,19 @@ name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-aeronautics-discovery]
+version = "2.2.0"
+server_side = true
+client_side = true
+
+[[mods.create-aeronautics-discovery.source]]
+
+[mods.create-aeronautics-discovery.source.Download]
+url = "https://cdn.modrinth.com/data/MtpVp9HL/versions/bhDula1K/aeronauticsdiscovery-2.2.0.jar"
+sha1 = "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373"
+sha512 = "05daa85e4bac2bf402a5d9a9210ee4375703690a0d40a7db71a7b1fc307430700b2ae3777aa9bb76c01bd5ab24883f32a007c6455b4aac80a80dcf75fcf3f562"
+filename = "aeronauticsdiscovery-2.2.0.jar"
+
 [mods.creativecore]
 version = "2.13.51"
 server_side = true
@@ -743,19 +787,6 @@ url = "https://cdn.modrinth.com/data/OsZiaDHq/versions/vRMtFt35/CreativeCore_NEO
 sha1 = "eb2242b3d4442ad4017ba0624a7f9588e778b157"
 sha512 = "864301fa1229511203fc291e9b683db5af3cb4aa4faed0ef1eb54112491b3c97f9b5006b42d41fb2c169f7fc93ad13459f5079c6ffc73dc4b145ee61b7687997"
 filename = "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar"
-
-[mods.ct-overhaul-village]
-version = "3.6.3"
-server_side = true
-client_side = true
-
-[[mods.ct-overhaul-village.source]]
-
-[mods.ct-overhaul-village.source.Download]
-url = "https://cdn.modrinth.com/data/fgmhI8kH/versions/ztzRUnQ7/%5BNeoforge%5Dctov-3.6.3.jar"
-sha1 = "c5fe733d743af20f84eb87dd75b5bb57684f3e05"
-sha512 = "174125e619f935ca016efaf7d6794edc57fae39ca02295ce63618ae2b286535e4da2084fd7f0ff9506c32c0ea35ceb68659bd646f65e6fbadfdb8fda299dc832"
-filename = "[Neoforge]ctov-3.6.3.jar"
 
 [mods.cubes-without-borders]
 version = "3.0.0+1.21"
@@ -1147,6 +1178,19 @@ sha1 = "72c8a17af70dd78a045b4b2678b8ac2d1a2b7d39"
 sha512 = "cacea687bf16e8a3ec6a1b46fa5323490a3aef9e970bbe882b3f13bd219fe6b044f04ba092c5c7d89e8670ec88120c5b1fab860c52795f1c27dd67e5173de4c4"
 filename = "FarmersStructures-1.0.2-1.21.1_neoforge.jar"
 
+[mods.feature-recycler]
+version = "2.0.0-neoforge"
+server_side = true
+client_side = true
+
+[[mods.feature-recycler.source]]
+
+[mods.feature-recycler.source.Download]
+url = "https://cdn.modrinth.com/data/IAzu52kG/versions/TsMXDaL7/Feature-Recycler-neoforge-2.0.0.jar"
+sha1 = "1c14b70c4e1341d1b92b51da684529644c0ab5cb"
+sha512 = "0909f39c1ec6f435eb2a51b95bdc4d48b2b3c31466002f0e36aec1e1315f54079faed084a440e1ef91ac267fdcedc313bd4e6dd0eac81afdd4a7a6e16db162e9"
+filename = "Feature-Recycler-neoforge-2.0.0.jar"
+
 [mods.ferrite-core]
 version = "7.0.3-neoforge"
 server_side = true
@@ -1344,19 +1388,6 @@ url = "https://cdn.modrinth.com/data/IQSOHVhI/versions/9KSwA9O9/hexerei-0.5.0.3.
 sha1 = "a0021f5ef5a285fdc8f80cd30d48c913d6f0765b"
 sha512 = "6ad9f14ad23e84e693c8a02fa210871f7f9f7abb34acb342d9c72aacaa822dc4d06d203d78803ab40dd5eb334344961586a3f223ae877c362f1788b7be1dad6a"
 filename = "hexerei-0.5.0.3.jar"
-
-[mods.hybrid-beta]
-version = "1.0.4.1+mod"
-server_side = true
-client_side = true
-
-[[mods.hybrid-beta.source]]
-
-[mods.hybrid-beta.source.Download]
-url = "https://cdn.modrinth.com/data/Jmx5kJiS/versions/lkuCEuyN/hybrid-beta-1.0.4.1.jar"
-sha1 = "e7b612f212378513885d1f411b4a3f30b547b89c"
-sha512 = "dcaa2af8b3cda899d4e20115c4cdc271612c6c49bdd495fc05d9222a0a3584684e07f0a563f697ed1a23b9c15154da3bede34f361e591e7e7dbe67adc8163936"
-filename = "hybrid-beta-1.0.4.1.jar"
 
 [mods.iceandfire-ce]
 version = "2.1-beta.1"
@@ -1806,6 +1837,19 @@ sha1 = "dc06fd2fa4d539f74fcb46be867b99b03a863962"
 sha512 = "fdacc0d4323bfc0c3984406cdec747f5079b3cc501d82f8e398a9188e10490764d1d696547c1f16d994839d65baa320e30af639525d1dc55bd52b36dcbc0e6f0"
 filename = "modonomicon-1.21.1-neoforge-1.120.7.jar"
 
+[mods.moogs-structure-lib]
+version = "3.4.2-neoforge-1.21.1"
+server_side = true
+client_side = false
+
+[[mods.moogs-structure-lib.source]]
+
+[mods.moogs-structure-lib.source.Download]
+url = "https://cdn.modrinth.com/data/1oUDhxuy/versions/wcg4mE4e/MoogsStructureLib-neoforge-1.21.1-3.4.2.jar"
+sha1 = "c379b8d5dc1a4b1e8987da1052d6b4de81354d72"
+sha512 = "378d5da579e65e8c37d81aee510302f99b3097f0c6a4245f3621478f741fac3b55a3715227d9408153a66c98624f8fcb5f93e98027212e0f0a82b768315d0651"
+filename = "MoogsStructureLib-neoforge-1.21.1-3.4.2.jar"
+
 [mods.mouse-tweaks]
 version = "1.21-2.26.1-neoforge"
 server_side = false
@@ -1818,6 +1862,24 @@ url = "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neof
 sha1 = "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
 sha512 = "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b"
 filename = "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+
+[mods.mss-moogs-soaring-structures]
+version = "2.2.0"
+server_side = true
+client_side = false
+
+[[mods.mss-moogs-soaring-structures.source]]
+
+[mods.mss-moogs-soaring-structures.source.Download]
+url = "https://cdn.modrinth.com/data/RJCLIx7k/versions/O20bIWkj/MoogsSoaringStructures-universal-1.21-2.2.0.jar"
+sha1 = "1284c673b46a50b0557c2c018f677323484665f6"
+sha512 = "1460cbb932e8f39c00bc7f980322696107c965094e00b9a05aa6b4ce6bc9babff5c3444b2135b8a6e7b88285dabbe3426cc4780fd1e3a8b64cc1b2cd8adb9dca"
+filename = "MoogsSoaringStructures-universal-1.21-2.2.0.jar"
+
+[[mods.mss-moogs-soaring-structures.deps]]
+name = "moogs-structure-lib"
+version = "3.4.2-neoforge-1.21.1"
+providers = ["Modrinth"]
 
 [mods.natures-aura]
 version = "41.10"
@@ -2402,6 +2464,34 @@ sha1 = "e7439fa56036bfacf228269b8b89f10cbbba13fd"
 sha512 = "0dd07a6ca391ce00975f5b6c147cd993ce83d4ab3dde634885bc124f2d7fdfdcb631425539e2dbfdf7e0925795737c27bd4560aa5a6940ac0547dbd72c130b7f"
 filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
 
+[mods.sky-whales]
+version = "0.1.8"
+server_side = true
+client_side = true
+
+[[mods.sky-whales.source]]
+
+[mods.sky-whales.source.Download]
+url = "https://cdn.modrinth.com/data/IielEDnJ/versions/CcjnSrPq/skywhales-0.1.8.jar"
+sha1 = "e89f20632537577ac343a8b14dc17fc56ce3a603"
+sha512 = "726a748bb13acb9fd27ea08893d149d3784ef9d0c74846e223ee3a4ce383fdf26385744050d1cdb718531c10ae0f320230ad764604ed76e8405ff4ed04829405"
+filename = "skywhales-0.1.8.jar"
+
+[[mods.sky-whales.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.sky-whales.deps]]
+name = "geckolib"
+version = "4.9.3"
+providers = ["Modrinth"]
+
+[[mods.sky-whales.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.small-ships]
 version = "2.0.2-neoforge-1.21.1"
 server_side = true
@@ -2467,19 +2557,6 @@ url = "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-n
 sha1 = "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
 sha512 = "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
 filename = "spark-1.10.124-neoforge.jar"
-
-[mods.sparsestructures]
-version = "3.0"
-server_side = true
-client_side = true
-
-[[mods.sparsestructures.source]]
-
-[mods.sparsestructures.source.Download]
-url = "https://cdn.modrinth.com/data/qwvI41y9/versions/MoJZpi20/sparsestructures-neoforge-1.21.1-3.0.jar"
-sha1 = "daa7235c52c822524e9a4edd8b382a68ec78b1f8"
-sha512 = "adef915104fe7a010b7e3305f3bb85c3336cc764fb2b8c6dfec3b749e08d0d0b7d36b6ca470699ec85ba2474d6c726d96a2bb9c1952668202d9dfe0382fbdae9"
-filename = "sparsestructures-neoforge-1.21.1-3.0.jar"
 
 [mods.spectrum]
 version = "1.12.9-1.21.1-neo"
