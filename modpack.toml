@@ -1,0 +1,899 @@
+pack_name = "bovlis"
+mc_version = "1.21.1"
+modloader = "NeoForge"
+default_providers = ["Modrinth"]
+forbidden_mods = ["fabric-api"]
+
+[mods.aces-spell-utils]
+name = "aces-spell-utils"
+version = "*"
+
+[mods.advanced-backups]
+name = "advanced-backups"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.aether]
+name = "aether"
+version = "*"
+
+[mods.ai-improvements]
+name = "ai-improvements"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.akashic-tome]
+name = "akashic-tome"
+version = "*"
+
+[mods.almostunified]
+name = "almostunified"
+version = "*"
+
+[mods.alternate-current]
+name = "alternate-current"
+version = "*"
+
+[mods.appleskin]
+name = "appleskin"
+version = "*"
+
+[mods.aquaculture]
+name = "aquaculture"
+version = "*"
+
+[mods.aquaculture-delight]
+name = "aquaculture-delight"
+version = "*"
+
+[mods.athena-ctm]
+name = "athena-ctm"
+version = "*"
+
+[mods.badoptimizations]
+name = "badoptimizations"
+version = "*"
+
+[mods.better-archeology]
+name = "better-archeology"
+version = "*"
+
+[mods.betterf3]
+name = "betterf3"
+version = "*"
+
+[mods.block-runner]
+name = "block-runner"
+version = "*"
+
+[mods.bloodlines]
+name = "bloodlines"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7804/488/bloodlines-1.21-3.0.6.jar"
+server_side = true
+client_side = true
+
+[mods.brewin-and-chewin]
+name = "brewin-and-chewin"
+version = "*"
+
+[mods.c2me-neoforge]
+name = "c2me-neoforge"
+version = "*"
+
+[mods.caelus]
+name = "caelus"
+version = "*"
+
+[mods.cataclysm-spellbooks]
+name = "cataclysm-spellbooks"
+version = "*"
+
+[mods.chunky]
+name = "chunky"
+version = "*"
+
+[mods.clumps]
+name = "clumps"
+version = "*"
+
+[mods.cobble-caf-forms]
+name = "cobble-caf-forms"
+version = "*"
+
+[mods.cobblemon]
+name = "cobblemon"
+version = "*"
+
+[mods.cobblemon-alpha-project]
+name = "cobblemon-alpha-project"
+version = "*"
+
+[mods.cobblemon-fight-or-flight-reborn]
+name = "cobblemon-fight-or-flight-reborn"
+version = "*"
+
+[mods.cobblemon-integrations]
+name = "cobblemon-integrations"
+version = "*"
+
+[mods.cobblemon-myths-and-legends-sidemod]
+name = "cobblemon-myths-and-legends-sidemod"
+version = "*"
+
+[mods.cobblemore-library]
+name = "cobblemore-library"
+version = "*"
+
+[mods.compat-delight]
+name = "compat-delight"
+version = "*"
+
+[mods.controlling]
+name = "controlling"
+version = "*"
+
+[mods.crafting-tweaks]
+name = "crafting-tweaks"
+version = "*"
+
+[mods.crafttweaker]
+name = "crafttweaker"
+version = "*"
+
+[mods.ct-overhaul-village]
+name = "ct-overhaul-village"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.cubes-without-borders]
+name = "cubes-without-borders"
+version = "*"
+
+[mods.cull-leaves]
+name = "cull-leaves"
+version = "*"
+
+[mods.curios]
+name = "curios"
+version = "*"
+
+[mods.dangerous]
+name = "dangerous"
+version = "*"
+
+[mods.dark-doppelganger]
+name = "dark-doppelganger"
+version = "*"
+
+[mods.deeperdarker]
+name = "deeperdarker"
+version = "*"
+
+[mods.doespotatotick]
+name = "doespotatotick"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/8208/414/doespotatotick-1.21.1-5.6.4.jar"
+
+[mods.dungeons_delight]
+name = "dungeons_delight"
+version = "*"
+
+[mods.duplicationless]
+name = "duplicationless"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/8122/786/duplicationless-1.21.1-1.2.0.jar"
+
+[mods.effortless]
+name = "effortless"
+version = "*"
+
+[mods.emi]
+name = "emi"
+version = "*"
+
+[mods.emi-loot]
+name = "emi-loot"
+version = "*"
+
+[mods.emi-ores]
+name = "emi-ores"
+version = "*"
+
+[mods.emiffect]
+name = "emiffect"
+version = "*"
+
+[mods.enchantment-descriptions]
+name = "enchantment-descriptions"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.enhanced-celestials-2-core]
+name = "enhanced-celestials-2-core"
+version = "*"
+
+[mods.enhanced-celestials-2-default-lunar-events]
+name = "enhanced-celestials-2-default-lunar-events"
+version = "*"
+
+[mods.enhanced-celestials-2-shader-support]
+name = "enhanced-celestials-2-shader-support"
+version = "*"
+
+[mods.entity-model-features]
+name = "entity-model-features"
+version = "*"
+
+[mods.entityculling]
+name = "entityculling"
+version = "*"
+
+[mods.entitytexturefeatures]
+name = "entitytexturefeatures"
+version = "*"
+
+[mods.fallingleavesforge]
+name = "fallingleavesforge"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.farmers-delight]
+name = "farmers-delight"
+version = "*"
+
+[mods.farmers-structures]
+name = "farmers-structures"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7280/584/FarmersStructures-1.0.2-1.21.1_neoforge.jar"
+server_side = true
+client_side = true
+
+[mods.ferrite-core]
+name = "ferrite-core"
+version = "*"
+
+[mods.forbidden-arcanus]
+name = "forbidden-arcanus"
+version = "*"
+
+[mods.ftb-library]
+name = "ftb-library"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7746/959/ftb-library-neoforge-2101.1.31.jar"
+
+[mods.ftb-quests]
+name = "ftb-quests"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7775/452/ftb-quests-neoforge-2101.1.23.jar"
+
+[mods.ftb-teams]
+name = "ftb-teams"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7369/21/ftb-teams-neoforge-2101.1.9.jar"
+
+[mods.geckolib]
+name = "geckolib"
+version = "*"
+
+[mods.geophilic]
+name = "geophilic"
+version = "*"
+
+[mods.gravestone-mod]
+name = "gravestone-mod"
+version = "*"
+
+[mods.guide-api]
+name = "guide-api"
+version = "*"
+
+[mods.handcrafted]
+name = "handcrafted"
+version = "*"
+
+[mods.hexerei]
+name = "hexerei"
+version = "*"
+
+[mods.hybrid-beta]
+name = "hybrid-beta"
+version = "*"
+
+[mods.iceandfire-ce]
+name = "iceandfire-ce"
+version = "*"
+
+[mods.immediatelyfast]
+name = "immediatelyfast"
+version = "*"
+
+[mods.immersive-melodies]
+name = "immersive-melodies"
+version = "*"
+
+[mods.inv-view-forge]
+name = "inv-view-forge"
+version = "*"
+server_side = true
+client_side = false
+
+[mods.invmove]
+name = "invmove"
+version = "*"
+
+[mods.iris]
+name = "iris"
+version = "*"
+
+[mods.irons-lib]
+name = "irons-lib"
+version = "*"
+
+[mods.irons-spells-n-spellbooks]
+name = "irons-spells-n-spellbooks"
+version = "*"
+
+[mods.irons-spells-n-spellbooks-dynamic-skill-trees]
+name = "irons-spells-n-spellbooks-dynamic-skill-trees"
+version = "*"
+
+[mods.item-obliterator]
+name = "item-obliterator"
+version = "*"
+
+[mods.jade]
+name = "jade"
+version = "*"
+
+[mods.jei]
+name = "jei"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.l_enders-cataclysm]
+name = "l_enders-cataclysm"
+version = "*"
+
+[mods.leaves-be-gone]
+name = "leaves-be-gone"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.lionfish-api]
+name = "lionfish-api"
+version = "*"
+
+[mods.lithium]
+name = "lithium"
+version = "*"
+
+[mods.lithostitched]
+name = "lithostitched"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.macaws-bridges]
+name = "macaws-bridges"
+version = "*"
+
+[mods.macaws-doors]
+name = "macaws-doors"
+version = "*"
+
+[mods.macaws-fences-and-walls]
+name = "macaws-fences-and-walls"
+version = "*"
+
+[mods.macaws-stairs]
+name = "macaws-stairs"
+version = "*"
+
+[mods.macaws-windows]
+name = "macaws-windows"
+version = "*"
+
+[mods.malum]
+name = "malum"
+version = "*"
+
+[mods.miners-delight]
+name = "miners-delight"
+version = "*"
+
+[mods.modernfix]
+name = "modernfix"
+version = "*"
+
+[mods.modonomicon]
+name = "modonomicon"
+version = "*"
+
+[mods.mouse-tweaks]
+name = "mouse-tweaks"
+version = "*"
+
+[mods.natures-aura]
+name = "natures-aura"
+version = "*"
+
+[mods.natures-compass]
+name = "natures-compass"
+version = "*"
+
+[mods.neoforge-carpet]
+name = "neoforge-carpet"
+version = "*"
+
+[mods.noisium]
+name = "noisium"
+version = "*"
+
+[mods.observable]
+name = "observable"
+version = "*"
+
+[mods.occultism]
+name = "occultism"
+version = "*"
+
+[mods.patchouli]
+name = "patchouli"
+version = "*"
+
+[mods.pehkui]
+name = "pehkui"
+version = "*"
+
+[mods.pick-up-notifier]
+name = "pick-up-notifier"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.ping-wheel]
+name = "ping-wheel"
+version = "*"
+
+[mods.pizzadelight]
+name = "pizzadelight"
+version = "*"
+
+[mods.plasmo-voice]
+name = "plasmo-voice"
+version = "*"
+
+[mods.playeranimator]
+name = "playeranimator"
+version = "*"
+
+[mods.playerrevive]
+name = "playerrevive"
+version = "*"
+
+[mods.polymorph]
+name = "polymorph"
+version = "*"
+
+[mods.pufferfishs-unofficial-additions]
+name = "pufferfishs-unofficial-additions"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.pv-addon-sculk]
+name = "pv-addon-sculk"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.pv-addon-soundphysics]
+name = "pv-addon-soundphysics"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.pv-addon-whisper]
+name = "pv-addon-whisper"
+version = "*"
+
+[mods.rad-gyms]
+name = "rad-gyms"
+version = "*"
+
+[mods.rctmod]
+name = "rctmod"
+version = "*"
+
+[mods.relics-mod]
+name = "relics-mod"
+version = "*"
+
+[mods.revelationary]
+name = "revelationary"
+version = "*"
+
+[mods.runiclib]
+name = "runiclib"
+version = "*"
+
+[mods.serene-seasons]
+name = "serene-seasons"
+version = "*"
+
+[mods.servercore]
+name = "servercore"
+version = "*"
+
+[mods.simple-discord-rpc]
+name = "simple-discord-rpc"
+version = "*"
+
+[mods.small-ships]
+name = "small-ships"
+version = "*"
+
+[mods.smartbrainlib]
+name = "smartbrainlib"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.sodium]
+name = "sodium"
+version = "*"
+
+[mods.sound-physics-remastered]
+name = "sound-physics-remastered"
+version = "*"
+
+[mods.spark]
+name = "spark"
+version = "*"
+
+[mods.sparsestructures]
+name = "sparsestructures"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.spectrum]
+name = "spectrum"
+version = "*"
+
+[mods.storagedrawers]
+name = "storagedrawers"
+version = "*"
+
+[mods.terrablender]
+name = "terrablender"
+version = "*"
+
+[mods.theurgy]
+name = "theurgy"
+version = "*"
+
+[mods.toms-storage]
+name = "toms-storage"
+version = "*"
+
+[mods.too-fast]
+name = "too-fast"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.travelersbackpack]
+name = "travelersbackpack"
+version = "*"
+
+[mods.treechop]
+name = "treechop"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.twilightforest]
+name = "twilightforest"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/7797/302/twilightforest-1.21.1-4.8.3345-universal.jar"
+server_side = true
+client_side = true
+
+[mods.vampires-delight]
+name = "vampires-delight"
+version = "*"
+
+[mods.vampires-need-umbrellas]
+name = "vampires-need-umbrellas"
+version = "*"
+
+[mods.vampirism]
+name = "vampirism"
+version = "*"
+
+[mods.vampirism-integrations]
+name = "vampirism-integrations"
+version = "*"
+
+[mods.waystones]
+name = "waystones"
+version = "*"
+
+[mods.xaeros-minimap]
+name = "xaeros-minimap"
+version = "*"
+
+[mods.xaeros-world-map]
+name = "xaeros-world-map"
+version = "*"
+
+[mods.yggdrasil-structure]
+name = "yggdrasil-structure"
+version = "*"
+
+[mods.yungs-better-caves]
+name = "yungs-better-caves"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-desert-temples]
+name = "yungs-better-desert-temples"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-dungeons]
+name = "yungs-better-dungeons"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-jungle-temples]
+name = "yungs-better-jungle-temples"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-mineshafts]
+name = "yungs-better-mineshafts"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-nether-fortresses]
+name = "yungs-better-nether-fortresses"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-ocean-monuments]
+name = "yungs-better-ocean-monuments"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-strongholds]
+name = "yungs-better-strongholds"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-better-witch-huts]
+name = "yungs-better-witch-huts"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.yungs-bridges]
+name = "yungs-bridges"
+version = "*"
+server_side = true
+client_side = true
+
+[files."./client/config/cubes_without_borders.json"]
+target_path = "config/cubes_without_borders.json"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/config/plasmovoice/client.toml"]
+target_path = "config/plasmovoice/client.toml"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/config/xaerominimap.txt"]
+target_path = "config/xaerominimap.txt"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/options.txt"]
+target_path = "options.txt"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/resourcepacks/Better-Leaves-9.5.zip"]
+target_path = "resourcepacks/Better-Leaves-9.5.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/Better-Leaves-Hexerei.zip"]
+target_path = "resourcepacks/Better-Leaves-Hexerei.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/Chickens Dont Click.zip"]
+target_path = "resourcepacks/Chickens Dont Click.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/CobbleFolk Skin Pack (for 1.6).zip"]
+target_path = "resourcepacks/CobbleFolk Skin Pack (for 1.6).zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/Excalibur_V1.21.11.zip"]
+target_path = "resourcepacks/Excalibur_V1.21.11.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/Faithful 32x - 1.21.1.zip"]
+target_path = "resourcepacks/Faithful 32x - 1.21.1.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/resourcepacks/TwilightJAPPAPack-1.21.1-1.2.0.zip"]
+target_path = "resourcepacks/TwilightJAPPAPack-1.21.1-1.2.0.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/servers.dat"]
+target_path = "servers.dat"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/shaderpacks/ComplementaryReimagined_r5.7.1.zip"]
+target_path = "shaderpacks/ComplementaryReimagined_r5.7.1.zip"
+side = "Client"
+apply_policy = "Always"
+
+[files."./client/shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt"]
+target_path = "shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt"
+side = "Client"
+apply_policy = "Once"
+
+[files."./common/config/Weather2"]
+target_path = "config/Weather2"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/aiimprovements-common.toml"]
+target_path = "config/aiimprovements-common.toml"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/dangerous-common.toml"]
+target_path = "config/dangerous-common.toml"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/effortless.toml"]
+target_path = "config/effortless.toml"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/enhancedcelestials2core/translations.json"]
+target_path = "config/enhancedcelestials2core/translations.json"
+side = "Both"
+apply_policy = "MergeOverwrite"
+
+[files."./common/config/iceandfire/iaf-common.json"]
+target_path = "./config/iceandfire/iaf-common.json"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/irons_spellbooks_spell_config/irons_spellbooks/angel_wing.json"]
+target_path = "./config/irons_spellbooks_spell_config/irons_spellbooks/angel_wing.json"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"]
+target_path = "./config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/item_obliterator.json5"]
+target_path = "config/item_obliterator.json5"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/lithium.properties"]
+target_path = "config/lithium.properties"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/sound_physics_remastered/soundphysics.properties"]
+target_path = "./config/sound_physics_remastered/soundphysics.properties"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/sparsestructures.json5"]
+target_path = "config/sparsestructures.json5"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/treechop-common.toml"]
+target_path = "config/treechop-common.toml"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/scripts/gating_and_balance.zs"]
+target_path = "scripts/gating_and_balance.zs"
+side = "Both"
+apply_policy = "Always"
+
+[files."./server/config/AdvancedBackups.properties"]
+target_path = "config/AdvancedBackups.properties"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/config/carryon-common.toml"]
+target_path = "config/carryon-common.toml"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/config/plasmovoice/server/config.toml"]
+target_path = "config/plasmovoice/server/config.toml"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/config/rats-common.toml"]
+target_path = "config/rats-common.toml"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/magik/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
+target_path = "magik/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/magik/datapacks/vampirism-tweaks/data/vampirism/data_maps/entity_type/entity_blood.json"]
+target_path = "./magik/datapacks/vampirism-tweaks/data/vampirism/data_maps/entity_type/entity_blood.json"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/magik/datapacks/vampirism-tweaks/pack.mcmeta"]
+target_path = "./magik/datapacks/vampirism-tweaks/pack.mcmeta"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/magik/serverconfig"]
+target_path = "magik/serverconfig"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/server.properties"]
+target_path = "server.properties"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/whitelist.json"]
+target_path = "whitelist.json"
+side = "Server"
+apply_policy = "Always"
