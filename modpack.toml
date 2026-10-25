@@ -246,6 +246,10 @@ version = "*"
 name = "deeperdarker"
 version = "*"
 
+[mods.diabolical-islands]
+name = "diabolical-islands"
+version = "*"
+
 [mods.doespotatotick]
 name = "doespotatotick"
 version = "*"
@@ -347,6 +351,12 @@ version = "*"
 [mods.forbidden-arcanus]
 name = "forbidden-arcanus"
 version = "*"
+
+[mods.forgiving-void]
+name = "forgiving-void"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.ftb-library]
 name = "ftb-library"

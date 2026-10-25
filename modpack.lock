@@ -1227,6 +1227,19 @@ sha1 = "b6094adde68bd4b909bc75c64901e1f3fb99ad8f"
 sha512 = "38d8d87878f39a063feb029db17702bedadf7554233ae56db6018c21225b6dff4d4cc31f4b0995254fd488e2a687f3b15bf9647c59dd42b9032791d34316ed0c"
 filename = "deeperdarker-neoforge-1.21.1-1.4.1.jar"
 
+[mods.diabolical-islands]
+version = "1.0.0+mod"
+server_side = true
+client_side = true
+
+[[mods.diabolical-islands.source]]
+
+[mods.diabolical-islands.source.Download]
+url = "https://cdn.modrinth.com/data/t9gPp1Gu/versions/MonIzXwI/diabolical-islands-1.0.0.jar"
+sha1 = "31c9067be88e3fc603724c73ee7f0151ae7f0bc8"
+sha512 = "8bcbd8b3c00817eb1b67cb9fdc39ad3ac89fecfc30760544fb8b61f6acdba8a11762f984c12a48b8fe1bdd90641c6cae42f13cf8abf11ecccffd0f0a55179dec"
+filename = "diabolical-islands-1.0.0.jar"
+
 [mods.doespotatotick]
 version = "Unknown"
 server_side = true
@@ -1626,6 +1639,24 @@ url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/r9lM1yuJ/ForgeEndertech-1
 sha1 = "57552932d2b40961fe80eeca4937b917fe166ceb"
 sha512 = "76886ee847cc140239fd430ddec2739affb4f0b7054084ca6a17ba27ddf8be480ea72a5ebbd459c1cde583a7f152f7589f59c46a754c9fcab277aa3d119a4a8a"
 filename = "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
+
+[mods.forgiving-void]
+version = "21.1.7+neoforge-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.forgiving-void.source]]
+
+[mods.forgiving-void.source.Download]
+url = "https://cdn.modrinth.com/data/1vkzEZjE/versions/dtmmErtS/forgivingvoid-neoforge-1.21.1-21.1.7.jar"
+sha1 = "8eb50b420793821cb1251f7a15b4f7c4a15ba2c2"
+sha512 = "2f6f77d90ee117efbd14737a7ef58afce1c80074b0cec7045b2a6b5faf657577ebc3fb835d2e15b76936c8e83e7454fa1c6a2d96b7e0e042f51bcf82edce602c"
+filename = "forgivingvoid-neoforge-1.21.1-21.1.7.jar"
+
+[[mods.forgiving-void.deps]]
+name = "balm"
+version = "21.0.66+neoforge-1.21.1"
+providers = ["Modrinth"]
 
 [mods.ftb-library]
 version = "Unknown"
