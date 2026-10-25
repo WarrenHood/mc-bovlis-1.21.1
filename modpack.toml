@@ -947,13 +947,13 @@ target_path = "config/rats-common.toml"
 side = "Server"
 apply_policy = "Always"
 
-[files."./server/magik/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
-target_path = "magik/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
+[files."./server/bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"]
+target_path = "bovlis/datapacks/CobbleTowns-UnofficialUpdate1.21.1.zip"
 side = "Server"
 apply_policy = "Always"
 
-[files."./server/magik/serverconfig"]
-target_path = "magik/serverconfig"
+[files."./server/bovlis/serverconfig"]
+target_path = "bovlis/serverconfig"
 side = "Server"
 apply_policy = "Always"
 
