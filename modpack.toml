@@ -384,6 +384,12 @@ version = "*"
 name = "immediatelyfast"
 version = "*"
 
+[mods.immersive-aircraft]
+name = "immersive-aircraft"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.immersive-melodies]
 name = "immersive-melodies"
 version = "*"

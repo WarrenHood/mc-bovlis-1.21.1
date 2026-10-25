@@ -1743,6 +1743,20 @@ sha1 = "f991166f7c82b493481c876e3c83c9fac4159671"
 sha512 = "c115cad7b060373fc597aae08c685e2d56f173b88b792a4a2c229e222f8da293b99865e9553cf716483d3c3d6a18f31c51c5dd55be22d4625ed2c962d7b94fd0"
 filename = "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar"
 
+[mods.immersive-aircraft]
+version = "1.7.0+1.21.1"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.immersive-aircraft.source]]
+
+[mods.immersive-aircraft.source.Download]
+url = "https://cdn.modrinth.com/data/x3HZvrj6/versions/xO17G766/immersive_aircraft-neoforge-1.7.0%2B1.21.1.jar"
+sha1 = "5cf33cd634a88ec5728668bf13421645f11fbbe4"
+sha512 = "a5dbd47dc22aaaeb7bc0151af98ae8b1c53b41e6fb14ada56586dc721142e51f95a681dff146f2f93df011e63ef74e6cc475be20124713ff2c4134cd2ce66294"
+filename = "immersive_aircraft-neoforge-1.7.0+1.21.1.jar"
+
 [mods.immersive-melodies]
 version = "0.8.0+1.21.1"
 server_side = true
