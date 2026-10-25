@@ -48,14 +48,6 @@ version = "*"
 name = "appleskin"
 version = "*"
 
-[mods.aquaculture]
-name = "aquaculture"
-version = "*"
-
-[mods.aquaculture-delight]
-name = "aquaculture-delight"
-version = "*"
-
 [mods.ars-additions]
 name = "ars-additions"
 version = "*"
@@ -88,16 +80,8 @@ version = "*"
 name = "badoptimizations"
 version = "*"
 
-[mods.better-archeology]
-name = "better-archeology"
-version = "*"
-
 [mods.betterf3]
 name = "betterf3"
-version = "*"
-
-[mods.block-runner]
-name = "block-runner"
 version = "*"
 
 [mods.bloodlines]
@@ -134,10 +118,6 @@ version = "*"
 
 [mods.cobblemon]
 name = "cobblemon"
-version = "*"
-
-[mods.cobblemon-alpha-project]
-name = "cobblemon-alpha-project"
 version = "*"
 
 [mods.cobblemon-fight-or-flight-reborn]
