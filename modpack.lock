@@ -363,6 +363,29 @@ name = "mekanism"
 version = "10.7.19.85"
 providers = ["Modrinth"]
 
+[mods.applied-tacz]
+version = "1.21.1-19.0.1"
+server_side = true
+client_side = true
+
+[[mods.applied-tacz.source]]
+
+[mods.applied-tacz.source.Download]
+url = "https://cdn.modrinth.com/data/PtRJTvUr/versions/B5x1pNr3/AppliedTaCZ-1.21.1-19.0.1.jar"
+sha1 = "bbf06ceb28e506ca72fffb1b74c281db9dbf59ce"
+sha512 = "e0ea618b3b7047becbca370195178347dff62dce87c9da7b644ae07974470044e919b97581f2513213d07f6e77fe10ce17c1df7ebad28a46a5e320b1205e1aa3"
+filename = "AppliedTaCZ-1.21.1-19.0.1.jar"
+
+[[mods.applied-tacz.deps]]
+name = "ae2"
+version = "19.2.18"
+providers = ["Modrinth"]
+
+[[mods.applied-tacz.deps]]
+name = "tacz-1.21.1"
+version = "1.1.8-hotfix-r7"
+providers = ["Modrinth"]
+
 [mods.architectury-api]
 version = "13.0.11+neoforge"
 server_side = true
@@ -3174,6 +3197,63 @@ url = "https://cdn.modrinth.com/data/guitPqEi/versions/px0CCB06/StorageDrawers-n
 sha1 = "b8e11e3d1fd63fd1a0d9277ec3f966c7e5cff385"
 sha512 = "df97b8b5053a902264a236a71e7585b78d9d48a0bce585033aa8b169896d775f6fda462cfc77431af79cc596ab356eb9642e0c69a205a46b02d4d6f7ab3e74e9"
 filename = "StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+
+[mods."tacz-1.21.1"]
+version = "1.1.8-hotfix-r7"
+server_side = true
+client_side = true
+
+[[mods."tacz-1.21.1".source]]
+
+[mods."tacz-1.21.1".source.Download]
+url = "https://cdn.modrinth.com/data/OypNE65K/versions/62q6mB5Q/tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar"
+sha1 = "c6ef4976de69a46c4e267bd7f91c730d2dc43a4e"
+sha512 = "7700ed99a080729c3aa21f9619e018fbe9e2303cfbcaa463175ee5170553a000b692bc4cfa2e8ce0778747eed34dcc0197fb5e4344bb258cff1ba90adc842642"
+filename = "tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar"
+
+[mods.tacz-aeronautics-compat]
+version = "1.8.0"
+server_side = true
+client_side = true
+
+[[mods.tacz-aeronautics-compat.source]]
+
+[mods.tacz-aeronautics-compat.source.Download]
+url = "https://cdn.modrinth.com/data/jgOzA8I4/versions/maK19KHR/tacz_aero_compat-1.8.0.jar"
+sha1 = "119204f6baf382da70903db2c16d7ddde4adbe69"
+sha512 = "b0f33ea2a7c85d00e5c973b7e3433db33d2283ad4005f67e0d7c9f9f87aa5fdbec755d5049ce669644501e3e22e41b1700c6dc5d69f5a71780846d2ce17cc923"
+filename = "tacz_aero_compat-1.8.0.jar"
+
+[mods.tacz-npcs]
+version = "2.1.0"
+server_side = true
+client_side = true
+
+[[mods.tacz-npcs.source]]
+
+[mods.tacz-npcs.source.Download]
+url = "https://cdn.modrinth.com/data/A3oZ8vhW/versions/J6Bjfwku/tacznpcs-2.1.0-1.21.1.jar"
+sha1 = "b5cee6ca3ed5fa1cdef8b3abb39eafd0a13f0bf4"
+sha512 = "3b0a0ee73efc888c7a5fae06087adc6b456b3840f081f04dcdb5cc9ac2dd5e1511dff6ebe76e8c752f1af8a1a639ba40c808cf49efa0c45f1cc01d6e0b4d25af"
+filename = "tacznpcs-2.1.0-1.21.1.jar"
+
+[[mods.tacz-npcs.deps]]
+name = "tacz-1.21.1"
+version = "1.1.8-hotfix-r7"
+providers = ["Modrinth"]
+
+[mods.taczaddon]
+version = "1.1.8.3"
+server_side = true
+client_side = true
+
+[[mods.taczaddon.source]]
+
+[mods.taczaddon.source.Download]
+url = "https://cdn.modrinth.com/data/3Ihyt5WL/versions/QK3Z3Gsy/taczaddon-1.1.8.3-neoforge-1.21.1.jar"
+sha1 = "c699de9a0dcaa91bad0e23cd31cbd81abb7835bc"
+sha512 = "9c461ed6feea1b415d96bad2274731b809037031534d47b0b2d3ccd67a2ff543dbcefc282385f846bfa0d2b8d25d69b3325c8a2d3837bf6d3f5ac68f2d05b151"
+filename = "taczaddon-1.1.8.3-neoforge-1.21.1.jar"
 
 [mods.terrablender]
 version = "4.1.0.8"

@@ -86,6 +86,10 @@ version = "*"
 name = "applied-mekanistics"
 version = "*"
 
+[mods.applied-tacz]
+name = "applied-tacz"
+version = "*"
+
 [mods.ars-additions]
 name = "ars-additions"
 version = "*"
@@ -696,6 +700,22 @@ version = "*"
 
 [mods.storagedrawers]
 name = "storagedrawers"
+version = "*"
+
+[mods."tacz-1.21.1"]
+name = "tacz-1.21.1"
+version = "*"
+
+[mods.tacz-aeronautics-compat]
+name = "tacz-aeronautics-compat"
+version = "*"
+
+[mods.tacz-npcs]
+name = "tacz-npcs"
+version = "*"
+
+[mods.taczaddon]
+name = "taczaddon"
 version = "*"
 
 [mods.terrablender]
