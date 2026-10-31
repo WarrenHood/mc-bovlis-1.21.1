@@ -83,20 +83,6 @@ name = "owo-lib"
 version = "0.12.15.6-beta.1+1.21"
 providers = ["Modrinth"]
 
-[mods.aetherial-islands]
-version = "2.0.2+mod"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.aetherial-islands.source]]
-
-[mods.aetherial-islands.source.Download]
-url = "https://cdn.modrinth.com/data/CHh9WEKT/versions/kcSMOEhD/aetherial-islands-2.0.2.jar"
-sha1 = "93dea890d111c115a88fb9a0a275473f90e99be9"
-sha512 = "af850919b5d43c74bcfdcc462bc2e9e756127855cacf744c8c405be0c8a985b040b3b559bf956a5176dddef760902d84e1ba25a434e5dd64b55a4c8134f2fc2a"
-filename = "aetherial-islands-2.0.2.jar"
-
 [mods.ai-improvements]
 version = "0.5.3"
 server_side = true
@@ -2814,24 +2800,6 @@ sha1 = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
 sha512 = "fc564e55e8cc2050261db9540afbdbab9ebf6559c1c5cae58ab4a3d4d1b7f1b0842459e5ea1bc780e03fed620a0a2af6bbe1eace037d6a1411ae853dc5e77dae"
 filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
 
-[mods.no-void-structures]
-version = "2.0.1+mod"
-server_side = true
-client_side = true
-
-[[mods.no-void-structures.source]]
-
-[mods.no-void-structures.source.Download]
-url = "https://cdn.modrinth.com/data/iWMeHtdv/versions/T0kgpBJv/no-void-structures-2.0.1.jar"
-sha1 = "4b99d747c3e60f0ebe55a9bcc764a22077d7c977"
-sha512 = "6d5f63f97733d3b4dc0beeaae400b52c32591446b2dbdb66e86e4fd8b71b576d5b1031da5067ffdd7dac19eee3e79a0daccc469087ceac959888816d505ae625"
-filename = "no-void-structures-2.0.1.jar"
-
-[[mods.no-void-structures.deps]]
-name = "lithostitched"
-version = "1.8.1-neoforge-21.1"
-providers = ["Modrinth"]
-
 [mods.noisium]
 version = "2.3.0+mc1.21-1.21.1"
 server_side = true
@@ -3443,6 +3411,19 @@ name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.skylands-over-the-sea]
+version = "3.0.2+mod"
+server_side = true
+client_side = true
+
+[[mods.skylands-over-the-sea.source]]
+
+[mods.skylands-over-the-sea.source.Download]
+url = "https://cdn.modrinth.com/data/WAKcNdAc/versions/BAvqRhwy/skylands-over-the-sea-3.0.2.jar"
+sha1 = "852dd378db4f8d7c58d1f0406ff76e5bbdcab840"
+sha512 = "c3547a3b030c6f0c13cc32101e1ac3dbb0d1cebb28416f146fd592e2409f26402506675aaff636edb2cc00c8e666ca6cbd13e1721770ced4178f8e1d9861383d"
+filename = "skylands-over-the-sea-3.0.2.jar"
+
 [mods.slice-and-dice]
 version = "4.3.4"
 server_side = true
@@ -3748,19 +3729,6 @@ url = "https://cdn.modrinth.com/data/HsdNFinx/versions/cttRekq9/valhelsia_core-n
 sha1 = "018cfbf150953b9f23923e6d6c760f102583b28f"
 sha512 = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
 filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
-
-[mods.void-world-structures-fix]
-version = "Unknown"
-server_side = true
-client_side = true
-
-[[mods.void-world-structures-fix.source]]
-
-[mods.void-world-structures-fix.source.Download]
-url = "https://github.com/WarrenHood/void-world-structure-fix/releases/download/1.0.0/ae2voidfloatingislandsfix-1.0.0.jar"
-sha1 = "00eb36c83a524171875ea067bbe25d3e85936e26"
-sha512 = "a6b1fe5066996a68c100d9f7ee369bb75e1cb7486b4baab444799d4b5a25d5e1b136342d58072685442ef8b9816ebadc106180834799a53007d4f3a5e8cc1767"
-filename = "ae2voidfloatingislandsfix-1.0.0.jar"
 
 [mods.waystones]
 version = "21.1.46+neoforge-1.21.1"

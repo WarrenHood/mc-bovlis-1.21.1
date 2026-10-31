@@ -26,12 +26,6 @@ version = "*"
 name = "aether"
 version = "*"
 
-[mods.aetherial-islands]
-name = "aetherial-islands"
-version = "*"
-server_side = true
-client_side = true
-
 [mods.ai-improvements]
 name = "ai-improvements"
 version = "*"
@@ -614,12 +608,6 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
-[mods.no-void-structures]
-name = "no-void-structures"
-version = "*"
-server_side = true
-client_side = true
-
 [mods.noisium]
 name = "noisium"
 version = "*"
@@ -740,6 +728,12 @@ version = "*"
 name = "sky-whales"
 version = "*"
 
+[mods.skylands-over-the-sea]
+name = "skylands-over-the-sea"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.slice-and-dice]
 name = "slice-and-dice"
 version = "*"
@@ -823,14 +817,6 @@ name = "twilightforest"
 version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/7797/302/twilightforest-1.21.1-4.8.3345-universal.jar"
-server_side = true
-client_side = true
-
-[mods.void-world-structures-fix]
-name = "void-world-structures-fix"
-version = "*"
-providers = ["Raw"]
-download_url = "https://github.com/WarrenHood/void-world-structure-fix/releases/download/1.0.0/ae2voidfloatingislandsfix-1.0.0.jar"
 server_side = true
 client_side = true
 
