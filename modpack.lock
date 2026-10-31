@@ -47,6 +47,24 @@ name = "guideme"
 version = "21.1.20"
 providers = ["Modrinth"]
 
+[mods.aero_cam_sync]
+version = "1.4.0"
+server_side = true
+client_side = true
+
+[[mods.aero_cam_sync.source]]
+
+[mods.aero_cam_sync.source.Download]
+url = "https://cdn.modrinth.com/data/ZGxtWu73/versions/UbgVQ0qd/aero_cam_sync-1.4.0.jar"
+sha1 = "d2abb5fee04cfc0b71aace1cba9fd426e49babf4"
+sha512 = "0af37dcf2d90c262858d07861243c0800a2aa72254a18eacf093de9a07cdaa5a51f9cfd9ca5f32a7efccf9a0936cfcda0ee9fbbb252b00377db21a3af6dffb4b"
+filename = "aero_cam_sync-1.4.0.jar"
+
+[[mods.aero_cam_sync.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.aether]
 version = "1.21.1-1.5.10-neoforge"
 server_side = true
@@ -690,19 +708,6 @@ sha1 = "bc86c776779b16dec386f4b667ff46d9e2ecb88d"
 sha512 = "2d4d264564d12784f5425177fb1b88b5ec0d1672c0957d6a78eb1e12ffa5e0e31a7f85f8beb9c02df0489043f5d2ae5889fc3f589e8e5f8ee7971a458ba0f34d"
 filename = "BrewinAndChewin-neoforge-4.5.0+1.21.1.jar"
 
-[mods.c2me-neoforge]
-version = "0.4.0-alpha.0.123+1.21.1"
-server_side = true
-client_side = true
-
-[[mods.c2me-neoforge.source]]
-
-[mods.c2me-neoforge.source.Download]
-url = "https://cdn.modrinth.com/data/COlSi5iR/versions/avwWYPbG/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar"
-sha1 = "50fe2e38c6369b51e4dee1106d0295185e6251c4"
-sha512 = "c7c485d856fa0118694ae8484e85a714db92ce7886195dbc355257d59d4254da2ce537ac18da8e05c9786c3a98f70cc5ffdfd089ad23b6822f854d72f3caa62d"
-filename = "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar"
-
 [mods.caelus]
 version = "7.0.1+1.21.1"
 server_side = true
@@ -797,6 +802,29 @@ url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/1ewzHZYg/cc-tweaked-1.21.
 sha1 = "f35d4f636c2eb1b30c5d3f5c08e110c6acb8e02f"
 sha512 = "009fcf48b7d123018a61b2c55f0fede7dd1f6a6325226bf9cc926342185ca8a7e059e13662816d24595aac243abf622b682583631cfe42c3757505b2e864ff73"
 filename = "cc-tweaked-1.21.1-forge-1.120.2.jar"
+
+[mods.cccbridge]
+version = "1.7.3"
+server_side = true
+client_side = true
+
+[[mods.cccbridge.source]]
+
+[mods.cccbridge.source.Download]
+url = "https://cdn.modrinth.com/data/fXt291FO/versions/MKK6cYI5/cccbridge-mc1.21.1-v1.7.3-neoforge.jar"
+sha1 = "2f0df007d6ed849266a505f0854ab07f55a58b41"
+sha512 = "bcface30c088371b080ad998a521968d921b814a5d293492e9c5f37ed29630610bbaeb18f3aeaa93d48b2f2c54cd2a21a62130cfab97ce52031218ad7f415a45"
+filename = "cccbridge-mc1.21.1-v1.7.3-neoforge.jar"
+
+[[mods.cccbridge.deps]]
+name = "cc-tweaked"
+version = "1.120.2"
+providers = ["Modrinth"]
+
+[[mods.cccbridge.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
 
 [mods.cerbons-api]
 version = "1.3.0"
@@ -897,6 +925,24 @@ filename = "Controlling-neoforge-1.21.1-19.0.5.jar"
 [[mods.controlling.deps]]
 name = "searchables"
 version = "1.0.2"
+providers = ["Modrinth"]
+
+[mods.copycats]
+version = "3.0.9+mc.1.21.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.copycats.source]]
+
+[mods.copycats.source.Download]
+url = "https://cdn.modrinth.com/data/UT2M39wf/versions/bPYeUWZx/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar"
+sha1 = "74de17876c43f5f780bac478b9f9eb11e687b8d7"
+sha512 = "432b5cde473976476b0729172710d32805576d0c3a5fd66d21f882d96cef0c4eef1b85e4e3a1a316e2adc473784b11e156b0265b0f62bcfd5b035a6ff7dfcc6e"
+filename = "copycats-3.0.9+mc.1.21.1-neoforge.jar"
+
+[[mods.copycats.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
 [mods.corgilib]
@@ -1005,6 +1051,42 @@ sha1 = "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373"
 sha512 = "05daa85e4bac2bf402a5d9a9210ee4375703690a0d40a7db71a7b1fc307430700b2ae3777aa9bb76c01bd5ab24883f32a007c6455b4aac80a80dcf75fcf3f562"
 filename = "aeronauticsdiscovery-2.2.0.jar"
 
+[mods.create-aeronautics-transmission-linkage]
+version = "0.2.8"
+server_side = true
+client_side = true
+
+[[mods.create-aeronautics-transmission-linkage.source]]
+
+[mods.create-aeronautics-transmission-linkage.source.Download]
+url = "https://cdn.modrinth.com/data/Y1dq5ioE/versions/FCZZ3ED4/create_aeronautics_transmission_linkage-0.2.8.jar"
+sha1 = "bccaf90652905ae5f28dcc7e1134099d188ca020"
+sha512 = "af637fc793448928354cb453f794ce08fa14694250a377ae67d4a2d40db7c4a00adcb9f980387947c264e74c575939e9f525ef1f1443b8471c10bf72c52000a5"
+filename = "create_aeronautics_transmission_linkage-0.2.8.jar"
+
+[mods.create-aeroworks]
+version = "1.5.0+mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-aeroworks.source]]
+
+[mods.create-aeroworks.source.Download]
+url = "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar"
+sha1 = "0dffcd74781e2f7d0495c4aad1165eb3473476ec"
+sha512 = "d79435aaf9c8d8697d1cb5a95b2189ab00ac1387dcbcdc0fbd701a25a22678eba2107e55b8da47bf0089282280ee2b3ff36418d9d7bda744b210d5fa5f4ca697"
+filename = "aeroworks-1.5.0.jar"
+
+[[mods.create-aeroworks.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-aeroworks.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-applied-kinetics]
 version = "1.5.4"
 server_side = true
@@ -1017,6 +1099,47 @@ url = "https://cdn.modrinth.com/data/mYGTCuZY/versions/Sk7TlTkT/createappliedkin
 sha1 = "dd2df3b8febb78721be502aceff16af979a91314"
 sha512 = "1542a8395c91ff8de610206484c3a7acd2b0519854bc3a07e13a0d1230917e4f60a10cc3178de4bd01df733dca05d0a1ccdbf9f855c3252297cf0bbfb23a37ff"
 filename = "createappliedkinetics-1.5.4-1.21.1.jar"
+
+[mods.create-big-cannons]
+version = "5.11.7"
+server_side = true
+client_side = true
+
+[[mods.create-big-cannons.source]]
+
+[mods.create-big-cannons.source.Download]
+url = "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar"
+sha1 = "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d"
+sha512 = "24f414dfbb973a0f4d9c9b2aa059edc7bed4d23b4f39eb1f7d23a1d6b437e3b5d64cca6e4b85ff7eb2815743fa711d54ad652bffe96d1eb1234544716006440d"
+filename = "createbigcannons-5.11.7+mc.1.21.1.jar"
+
+[[mods.create-big-cannons.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-big-cannons.deps]]
+name = "rpl"
+version = "2.1.2"
+providers = ["Modrinth"]
+
+[mods.create-connected]
+version = "1.3.3-mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-connected.source]]
+
+[mods.create-connected.source.Download]
+url = "https://cdn.modrinth.com/data/Vg5TIO6d/versions/Xe7EqzfQ/create_connected-1.3.3-mc1.21.1.jar"
+sha1 = "96ae45fa44cd7028a31b9613cb672009e811b145"
+sha512 = "485675693980a266611669857fa9cd348e2a29140b87bf0a8ab3e13c3591422cceaa36b7a2eb90084d35ec1868c8eec9f924383bb4dada2dddcb72e9f09361b0"
+filename = "create_connected-1.3.3-mc1.21.1.jar"
+
+[[mods.create-connected.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
 
 [mods.create-cosmonatics]
 version = "26.08.307"
@@ -1120,6 +1243,127 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-dragons-plus]
+version = "1.11.9"
+server_side = true
+client_side = true
+
+[[mods.create-dragons-plus.source]]
+
+[mods.create-dragons-plus.source.Download]
+url = "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar"
+sha1 = "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb"
+sha512 = "43299e49afe7132515aa8ad545b8c9566d90f12cfb39456b3d6e1ebc8e03f05787fbc420e7cc9495df4d6b585d13e7a4c4c7385f82f20aeb829c9491b725af53"
+filename = "CreateDragonsPlus-1.11.9.jar"
+
+[[mods.create-dragons-plus.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-enchantment-industry]
+version = "2.5.4b"
+server_side = true
+client_side = true
+
+[[mods.create-enchantment-industry.source]]
+
+[mods.create-enchantment-industry.source.Download]
+url = "https://cdn.modrinth.com/data/JWGBpFUP/versions/L6VSDdC4/create-enchantment-industry-2.5.4b.jar"
+sha1 = "48be078caf6be2b3e43787418625618dc39b7ae1"
+sha512 = "c3d8511f5eec5a4ec7240f69cf6952038d72d4e32b48a0ace7b10d729a4073c1181e6dbcb2f1a1841480e5fc7bc7da3833b8ed4793dd0c3cc057eb8ac488eb3d"
+filename = "create-enchantment-industry-2.5.4b.jar"
+
+[[mods.create-enchantment-industry.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-enchantment-industry.deps]]
+name = "create-dragons-plus"
+version = "1.11.9"
+providers = ["Modrinth"]
+
+[mods.create-garnished]
+version = "2.1.9.2+1.21.1-neoforged"
+server_side = true
+client_side = true
+
+[[mods.create-garnished.source]]
+
+[mods.create-garnished.source.Download]
+url = "https://cdn.modrinth.com/data/6e2SlzR4/versions/EKUHxs6i/garnished-2.1.9.2%2B1.21.1-neoforged.jar"
+sha1 = "93f86f9a2e3e23c8c20761f8d7acdd625ad49a6f"
+sha512 = "fe29eb676d6534e0063d1b7468130ad298bd40ac4c9e6703aee622d504da3cdca943dce22a815921d6291bf2f08a431ae671d6d165aaa5d9b4a5bc540928f6b6"
+filename = "garnished-2.1.9.2+1.21.1-neoforged.jar"
+
+[[mods.create-garnished.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-let-the-adventure-begin]
+version = "4.1.0"
+server_side = true
+client_side = true
+
+[[mods.create-let-the-adventure-begin.source]]
+
+[mods.create-let-the-adventure-begin.source.Download]
+url = "https://cdn.modrinth.com/data/fUa6OtBG/versions/dQQazoxf/create_ltab-4.1.0.jar"
+sha1 = "c5725961ba8585693a84cf06becb21e8f4b13f11"
+sha512 = "05d2c6df728fbfe8d3522ffd88be492be5dfa6f06c806dc1f6d948afff39455f695add1edbb38fee2ed7f197668d13b5d72909bc60192c40d94df3ff0048d138"
+filename = "create_ltab-4.1.0.jar"
+
+[mods.create-metallurgy]
+version = "1.0.3-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-metallurgy.source]]
+
+[mods.create-metallurgy.source.Download]
+url = "https://cdn.modrinth.com/data/Soft45xC/versions/4RhIMmaJ/createmetallurgy-1.0.3-1.21.1.jar"
+sha1 = "ece75dfa1eb907bce3ace729c0144df0b2451673"
+sha512 = "e052bddbeb39b68c1482cfe2ebf9919db17d40d71e9f46f96375d82ec876dc0abb4e15b2c14cd1a9e7636d7f80166b2ec336507df7fcc452fd871cc4873ef881"
+filename = "createmetallurgy-1.0.3-1.21.1.jar"
+
+[[mods.create-metallurgy.deps]]
+name = "create"
+version = "mc1.21.1-6.0.9"
+providers = ["Modrinth"]
+
+[mods.create-new-age]
+version = "1.2.0+mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-new-age.source]]
+
+[mods.create-new-age.source.Download]
+url = "https://cdn.modrinth.com/data/FTeXqI9v/versions/IwtuwMZy/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar"
+sha1 = "849df57070ffa75c2446b9c460d03f6b49fa089e"
+sha512 = "5075c6482b800af7044b594ad694855e7d56f386cb0354967eafe99d77e84b4e26ee7f880d287672d24d84ea8086fd074b7695e46632f32f215b31ce859ada72"
+filename = "create-new-age-1.2.0+neoforge-mc1.21.1.jar"
+
+[[mods.create-new-age.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-propulsion-simulated]
+version = "1.1.5"
+server_side = true
+client_side = true
+
+[[mods.create-propulsion-simulated.source]]
+
+[mods.create-propulsion-simulated.source.Download]
+url = "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar"
+sha1 = "928e9428ee92d07426c296b04a7fffb1e737e290"
+sha512 = "6096c9c5cb220219a0b58b56f9fefd63f8b79a0967d326727b4206d62df1813da73956aeae2fa5b839160a1bb5af8e099726d12d2d93f10e5f157beb85bb9c52"
+filename = "createpropulsion-1.1.5.jar"
+
 [mods.create-smog]
 version = "0.5.0"
 server_side = true
@@ -1137,6 +1381,19 @@ filename = "smog-0.5.0+mc1.21.1.jar"
 name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
+
+[mods.createaddition]
+version = "neoforge-1.21.1-1.7.2"
+server_side = true
+client_side = true
+
+[[mods.createaddition.source]]
+
+[mods.createaddition.source.Download]
+url = "https://cdn.modrinth.com/data/kU1G12Nn/versions/hsjVajlP/createaddition-1.7.2.jar"
+sha1 = "8e7158d3144b1ee97e58092fe006675b0e09f6d8"
+sha512 = "f3a3ddb5600189da818fc71ea659d17f0d1097c5ad664433eed400b3ecc67d0f9305b348e5b7c5fd872d7a6e51330c7158b3181e77192c576c205a74dd0298ff"
+filename = "createaddition-1.7.2.jar"
 
 [mods.creativecore]
 version = "2.13.51"
@@ -2357,6 +2614,24 @@ sha1 = "b78945c40cfe7640408f3fd1e44da385a8c8b805"
 sha512 = "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b"
 filename = "Mekanism-1.21.1-10.7.19.85.jar"
 
+[mods.mekanism-generators]
+version = "10.7.19.85"
+server_side = true
+client_side = true
+
+[[mods.mekanism-generators.source]]
+
+[mods.mekanism-generators.source.Download]
+url = "https://cdn.modrinth.com/data/OFVYKsAk/versions/a6gl7srE/MekanismGenerators-1.21.1-10.7.19.85.jar"
+sha1 = "44c4d8006597580ff7e4101b5a22f7b426cdcaf6"
+sha512 = "6c3d5b7ea2f67f43c3d169c97de2855a7085f38019cf426e015ccc8ca9bc4f66e96b1cdf4a9afdc92bef7b2e236f16c81415ed5e48736805d5961d29525316d6"
+filename = "MekanismGenerators-1.21.1-10.7.19.85.jar"
+
+[[mods.mekanism-generators.deps]]
+name = "mekanism"
+version = "10.7.19.85"
+providers = ["Modrinth"]
+
 [mods.mekanism-tools]
 version = "10.7.19.85"
 server_side = true
@@ -2770,6 +3045,29 @@ sha1 = "fa6c5fa8a21229c85d564b47c73df7160b3bd4df"
 sha512 = "dce77fffebae80532fec39d35c9c8b5817ba756bb03569022cc0854a8a6cf1868690f91451b587bd60d813e8403b5de91adbc324796bc423ef28deecfb13c775"
 filename = "polymorph-neoforge-1.2.0+1.21.1.jar"
 
+[mods.power-grid]
+version = "0.6.2"
+server_side = true
+client_side = true
+
+[[mods.power-grid.source]]
+
+[mods.power-grid.source.Download]
+url = "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar"
+sha1 = "e09452dac8202e31f282149d45c49dcdb218bd54"
+sha512 = "60307e23a27526d22bf753d387edef5a2f2a063a04a47b69e98b7f71bbad32fdf17e05f9838008e47a5999a60e5e77a91f0695215d0ab57694f0034fde9873ca"
+filename = "powergrid-mc1.21.1-0.6.2.jar"
+
+[[mods.power-grid.deps]]
+name = "architectury-api"
+version = "13.0.11+neoforge"
+providers = ["Modrinth"]
+
+[[mods.power-grid.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.prickle]
 version = "21.1.11"
 server_side = true
@@ -2873,6 +3171,19 @@ name = "plasmo-voice"
 version = "neoforge-1.21.1-2.2.0-beta.2"
 providers = ["Modrinth"]
 
+[mods.railways-untold]
+version = "1.2.2"
+server_side = true
+client_side = true
+
+[[mods.railways-untold.source]]
+
+[mods.railways-untold.source.Download]
+url = "https://cdn.modrinth.com/data/R7r9n6Wu/versions/guWxFvi4/railwaysuntold-1.21.1-neoforge-1.2.2.jar"
+sha1 = "a6ca8ffa029f97b82d371d4b80bc0d25abb07a48"
+sha512 = "36f7f2f6717ec251bb4b8aa9cae3d50d272efe0fa8a47066dbd7cb44ebf88bb21b4a5f377001cec6c17f9d2dc963117e4ed524c22dca9602af63679c5183e308"
+filename = "railwaysuntold-1.21.1-neoforge-1.2.2.jar"
+
 [mods.realm-rpg-fallen-adventurers]
 version = "1.1.0"
 server_side = true
@@ -2975,6 +3286,19 @@ url = "https://cdn.modrinth.com/data/eXrl5E3G/versions/775bsBpl/revelationary-ne
 sha1 = "b4a77518afdb87106b435c0a8c80874f7db60f95"
 sha512 = "203a1d682ceac2da9183ba68f446a40d1ff7e18adfde103f93c77e4466f60408e46844ce4d2fbb9d0f30b1cfec49092235e1adc0ca0fbb2f68cce50fc6cf8ccb"
 filename = "revelationary-neoforge-1.5.2+1.21.1.jar"
+
+[mods.rpl]
+version = "2.1.2"
+server_side = true
+client_side = true
+
+[[mods.rpl.source]]
+
+[mods.rpl.source.Download]
+url = "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar"
+sha1 = "ec2e4996f8bee8714173e603e379fef8a6901765"
+sha512 = "6d64c84505a5a8fbb96d106603065465c5a2314ec09636900c5c1a31014c12fa68f1a41e758313cbf0d6f95d9a1f53bd67339020f7d8db0e184c23f66aee0330"
+filename = "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar"
 
 [mods.runiclib]
 version = "5.0.7"
@@ -3117,6 +3441,29 @@ providers = ["Modrinth"]
 [[mods.sky-whales.deps]]
 name = "sable"
 version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.slice-and-dice]
+version = "4.3.4"
+server_side = true
+client_side = true
+
+[[mods.slice-and-dice.source]]
+
+[mods.slice-and-dice.source.Download]
+url = "https://cdn.modrinth.com/data/GmjmRQ0A/versions/D6mQaFRW/sliceanddice-4.3.4-neoforge.jar"
+sha1 = "bfcb12d13465caf6743f200fbd755b72705011e4"
+sha512 = "18fc9c70d2958ad6a0e7106ca2a5659d664fe9d5001a02afbd0c7d6980749764fcd90203abb2b9c6d7b1c8e564e421be04dfca1aeb25974371d7deeabf4b96a3"
+filename = "sliceanddice-4.3.4-neoforge.jar"
+
+[[mods.slice-and-dice.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.slice-and-dice.deps]]
+name = "kotlin-for-forge"
+version = "5.12.0"
 providers = ["Modrinth"]
 
 [mods.small-ships]

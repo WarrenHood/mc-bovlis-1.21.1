@@ -18,6 +18,10 @@ version = "*"
 name = "ae2"
 version = "*"
 
+[mods.aero_cam_sync]
+name = "aero_cam_sync"
+version = "*"
+
 [mods.aether]
 name = "aether"
 version = "*"
@@ -150,10 +154,6 @@ version = "*"
 name = "brewin-and-chewin"
 version = "*"
 
-[mods.c2me-neoforge]
-name = "c2me-neoforge"
-version = "*"
-
 [mods.caelus]
 name = "caelus"
 version = "*"
@@ -174,6 +174,10 @@ version = "*"
 name = "cc-tweaked"
 version = "*"
 
+[mods.cccbridge]
+name = "cccbridge"
+version = "*"
+
 [mods.chunky]
 name = "chunky"
 version = "*"
@@ -188,6 +192,10 @@ version = "*"
 
 [mods.controlling]
 name = "controlling"
+version = "*"
+
+[mods.copycats]
+name = "copycats"
 version = "*"
 
 [mods.crafting-tweaks]
@@ -210,8 +218,24 @@ version = "*"
 name = "create-aeronautics-discovery"
 version = "*"
 
+[mods.create-aeronautics-transmission-linkage]
+name = "create-aeronautics-transmission-linkage"
+version = "*"
+
+[mods.create-aeroworks]
+name = "create-aeroworks"
+version = "*"
+
 [mods.create-applied-kinetics]
 name = "create-applied-kinetics"
+version = "*"
+
+[mods.create-big-cannons]
+name = "create-big-cannons"
+version = "*"
+
+[mods.create-connected]
+name = "create-connected"
 version = "*"
 
 [mods.create-cosmonatics]
@@ -230,8 +254,36 @@ version = "*"
 name = "create-diesel-generators"
 version = "*"
 
+[mods.create-enchantment-industry]
+name = "create-enchantment-industry"
+version = "*"
+
+[mods.create-garnished]
+name = "create-garnished"
+version = "*"
+
+[mods.create-let-the-adventure-begin]
+name = "create-let-the-adventure-begin"
+version = "*"
+
+[mods.create-metallurgy]
+name = "create-metallurgy"
+version = "*"
+
+[mods.create-new-age]
+name = "create-new-age"
+version = "*"
+
+[mods.create-propulsion-simulated]
+name = "create-propulsion-simulated"
+version = "*"
+
 [mods.create-smog]
 name = "create-smog"
+version = "*"
+
+[mods.createaddition]
+name = "createaddition"
 version = "*"
 
 [mods.cubes-without-borders]
@@ -526,6 +578,10 @@ version = "*"
 name = "mekanism"
 version = "*"
 
+[mods.mekanism-generators]
+name = "mekanism-generators"
+version = "*"
+
 [mods.mekanism-tools]
 name = "mekanism-tools"
 version = "*"
@@ -614,6 +670,10 @@ version = "*"
 name = "polymorph"
 version = "*"
 
+[mods.power-grid]
+name = "power-grid"
+version = "*"
+
 [mods.pufferfishs-unofficial-additions]
 name = "pufferfishs-unofficial-additions"
 version = "*"
@@ -634,6 +694,10 @@ client_side = true
 
 [mods.pv-addon-whisper]
 name = "pv-addon-whisper"
+version = "*"
+
+[mods.railways-untold]
+name = "railways-untold"
 version = "*"
 
 [mods.realm-rpg-fallen-adventurers]
@@ -674,6 +738,10 @@ version = "*"
 
 [mods.sky-whales]
 name = "sky-whales"
+version = "*"
+
+[mods.slice-and-dice]
+name = "slice-and-dice"
 version = "*"
 
 [mods.small-ships]
