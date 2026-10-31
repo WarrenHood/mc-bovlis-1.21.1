@@ -826,6 +826,14 @@ download_url = "https://mediafilez.forgecdn.net/files/7797/302/twilightforest-1.
 server_side = true
 client_side = true
 
+[mods.void-world-structures-fix]
+name = "void-world-structures-fix"
+version = "*"
+providers = ["Raw"]
+download_url = "https://github.com/WarrenHood/void-world-structure-fix/releases/download/1.0.0/ae2voidfloatingislandsfix-1.0.0.jar"
+server_side = true
+client_side = true
+
 [mods.waystones]
 name = "waystones"
 version = "*"

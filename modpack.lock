@@ -3749,6 +3749,19 @@ sha1 = "018cfbf150953b9f23923e6d6c760f102583b28f"
 sha512 = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
 filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
 
+[mods.void-world-structures-fix]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.void-world-structures-fix.source]]
+
+[mods.void-world-structures-fix.source.Download]
+url = "https://github.com/WarrenHood/void-world-structure-fix/releases/download/1.0.0/ae2voidfloatingislandsfix-1.0.0.jar"
+sha1 = "00eb36c83a524171875ea067bbe25d3e85936e26"
+sha512 = "a6b1fe5066996a68c100d9f7ee369bb75e1cb7486b4baab444799d4b5a25d5e1b136342d58072685442ef8b9816ebadc106180834799a53007d4f3a5e8cc1767"
+filename = "ae2voidfloatingislandsfix-1.0.0.jar"
+
 [mods.waystones]
 version = "21.1.46+neoforge-1.21.1"
 server_side = true
