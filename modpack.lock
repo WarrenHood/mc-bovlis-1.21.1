@@ -65,6 +65,29 @@ name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.aerowear]
+version = "1.0.0"
+server_side = true
+client_side = true
+
+[[mods.aerowear.source]]
+
+[mods.aerowear.source.Download]
+url = "https://cdn.modrinth.com/data/dCCUTVG5/versions/u99MUD28/aerowear-1.0.0.jar"
+sha1 = "e1e612a66b9ae420719ba92ecff8ab39b272a411"
+sha512 = "48694c17879a0bdc63c3f15406afdca486375ce4cd68fa915862c12aae3d883a1603e645901474df87f4a2bda83c9e70466d4d60e793cec50619b057af269983"
+filename = "aerowear-1.0.0.jar"
+
+[[mods.aerowear.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.aerowear.deps]]
+name = "curios"
+version = "9.5.1+1.21.1"
+providers = ["Modrinth"]
+
 [mods.aether]
 version = "1.21.1-1.5.10-neoforge"
 server_side = true
@@ -707,6 +730,19 @@ sha1 = "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
 sha512 = "3763f95304ade2bacb217828c74eeef7905a114f71d41537d56121af58c182c2685467a5afb7e03ddb3997ec3d7496bdfdf71a9946a9f33e3470393e7a13306d"
 filename = "caelus-neoforge-7.0.1+1.21.1.jar"
 
+[mods.carry-on]
+version = "2.2.6"
+server_side = true
+client_side = true
+
+[[mods.carry-on.source]]
+
+[mods.carry-on.source.Download]
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/PV8oLZ1q/carryon-neoforge-1.21.1-2.2.6.13.jar"
+sha1 = "2ceb0d9284525b6cb2a214c88cf6511cab91f601"
+sha512 = "e097b11d6f14e0957bab6c0276b81542e786cb86b9c31d9f25975f8c9fb04a734188b8790683298bbc5c695dc3de7d6e947616a20ad26d4a728a3beb0bb78667"
+filename = "carryon-neoforge-1.21.1-2.2.6.13.jar"
+
 [mods.cataclysm-x-bettercombat-compat]
 version = "1.0.2"
 server_side = true
@@ -1037,6 +1073,29 @@ sha1 = "3d180ae4e8c8d5f6a450fbf61e0d1af80ce42373"
 sha512 = "05daa85e4bac2bf402a5d9a9210ee4375703690a0d40a7db71a7b1fc307430700b2ae3777aa9bb76c01bd5ab24883f32a007c6455b4aac80a80dcf75fcf3f562"
 filename = "aeronauticsdiscovery-2.2.0.jar"
 
+[mods.create-aeronautics-gadgets-and-gizmos]
+version = "2.0.0-Pre-Release-5"
+server_side = true
+client_side = true
+
+[[mods.create-aeronautics-gadgets-and-gizmos.source]]
+
+[mods.create-aeronautics-gadgets-and-gizmos.source.Download]
+url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/IDR4lPuz/gadgets-and-gizmos-bundled-2.0.0-Pre-Release-5.jar"
+sha1 = "31f5979d9cda4f261f776122a3c07209a6372c68"
+sha512 = "6021ffdd4e9f9d302f47b4392eb130c093b94baf7968318cc338345506154b0a8bfe55abe0e14d9f976f69677d758d1df6d5debdcd6510ec1ffce140f8f17d4c"
+filename = "gadgets-and-gizmos-bundled-2.0.0-Pre-Release-5.jar"
+
+[[mods.create-aeronautics-gadgets-and-gizmos.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-aeronautics-gadgets-and-gizmos.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-aeronautics-transmission-linkage]
 version = "0.2.8"
 server_side = true
@@ -1268,6 +1327,34 @@ providers = ["Modrinth"]
 [[mods.create-enchantment-industry.deps]]
 name = "create-dragons-plus"
 version = "1.11.9"
+providers = ["Modrinth"]
+
+[mods.create-flight-control]
+version = "0.8.3"
+server_side = true
+client_side = true
+
+[[mods.create-flight-control.source]]
+
+[mods.create-flight-control.source.Download]
+url = "https://cdn.modrinth.com/data/IGVrnkhH/versions/FSr0O2k8/create_flight_control-neoforge-0.8.3.jar"
+sha1 = "6efa89db07e45fe8687e8d1abe8ca284d3fb1630"
+sha512 = "24caa63157564786d944c4a4ad2f63aacfc441bffd4a9e2b83d639412ecb633c6753cb468f114e0fc2a829aa2f18438041defb60dc68d618afa0968bd35fa6fc"
+filename = "create_flight_control-neoforge-0.8.3.jar"
+
+[[mods.create-flight-control.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-flight-control.deps]]
+name = "create-aeronautics"
+version = "1.3.2+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-flight-control.deps]]
+name = "geckolib"
+version = "4.9.3"
 providers = ["Modrinth"]
 
 [mods.create-garnished]

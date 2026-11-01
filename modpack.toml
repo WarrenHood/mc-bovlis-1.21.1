@@ -22,6 +22,10 @@ version = "*"
 name = "aero_cam_sync"
 version = "*"
 
+[mods.aerowear]
+name = "aerowear"
+version = "*"
+
 [mods.aether]
 name = "aether"
 version = "*"
@@ -152,6 +156,10 @@ version = "*"
 name = "caelus"
 version = "*"
 
+[mods.carry-on]
+name = "carry-on"
+version = "*"
+
 [mods.cataclysm-x-bettercombat-compat]
 name = "cataclysm-x-bettercombat-compat"
 version = "*"
@@ -212,6 +220,10 @@ version = "*"
 name = "create-aeronautics-discovery"
 version = "*"
 
+[mods.create-aeronautics-gadgets-and-gizmos]
+name = "create-aeronautics-gadgets-and-gizmos"
+version = "*"
+
 [mods.create-aeronautics-transmission-linkage]
 name = "create-aeronautics-transmission-linkage"
 version = "*"
@@ -250,6 +262,10 @@ version = "*"
 
 [mods.create-enchantment-industry]
 name = "create-enchantment-industry"
+version = "*"
+
+[mods.create-flight-control]
+name = "create-flight-control"
 version = "*"
 
 [mods.create-garnished]
