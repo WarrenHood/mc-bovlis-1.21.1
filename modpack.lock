@@ -449,32 +449,6 @@ name = "curios"
 version = "9.5.1+1.21.1"
 providers = ["Modrinth"]
 
-[mods.ars-elemancy]
-version = "1.17"
-server_side = true
-client_side = true
-
-[[mods.ars-elemancy.source]]
-
-[mods.ars-elemancy.source.Download]
-url = "https://cdn.modrinth.com/data/mR4yp7HM/versions/LMOUcsOQ/ars_elemancy-1.21.1-1.17.jar"
-sha1 = "58d23540e87bf147047b6596c9768e7b88bbb290"
-sha512 = "c271007a8c40e67b184f6f4fd8801e5d9cc070346a30d674f6c3cdefc48a9d8e5d3f9a4d3fc20e66fbce4e11d2e1072d13ec36c99d0db2fe71e35e661d493db8"
-filename = "ars_elemancy-1.21.1-1.17.jar"
-
-[mods.ars-elemental]
-version = "Unknown"
-server_side = true
-client_side = true
-
-[[mods.ars-elemental.source]]
-
-[mods.ars-elemental.source.Download]
-url = "https://mediafilez.forgecdn.net/files/9057/244/ars_elemental-1.21.1-0.7.10.4.jar"
-sha1 = "562f640916aa6f5c83b3b3ee2384ca828b870e01"
-sha512 = "2fe0ec56a0f67c466e6f8fe4c83c93075eb79b32262baef5a0f98b8474d9b3707fd0c0ad1e7b6c63e64a4f3ddd3a3da3eb4cc8ea5ad9052def21cc2d238a7278"
-filename = "ars_elemental-1.21.1-0.7.10.4.jar"
-
 [mods.ars-energistique]
 version = "2.1.1-beta"
 server_side = true
@@ -3677,24 +3651,6 @@ url = "https://cdn.modrinth.com/data/jgOzA8I4/versions/maK19KHR/tacz_aero_compat
 sha1 = "119204f6baf382da70903db2c16d7ddde4adbe69"
 sha512 = "b0f33ea2a7c85d00e5c973b7e3433db33d2283ad4005f67e0d7c9f9f87aa5fdbec755d5049ce669644501e3e22e41b1700c6dc5d69f5a71780846d2ce17cc923"
 filename = "tacz_aero_compat-1.8.0.jar"
-
-[mods.tacz-npcs]
-version = "2.1.0"
-server_side = true
-client_side = true
-
-[[mods.tacz-npcs.source]]
-
-[mods.tacz-npcs.source.Download]
-url = "https://cdn.modrinth.com/data/A3oZ8vhW/versions/J6Bjfwku/tacznpcs-2.1.0-1.21.1.jar"
-sha1 = "b5cee6ca3ed5fa1cdef8b3abb39eafd0a13f0bf4"
-sha512 = "3b0a0ee73efc888c7a5fae06087adc6b456b3840f081f04dcdb5cc9ac2dd5e1511dff6ebe76e8c752f1af8a1a639ba40c808cf49efa0c45f1cc01d6e0b4d25af"
-filename = "tacznpcs-2.1.0-1.21.1.jar"
-
-[[mods.tacz-npcs.deps]]
-name = "tacz-1.21.1"
-version = "1.1.8-hotfix-r7"
-providers = ["Modrinth"]
 
 [mods.taczaddon]
 version = "1.1.8.3"
