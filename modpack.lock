@@ -3839,6 +3839,19 @@ providers = ["Modrinth"]
 mc_version = "1.21.11"
 loader = "Fabric"
 
+[mods.voxy-server-side]
+version = "0.20.0"
+server_side = true
+client_side = true
+
+[[mods.voxy-server-side.source]]
+
+[mods.voxy-server-side.source.Download]
+url = "https://cdn.modrinth.com/data/84zcagOb/versions/pjhowbMS/voxy-server-side-neoforge.jar"
+sha1 = "6e948d39f8b0d61f1ed2703f8c8555d2095fcdd0"
+sha512 = "4bf5afb5e51d309b245eaccb01de7d45014631fd0639772096488d9df261e3f5108c9bba29fd0cf58b0a00896d777d8b185a92648d1bad8bdbd1c11c169c02a0"
+filename = "voxy-server-side-neoforge.jar"
+
 [mods.waystones]
 version = "21.1.46+neoforge-1.21.1"
 server_side = true

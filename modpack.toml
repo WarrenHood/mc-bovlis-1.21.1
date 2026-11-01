@@ -846,6 +846,10 @@ loader = "Fabric"
 server_side = false
 client_side = true
 
+[mods.voxy-server-side]
+name = "voxy-server-side"
+version = "*"
+
 [mods.waystones]
 name = "waystones"
 version = "*"
