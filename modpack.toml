@@ -422,6 +422,12 @@ version = "*"
 name = "forbidden-arcanus"
 version = "*"
 
+[mods.forgified-fabric-api]
+name = "forgified-fabric-api"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.forgiving-void]
 name = "forgiving-void"
 version = "*"
@@ -724,6 +730,14 @@ version = "*"
 name = "revelationary"
 version = "*"
 
+[mods.roxy]
+name = "roxy"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/Ap78bKTp/versions/VnJRhuAn/roxy-1.21.1-NeoForge-0.4.1.jar"
+server_side = false
+client_side = true
+
 [mods.runiclib]
 name = "runiclib"
 version = "*"
@@ -834,6 +848,14 @@ version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/7797/302/twilightforest-1.21.1-4.8.3345-universal.jar"
 server_side = true
+client_side = true
+
+[mods.voxy]
+name = "voxy"
+version = "0.2.16-beta"
+mc_version = "1.21.11"
+loader = "Fabric"
+server_side = false
 client_side = true
 
 [mods.waystones]

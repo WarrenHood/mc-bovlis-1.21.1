@@ -1978,6 +1978,19 @@ sha1 = "57552932d2b40961fe80eeca4937b917fe166ceb"
 sha512 = "76886ee847cc140239fd430ddec2739affb4f0b7054084ca6a17ba27ddf8be480ea72a5ebbd459c1cde583a7f152f7589f59c46a754c9fcab277aa3d119a4a8a"
 filename = "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
 
+[mods.forgified-fabric-api]
+version = "0.116.15+2.3.6+1.21.1"
+server_side = false
+client_side = true
+
+[[mods.forgified-fabric-api.source]]
+
+[mods.forgified-fabric-api.source.Download]
+url = "https://cdn.modrinth.com/data/Aqlf1Shp/versions/C4eskNuR/forgified-fabric-api-0.116.15%2B2.3.6%2B1.21.1.jar"
+sha1 = "1fe1ca9f440cd30c86186e42505694b70ececc11"
+sha512 = "470ae4e8569484e6942a2f7e09a37ae58a58e0ad44f49f0d483db88024db19d41bfac3c68221c38623829871ade9d89bc5aa31cf0e682e798b2f9029b808011d"
+filename = "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar"
+
 [mods.forgiving-void]
 version = "21.1.7+neoforge-1.21.1"
 server_side = true
@@ -3342,6 +3355,19 @@ sha1 = "b4a77518afdb87106b435c0a8c80874f7db60f95"
 sha512 = "203a1d682ceac2da9183ba68f446a40d1ff7e18adfde103f93c77e4466f60408e46844ce4d2fbb9d0f30b1cfec49092235e1adc0ca0fbb2f68cce50fc6cf8ccb"
 filename = "revelationary-neoforge-1.5.2+1.21.1.jar"
 
+[mods.roxy]
+version = "Unknown"
+server_side = false
+client_side = true
+
+[[mods.roxy.source]]
+
+[mods.roxy.source.Download]
+url = "https://cdn.modrinth.com/data/Ap78bKTp/versions/VnJRhuAn/roxy-1.21.1-NeoForge-0.4.1.jar"
+sha1 = "721a9ea102aedc714c2afa827753594eb19cd392"
+sha512 = "ed9d4257e43ca4eeb6cf2c0188f0f359c4b90f84650bba44971a1e7b2d4470f9113d46fc6de86b1de5bdf9a26bc6511ba42149f1a9ba3ca92bbd52eca87c5c88"
+filename = "roxy-1.21.1-NeoForge-0.4.1.jar"
+
 [mods.rpl]
 version = "2.1.2"
 server_side = true
@@ -3816,6 +3842,33 @@ url = "https://cdn.modrinth.com/data/HsdNFinx/versions/cttRekq9/valhelsia_core-n
 sha1 = "018cfbf150953b9f23923e6d6c760f102583b28f"
 sha512 = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
 filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
+
+[mods.voxy]
+version = "0.2.16-beta"
+server_side = false
+client_side = true
+
+[[mods.voxy.source]]
+
+[mods.voxy.source.Download]
+url = "https://cdn.modrinth.com/data/fxxUqruK/versions/H3w2nVdU/voxy-0.2.16-beta%2B1.21.11.jar"
+sha1 = "280a55279e0860d29146d908cd8a0246a12e2537"
+sha512 = "d5159e2e745a9c50f16c67c54303b8a991dc5a1954e5cd7edc235c6f24ad2a045cb493e128717ed4e97352366ae83b03b3d73815342421e631c2a8995c48cccb"
+filename = "voxy-0.2.16-beta+1.21.11.jar"
+
+[[mods.voxy.deps]]
+name = "fabric-api"
+version = "0.141.6+1.21.11"
+providers = ["Modrinth"]
+mc_version = "1.21.11"
+loader = "Fabric"
+
+[[mods.voxy.deps]]
+name = "sodium"
+version = "mc1.21.11-0.8.12-fabric"
+providers = ["Modrinth"]
+mc_version = "1.21.11"
+loader = "Fabric"
 
 [mods.waystones]
 version = "21.1.46+neoforge-1.21.1"
