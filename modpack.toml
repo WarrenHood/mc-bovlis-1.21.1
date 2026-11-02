@@ -300,6 +300,10 @@ version = "*"
 name = "create-smog"
 version = "*"
 
+[mods."create-steam-n-rails-1.21.1"]
+name = "create-steam-n-rails-1.21.1"
+version = "*"
+
 [mods.createaddition]
 name = "createaddition"
 version = "*"
