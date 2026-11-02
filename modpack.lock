@@ -1078,6 +1078,19 @@ name = "create-aeronautics"
 version = "1.3.2+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-aeronautics-toolgun]
+version = "0.3.7"
+server_side = true
+client_side = true
+
+[[mods.create-aeronautics-toolgun.source]]
+
+[mods.create-aeronautics-toolgun.source.Download]
+url = "https://cdn.modrinth.com/data/5fUBLqeW/versions/LOmp6ckQ/create_aeronautics_toolgun-0.3.7.jar"
+sha1 = "8b4a24ae3c86345875ea25d939d1711fcccbb19a"
+sha512 = "e8bd988b6964b410866fcc8b89367a9a8b38890295473cb2e0a82930c888a5b6ddb4ff6008855042026ad57eb73cefa717db841a55402308718ce918ab27166d"
+filename = "create_aeronautics_toolgun-0.3.7.jar"
+
 [mods.create-aeronautics-transmission-linkage]
 version = "0.2.8"
 server_side = true
@@ -4068,6 +4081,19 @@ url = "https://cdn.modrinth.com/data/guitPqEi/versions/px0CCB06/StorageDrawers-n
 sha1 = "b8e11e3d1fd63fd1a0d9277ec3f966c7e5cff385"
 sha512 = "df97b8b5053a902264a236a71e7585b78d9d48a0bce585033aa8b169896d775f6fda462cfc77431af79cc596ab356eb9642e0c69a205a46b02d4d6f7ab3e74e9"
 filename = "StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+
+[mods.synaxis]
+version = "1.5.0"
+server_side = true
+client_side = true
+
+[[mods.synaxis.source]]
+
+[mods.synaxis.source.Download]
+url = "https://cdn.modrinth.com/data/aJewFWOb/versions/RFBeUM47/synaxis-1.5.0.jar"
+sha1 = "3b3dfa037f4766c00bb78634eb3b4ba1c7575268"
+sha512 = "8510dbcd6a94e3489c597caf86de12b7123614550e6875fcfd094edde80eeb935c561b6c1ba249bdee4d56c56068309880a50391f19565a3b6a2d8a0086d84c8"
+filename = "synaxis-1.5.0.jar"
 
 [mods."tacz-1.21.1"]
 version = "1.1.8-hotfix-r7"

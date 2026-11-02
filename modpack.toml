@@ -220,6 +220,10 @@ version = "*"
 name = "create-aeronautics-gadgets-and-gizmos"
 version = "*"
 
+[mods.create-aeronautics-toolgun]
+name = "create-aeronautics-toolgun"
+version = "*"
+
 [mods.create-aeronautics-transmission-linkage]
 name = "create-aeronautics-transmission-linkage"
 version = "*"
@@ -896,6 +900,10 @@ version = "*"
 
 [mods.storagedrawers]
 name = "storagedrawers"
+version = "*"
+
+[mods.synaxis]
+name = "synaxis"
 version = "*"
 
 [mods."tacz-1.21.1"]
