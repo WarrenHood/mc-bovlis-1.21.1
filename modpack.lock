@@ -1586,6 +1586,24 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-new-age]
+version = "1.2.0+mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-new-age.source]]
+
+[mods.create-new-age.source.Download]
+url = "https://cdn.modrinth.com/data/FTeXqI9v/versions/IwtuwMZy/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar"
+sha1 = "849df57070ffa75c2446b9c460d03f6b49fa089e"
+sha512 = "5075c6482b800af7044b594ad694855e7d56f386cb0354967eafe99d77e84b4e26ee7f880d287672d24d84ea8086fd074b7695e46632f32f215b31ce859ada72"
+filename = "create-new-age-1.2.0+neoforge-mc1.21.1.jar"
+
+[[mods.create-new-age.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-pattern-schematics]
 version = "2.0.10"
 server_side = true

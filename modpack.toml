@@ -322,6 +322,10 @@ version = "*"
 name = "create-mobile-packages"
 version = "*"
 
+[mods.create-new-age]
+name = "create-new-age"
+version = "*"
+
 [mods.create-pattern-schematics]
 name = "create-pattern-schematics"
 version = "*"
