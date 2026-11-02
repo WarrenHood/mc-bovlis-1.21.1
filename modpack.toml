@@ -10,10 +10,6 @@ version = "*"
 server_side = true
 client_side = true
 
-[mods.advanced-chimneys]
-name = "advanced-chimneys"
-version = "*"
-
 [mods.ae2]
 name = "ae2"
 version = "*"
@@ -340,10 +336,6 @@ version = "*"
 
 [mods.create-rail-grinding]
 name = "create-rail-grinding"
-version = "*"
-
-[mods.create-smog]
-name = "create-smog"
 version = "*"
 
 [mods."create-steam-n-rails-1.21.1"]
@@ -776,10 +768,6 @@ version = "*"
 
 [mods.playerrevive]
 name = "playerrevive"
-version = "*"
-
-[mods.pollution-of-the-realms]
-name = "pollution-of-the-realms"
 version = "*"
 
 [mods.polymorph]
