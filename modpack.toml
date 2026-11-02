@@ -968,6 +968,10 @@ version = "*"
 name = "waystones"
 version = "*"
 
+[mods.waystones-sable]
+name = "waystones-sable"
+version = "*"
+
 [mods.when-dungeons-arise]
 name = "when-dungeons-arise"
 version = "*"

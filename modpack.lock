@@ -4331,6 +4331,19 @@ name = "balm"
 version = "21.0.66+neoforge-1.21.1"
 providers = ["Modrinth"]
 
+[mods.waystones-sable]
+version = "1.0.7"
+server_side = true
+client_side = true
+
+[[mods.waystones-sable.source]]
+
+[mods.waystones-sable.source.Download]
+url = "https://cdn.modrinth.com/data/BxhPGfcK/versions/Wot8Pf4C/waystonessable-1.0.7.jar"
+sha1 = "cebbc2cf9a7a8b2255caff04f2109d9611b28091"
+sha512 = "20b677c77baf5fd33cccf1ac2bf80220d7162d30ca33dc04516285690f8fac9392a4789b57545b5fd20014213a1f55812ad6e2efd3518a2ba77a9a54bc6ab51a"
+filename = "waystonessable-1.0.7.jar"
+
 [mods.when-dungeons-arise]
 version = "2.1.68"
 server_side = true
