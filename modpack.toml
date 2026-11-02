@@ -140,6 +140,14 @@ version = "*"
 name = "brewin-and-chewin"
 version = "*"
 
+[mods.buildinggadgets2]
+name = "buildinggadgets2"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/9310/471/buildinggadgets2-21.1.1.jar"
+server_side = true
+client_side = true
+
 [mods.c2me-neoforge]
 name = "c2me-neoforge"
 version = "0.3.0+alpha.0.93+1.21.1"
@@ -232,6 +240,10 @@ version = "*"
 name = "create-big-cannons"
 version = "*"
 
+[mods.create-central-kitchen]
+name = "create-central-kitchen"
+version = "*"
+
 [mods.create-connected]
 name = "create-connected"
 version = "*"
@@ -262,6 +274,10 @@ version = "*"
 
 [mods.create-garnished]
 name = "create-garnished"
+version = "*"
+
+[mods.create-integrated-farming]
+name = "create-integrated-farming"
 version = "*"
 
 [mods.create-let-the-adventure-begin]
@@ -331,6 +347,10 @@ name = "duplicationless"
 version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/8122/786/duplicationless-1.21.1-1.2.0.jar"
+
+[mods.effortless-building]
+name = "effortless-building"
+version = "*"
 
 [mods.emi]
 name = "emi"
