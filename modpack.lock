@@ -3467,6 +3467,19 @@ sha1 = "a6c2824a722169c71a9559d9c89c3c42e0fc09ae"
 sha512 = "53873533de95cf31a1ea6394cfa1fc0678e91f42b75596aa312813716795b50a2482bbf2f7a2981eeaec0bf8544fbe75b17cdddd3d3cb364eda1786cf28cccdf"
 filename = "plasmovoice-neoforge-1.21.1-2.2.0-beta.2.jar"
 
+[mods.platform]
+version = "1.4.2"
+server_side = true
+client_side = true
+
+[[mods.platform.source]]
+
+[mods.platform.source.Download]
+url = "https://cdn.modrinth.com/data/i6fiqm5y/versions/rh4p4ixM/Platform-neoforge-1.21.1-1.4.2.jar"
+sha1 = "38947983b65b08bffdcbbc347949a7bc5c6426e1"
+sha512 = "24f9640cc830ffc9b921f89187aaa2ee41aeb9949b36a9ab11b94313c9f4eebb94e5aa7ee3089237f677d3c72aa860bb2bf332c900030c8f7dd5bbcc25ece73a"
+filename = "Platform-neoforge-1.21.1-1.4.2.jar"
+
 [mods.playeranimator]
 version = "2.0.4+1.21.1-forge"
 deps = []
@@ -4241,6 +4254,24 @@ url = "https://cdn.modrinth.com/data/HsdNFinx/versions/cttRekq9/valhelsia_core-n
 sha1 = "018cfbf150953b9f23923e6d6c760f102583b28f"
 sha512 = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
 filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
+
+[mods.vanillabackport]
+version = "1.2.2"
+server_side = true
+client_side = true
+
+[[mods.vanillabackport.source]]
+
+[mods.vanillabackport.source.Download]
+url = "https://cdn.modrinth.com/data/6xwxDTgf/versions/mGS7BxD4/VanillaBackport-neoforge-1.21.1-1.2.2.jar"
+sha1 = "12871e5330f8b33df7740a975047fc9a584d0387"
+sha512 = "89b0fbe66fb26cbc74d8ba55d2e6c76ea9652a0812582a955b1f32604a1d033f2be59f06df7cd4232520b8edba6074ac724525136d5ceaa1cfce88a53ab7d9a0"
+filename = "VanillaBackport-neoforge-1.21.1-1.2.2.jar"
+
+[[mods.vanillabackport.deps]]
+name = "platform"
+version = "1.4.2"
+providers = ["Modrinth"]
 
 [mods.voxy]
 version = "0.2.16-beta"

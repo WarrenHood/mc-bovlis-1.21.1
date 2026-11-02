@@ -950,6 +950,10 @@ download_url = "https://mediafilez.forgecdn.net/files/7797/302/twilightforest-1.
 server_side = true
 client_side = true
 
+[mods.vanillabackport]
+name = "vanillabackport"
+version = "*"
+
 [mods.voxy]
 name = "voxy"
 version = "0.2.16-beta"
