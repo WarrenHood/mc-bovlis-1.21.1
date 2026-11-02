@@ -1586,24 +1586,6 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
-[mods.create-new-age]
-version = "1.2.0+mc1.21.1"
-server_side = true
-client_side = true
-
-[[mods.create-new-age.source]]
-
-[mods.create-new-age.source.Download]
-url = "https://cdn.modrinth.com/data/FTeXqI9v/versions/IwtuwMZy/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar"
-sha1 = "849df57070ffa75c2446b9c460d03f6b49fa089e"
-sha512 = "5075c6482b800af7044b594ad694855e7d56f386cb0354967eafe99d77e84b4e26ee7f880d287672d24d84ea8086fd074b7695e46632f32f215b31ce859ada72"
-filename = "create-new-age-1.2.0+neoforge-mc1.21.1.jar"
-
-[[mods.create-new-age.deps]]
-name = "create"
-version = "6.0.10+mc1.21.1"
-providers = ["Modrinth"]
-
 [mods.create-pattern-schematics]
 version = "2.0.10"
 server_side = true
@@ -1768,6 +1750,24 @@ url = "https://cdn.modrinth.com/data/kU1G12Nn/versions/hsjVajlP/createaddition-1
 sha1 = "8e7158d3144b1ee97e58092fe006675b0e09f6d8"
 sha512 = "f3a3ddb5600189da818fc71ea659d17f0d1097c5ad664433eed400b3ecc67d0f9305b348e5b7c5fd872d7a6e51330c7158b3181e77192c576c205a74dd0298ff"
 filename = "createaddition-1.7.2.jar"
+
+[mods.createnuclear]
+version = "2.0.0"
+server_side = true
+client_side = true
+
+[[mods.createnuclear.source]]
+
+[mods.createnuclear.source.Download]
+url = "https://cdn.modrinth.com/data/z611fdf7/versions/TANOhO2C/createnuclear-2.0.0-neoforge.jar"
+sha1 = "1e635e4d1d4f636d3f07f17f4fe178e567de128c"
+sha512 = "7d09687e1dc379824738e33b25431ba27e5c31bce53bcd476d93926b514be91e748875043cd9a0782b0beb074983a3645f68bb65c73a8454e06637fdf8d02b3b"
+filename = "createnuclear-2.0.0-neoforge.jar"
+
+[[mods.createnuclear.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
 
 [mods.creativecore]
 version = "2.13.51"
@@ -3542,29 +3542,6 @@ url = "https://cdn.modrinth.com/data/tagwiZkJ/versions/9yWvrF5o/polymorph-neofor
 sha1 = "fa6c5fa8a21229c85d564b47c73df7160b3bd4df"
 sha512 = "dce77fffebae80532fec39d35c9c8b5817ba756bb03569022cc0854a8a6cf1868690f91451b587bd60d813e8403b5de91adbc324796bc423ef28deecfb13c775"
 filename = "polymorph-neoforge-1.2.0+1.21.1.jar"
-
-[mods.power-grid]
-version = "0.6.2"
-server_side = true
-client_side = true
-
-[[mods.power-grid.source]]
-
-[mods.power-grid.source.Download]
-url = "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar"
-sha1 = "e09452dac8202e31f282149d45c49dcdb218bd54"
-sha512 = "60307e23a27526d22bf753d387edef5a2f2a063a04a47b69e98b7f71bbad32fdf17e05f9838008e47a5999a60e5e77a91f0695215d0ab57694f0034fde9873ca"
-filename = "powergrid-mc1.21.1-0.6.2.jar"
-
-[[mods.power-grid.deps]]
-name = "architectury-api"
-version = "13.0.11+neoforge"
-providers = ["Modrinth"]
-
-[[mods.power-grid.deps]]
-name = "create"
-version = "6.0.10+mc1.21.1"
-providers = ["Modrinth"]
 
 [mods.prickle]
 version = "21.1.11"
