@@ -260,6 +260,10 @@ version = "*"
 name = "create-deep-seas"
 version = "*"
 
+[mods.create-design-n-decor]
+name = "create-design-n-decor"
+version = "*"
+
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
 version = "*"

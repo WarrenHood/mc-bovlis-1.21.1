@@ -1293,6 +1293,24 @@ name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-design-n-decor]
+version = "2.2b"
+server_side = true
+client_side = true
+
+[[mods.create-design-n-decor.source]]
+
+[mods.create-design-n-decor.source.Download]
+url = "https://cdn.modrinth.com/data/x49wilh8/versions/uQsIRky8/Design-n-Decor-1.21.1-2.2b.jar"
+sha1 = "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
+sha512 = "d888553c8a254c3654f8da2ae2cae0bb642594546c71988739c93bf6b18668145e0ce5b1c20ae0544b9b6019f17e4da944bd5bc17e4c6b73e7f1374cfa2c9db9"
+filename = "Design-n-Decor-1.21.1-2.2b.jar"
+
+[[mods.create-design-n-decor.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-diesel-generators]
 version = "1.21.1-1.3.15"
 server_side = true
