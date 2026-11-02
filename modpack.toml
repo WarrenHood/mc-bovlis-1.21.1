@@ -354,6 +354,12 @@ version = "*"
 name = "create-vibrant-vaults"
 version = "*"
 
+[mods.create_oxidized]
+name = "create_oxidized"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.createaddition]
 name = "createaddition"
 version = "*"
