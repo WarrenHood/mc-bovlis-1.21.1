@@ -1191,6 +1191,24 @@ name = "create-dragons-plus"
 version = "1.11.9"
 providers = ["Modrinth"]
 
+[mods.create-compressed]
+version = "2.2.0"
+server_side = true
+client_side = true
+
+[[mods.create-compressed.source]]
+
+[mods.create-compressed.source.Download]
+url = "https://cdn.modrinth.com/data/Sy4Box1J/versions/rW8MeyAL/create_compressed-2.2.0-neoforge-1.21.1.jar"
+sha1 = "286c948a50b085ddfa6360ca8ef176775d32e4fd"
+sha512 = "b0f9f1a324c30cd6b29aa8f1c3f5dfd0fdc6fd5e050ecc066f66c97146ce403e569ea686e97aca11877f9b9dcddbe3c28374eea2e4c67b5c4ab7a8dd2897761e"
+filename = "create_compressed-2.2.0-neoforge-1.21.1.jar"
+
+[[mods.create-compressed.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-connected]
 version = "1.3.3-mc1.21.1"
 server_side = true
@@ -1264,6 +1282,19 @@ providers = ["Modrinth"]
 name = "create-cosmonatics"
 version = "26.08.307"
 providers = ["Modrinth"]
+
+[mods.create-deco]
+version = "2.1.3"
+server_side = true
+client_side = true
+
+[[mods.create-deco.source]]
+
+[mods.create-deco.source.Download]
+url = "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar"
+sha1 = "93d9eff58b46c6953e907d071e6be4e3ce07be38"
+sha512 = "c536662f9d47ad57a37419165ded14835b23ad6c3e82a920298ecd7ee074244b0b6062ef9cc7ea4501ddd35919a840faccd7fc64e43eb8df31e12076681c3c0d"
+filename = "createdeco-2.1.3.jar"
 
 [mods.create-deep-seas]
 version = "3.4.5"
@@ -1347,6 +1378,42 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-electro-energetics]
+version = "1.21.1-1.1.4"
+server_side = true
+client_side = true
+
+[[mods.create-electro-energetics.source]]
+
+[mods.create-electro-energetics.source.Download]
+url = "https://cdn.modrinth.com/data/qYJdIoAx/versions/ZMfRgLy5/electroenergetics-1.21.1-1.1.4.jar"
+sha1 = "e2e7dfa11767d17920571e1c7d2c37211421539c"
+sha512 = "022ba387a614954942f45e613807d8416692dc91f808ab6420fd36981d547747b6b8d38802e40161991fd95ebe2502e91197b57fdc629fe2fbb50c4fb7375de0"
+filename = "electroenergetics-1.21.1-1.1.4.jar"
+
+[[mods.create-electro-energetics.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-encased]
+version = "1.21.1-1.10.0-fix1"
+server_side = true
+client_side = true
+
+[[mods.create-encased.source]]
+
+[mods.create-encased.source.Download]
+url = "https://cdn.modrinth.com/data/hSSqdyU1/versions/pld6Eng9/Create%20Encased-1.21.1-1.10.0-fix1.jar"
+sha1 = "c37f6a614621b2c37e5fb1d78f07f31d9456e0c1"
+sha512 = "b6b35dd0c7a8d332f3a5a98404c65c7b95b08c1cb09b18eafae3b7d303c04090fbcf6a2247273c214ef6c263c43524e17ca5bf0f865657495501a07e18174e02"
+filename = "Create Encased-1.21.1-1.10.0-fix1.jar"
+
+[[mods.create-encased.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-enchantment-industry]
 version = "2.5.4b"
 server_side = true
@@ -1396,6 +1463,24 @@ providers = ["Modrinth"]
 [[mods.create-flight-control.deps]]
 name = "geckolib"
 version = "4.9.3"
+providers = ["Modrinth"]
+
+[mods.create-framed]
+version = "1.8.2+1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-framed.source]]
+
+[mods.create-framed.source.Download]
+url = "https://cdn.modrinth.com/data/15fFZ3f4/versions/yioQUGiO/createframed-1.21.1-1.8.2.jar"
+sha1 = "222c998ffc62cd734e1318134c7f182c68f2b527"
+sha512 = "38a3ad408a563543ebee89da2e3dd624188864d42d2d208ac695f2fc2240f6a3c26746ec516aa4b1e0ff45ced8de97317328dbae594bb18f914003680bceaf00"
+filename = "createframed-1.21.1-1.8.2.jar"
+
+[[mods.create-framed.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
 [mods.create-garnished]
@@ -1452,6 +1537,19 @@ sha1 = "c5725961ba8585693a84cf06becb21e8f4b13f11"
 sha512 = "05d2c6df728fbfe8d3522ffd88be492be5dfa6f06c806dc1f6d948afff39455f695add1edbb38fee2ed7f197668d13b5d72909bc60192c40d94df3ff0048d138"
 filename = "create_ltab-4.1.0.jar"
 
+[mods.create-liquid-fuel]
+version = "3.0.0-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-liquid-fuel.source]]
+
+[mods.create-liquid-fuel.source.Download]
+url = "https://cdn.modrinth.com/data/sH9tXU9f/versions/rLn2bDVE/createliquidfuel-3.0.0-1.21.1.jar"
+sha1 = "c061215a48f76d909675894aab165f1261267ab2"
+sha512 = "3925e0f7e7b883d719c12c2cdd409fa954fbd53cbb63295764fdf06d57f63553b5dd99f94ae69b071a2aa17fb5bff53817e3394191d8933f7916220861e1bc76"
+filename = "createliquidfuel-3.0.0-1.21.1.jar"
+
 [mods.create-metallurgy]
 version = "1.0.3-1.21.1"
 server_side = true
@@ -1468,6 +1566,24 @@ filename = "createmetallurgy-1.0.3-1.21.1.jar"
 [[mods.create-metallurgy.deps]]
 name = "create"
 version = "mc1.21.1-6.0.9"
+providers = ["Modrinth"]
+
+[mods.create-mobile-packages]
+version = "1.21.1-0.7.8"
+server_side = true
+client_side = true
+
+[[mods.create-mobile-packages.source]]
+
+[mods.create-mobile-packages.source.Download]
+url = "https://cdn.modrinth.com/data/1vXRfEHZ/versions/xSPt2JXH/create_mobile_packages-1.21.1-0.7.8.jar"
+sha1 = "1e5238c8764bcfc3c0af29c3ff5b4533a18364c7"
+sha512 = "f99ccd6762ac89e000c8d479d3bdb5b6fc85c371f03272c2886c1fba9c2b856b7f2caaf3e2a84281af88c264823af1d74dc0323f60f3670ab6c5e1c3bf5dc0f0"
+filename = "create_mobile_packages-1.21.1-0.7.8.jar"
+
+[[mods.create-mobile-packages.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
 [mods.create-new-age]
@@ -1488,6 +1604,42 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-pattern-schematics]
+version = "2.0.10"
+server_side = true
+client_side = true
+
+[[mods.create-pattern-schematics.source]]
+
+[mods.create-pattern-schematics.source.Download]
+url = "https://cdn.modrinth.com/data/cpqKG67r/versions/VSJhIkG2/create_pattern_schematics-2.0.10.jar"
+sha1 = "e3dea574c3b3d590444796a42e8f7456280b1063"
+sha512 = "c55e7d708aab59990ea123b32b5ecca3cdd8a0409e441257e87ac2bc414c15a4976ed06fb4aea3f4c216c4951f519295bb111c896642fd80520bcfc9227e24ee"
+filename = "create_pattern_schematics-2.0.10.jar"
+
+[[mods.create-pattern-schematics.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-power-loader]
+version = "2.0.5-mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-power-loader.source]]
+
+[mods.create-power-loader.source.Download]
+url = "https://cdn.modrinth.com/data/wPQ6GgFE/versions/3Y4r0ItR/create_power_loader-2.0.5-mc1.21.1.jar"
+sha1 = "5bd3ecef6fc66985e6fdf416706c98fb774ba03d"
+sha512 = "e4f06cfe79eafa538a2edf45d0b173051475f2a20d6c2352668f6980f4433078f2cdd8ffdd047984c30dfd903142ea37eadde48ff71a3892f18154662f20eb57"
+filename = "create_power_loader-2.0.5-mc1.21.1.jar"
+
+[[mods.create-power-loader.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-propulsion-simulated]
 version = "1.1.5"
 server_side = true
@@ -1500,6 +1652,19 @@ url = "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion
 sha1 = "928e9428ee92d07426c296b04a7fffb1e737e290"
 sha512 = "6096c9c5cb220219a0b58b56f9fefd63f8b79a0967d326727b4206d62df1813da73956aeae2fa5b839160a1bb5af8e099726d12d2d93f10e5f157beb85bb9c52"
 filename = "createpropulsion-1.1.5.jar"
+
+[mods.create-rail-grinding]
+version = "1.2.2+mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-rail-grinding.source]]
+
+[mods.create-rail-grinding.source.Download]
+url = "https://cdn.modrinth.com/data/ix2S0LbR/versions/CXkzFrZ9/createrailgrinding-1.2.2.jar"
+sha1 = "7e264665cdc2b1b7b2fd23abdaed62a7e64418c9"
+sha512 = "5b6cb02081ef294728aaf701215346041d9e95ff7a4502d856d27de2c510c8e0a7d874c5305bb82a262c1fae380e3a60921d9d3a9f757acc7a275ce0bc89cbba"
+filename = "createrailgrinding-1.2.2.jar"
 
 [mods.create-smog]
 version = "0.5.0"
@@ -1535,6 +1700,60 @@ filename = "railways-0.3.0-beta.2+neoforge-mc1.21.1.jar"
 [[mods."create-steam-n-rails-1.21.1".deps]]
 name = "create"
 version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-trading-floor]
+version = "3.0.16"
+server_side = true
+client_side = true
+
+[[mods.create-trading-floor.source]]
+
+[mods.create-trading-floor.source.Download]
+url = "https://cdn.modrinth.com/data/WROfLLvn/versions/K3nIvcWT/trading_floor-3.0.16.jar"
+sha1 = "7be6d8b24f3120fa6a2520c32a2e6c8c4254322c"
+sha512 = "6eaf42758446093c1923a9c325b955f7ec38933bc0b271559547b73b7dc9950e47a8256ca6f9baf13389ccc349da05a9e32d0f77e71a5f5b2c37080f3773148f"
+filename = "trading_floor-3.0.16.jar"
+
+[[mods.create-trading-floor.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-ultimate-factory]
+version = "2.2.4"
+server_side = true
+client_side = true
+
+[[mods.create-ultimate-factory.source]]
+
+[mods.create-ultimate-factory.source.Download]
+url = "https://cdn.modrinth.com/data/N9QToVpw/versions/AEMRNsNS/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar"
+sha1 = "ed0ff71df9bfe3b66b97c51a2834031084300a65"
+sha512 = "2a1d1e6e27aa0744d131ad12dcc4e3bcae2d5d10c620cc566cb0300c63a66bced1c55be0b636998f3773e3a7b384e74ef06395ec7ee6a90649f7702c9a893b0d"
+filename = "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar"
+
+[[mods.create-ultimate-factory.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-vibrant-vaults]
+version = "0.3.2"
+server_side = true
+client_side = true
+
+[[mods.create-vibrant-vaults.source]]
+
+[mods.create-vibrant-vaults.source.Download]
+url = "https://cdn.modrinth.com/data/hddN8ksR/versions/t17qYXjn/create_vibrant_vaults-0.3.2.jar"
+sha1 = "d0dbdde6318c4dd4ede1d2c091f1a64896ba872a"
+sha512 = "3bd53097482e614dc4e5e635778af25020fa27c1c453d4928d1d8baa6767c93cb300810a5ac0c49af86813749a180e3f092ab2e65b07e7741c2b12aaebd47006"
+filename = "create_vibrant_vaults-0.3.2.jar"
+
+[[mods.create-vibrant-vaults.deps]]
+name = "create"
+version = "1.21.1-6.0.2"
 providers = ["Modrinth"]
 
 [mods.createaddition]
@@ -1633,6 +1852,24 @@ url = "https://cdn.modrinth.com/data/fnAffV0n/versions/TuD0Zvi3/deeperdarker-neo
 sha1 = "b6094adde68bd4b909bc75c64901e1f3fb99ad8f"
 sha512 = "38d8d87878f39a063feb029db17702bedadf7554233ae56db6018c21225b6dff4d4cc31f4b0995254fd488e2a687f3b15bf9647c59dd42b9032791d34316ed0c"
 filename = "deeperdarker-neoforge-1.21.1-1.4.1.jar"
+
+[mods.deployer]
+version = "0.1.3"
+server_side = true
+client_side = true
+
+[[mods.deployer.source]]
+
+[mods.deployer.source.Download]
+url = "https://cdn.modrinth.com/data/OZhUIuou/versions/ltYnbVvP/deployer-0.1.3.jar"
+sha1 = "e3a39672f10f2d141ef87e69fd1615042c4985d3"
+sha512 = "cc861ddf24ac456fcc1e7b53af06771a32b0f1b733877a98ea48140481f983d8f008118a22ccb4c78570a41ca208a298412873d87f9e54dacd8c4af6db0f9f64"
+filename = "deployer-0.1.3.jar"
+
+[[mods.deployer.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
 
 [mods.diabolical-islands]
 version = "1.0.0+mod"
@@ -1747,6 +1984,29 @@ url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24%2B1.2
 sha1 = "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
 sha512 = "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd"
 filename = "emi-1.1.24+1.21.1+neoforge.jar"
+
+[mods.emi-create-schematics]
+version = "1.1.0"
+server_side = false
+client_side = true
+
+[[mods.emi-create-schematics.source]]
+
+[mods.emi-create-schematics.source.Download]
+url = "https://cdn.modrinth.com/data/5bgqgixq/versions/opyfkMHl/emi_create_schematics-1.1.0.jar"
+sha1 = "a34c4df9c1a39c553ac7cef28bb78132e4185cb6"
+sha512 = "c25c5c0a7759d43790c785315e394bf81b064c79775bd032784d4588acd3afce37dd4e43be4d2db879561b9b7853245b7f9f79b5ffc40333a9703c8ff006f868"
+filename = "emi_create_schematics-1.1.0.jar"
+
+[[mods.emi-create-schematics.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.emi-create-schematics.deps]]
+name = "emi"
+version = "1.1.24+1.21.1+neoforge"
+providers = ["Modrinth"]
 
 [mods.emi-loot]
 version = "0.7.9+1.21+neoforge"
@@ -1976,6 +2236,37 @@ url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/lwNx1nD1/entity_texture_f
 sha1 = "1a77ddb156daa4125c205424f05f0fa861517d9c"
 sha512 = "0e349c235b509de605ef4175a60e87ee78eab208b554ebc1dfa756b18ab2b531ce4641bfdc1c4542cb3c24d45b81698ca1413fcd001d589d82cbad6cea346f46"
 filename = "entity_texture_features-7.2.6-1.21-neoforge.jar"
+
+[mods.escalated]
+version = "1.3.2"
+server_side = true
+client_side = true
+
+[[mods.escalated.source]]
+
+[mods.escalated.source.Download]
+url = "https://cdn.modrinth.com/data/LyOBYG8Q/versions/vJ49zRJl/escalated-1.3.2%2Bmc.1.21.1.jar"
+sha1 = "34854b74bd9c627b873cb21bb5ec15fbad038db6"
+sha512 = "6989262104ab83d79c14fef15a19c7bcdbfb46ef7659f3c41a8421df57c6754e3bd8ce20de37b9200bfb7cb84da0977001385cfa489803efc02273419f248429"
+filename = "escalated-1.3.2+mc.1.21.1.jar"
+
+[[mods.escalated.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.extra-gauges]
+version = "2.1.3"
+server_side = true
+client_side = true
+
+[[mods.extra-gauges.source]]
+
+[mods.extra-gauges.source.Download]
+url = "https://cdn.modrinth.com/data/6YJgomwt/versions/xtIBXji9/extra_gauges-2.1.3.jar"
+sha1 = "c82761ebd4459869fd8eacf7da9ca2c3aa1e54f8"
+sha512 = "3b6cc0b6ef0d22284e2456e9dfe39fa1eca6adf6d93268237edc6a121c75295ecc8d76997ffb52cc06d433624cd9161da144a67b3fb61973e35ce6ff8b212085"
+filename = "extra_gauges-2.1.3.jar"
 
 [mods.fallingleavesforge]
 version = "1.21.1-2.6.0"
@@ -2294,6 +2585,24 @@ name = "resourceful-lib"
 version = "3.0.12"
 providers = ["Modrinth"]
 
+[mods.hypertube]
+version = "0.6.0"
+server_side = true
+client_side = true
+
+[[mods.hypertube.source]]
+
+[mods.hypertube.source.Download]
+url = "https://cdn.modrinth.com/data/ATDdrG1y/versions/qYjOyvgW/create_hypertube-0.6.0-NEOFORGE.jar"
+sha1 = "8004b4b3959364609906ea4d7bf409add879a222"
+sha512 = "8405fb7f8bf7fff5811c29e8ed14acdea45ddc9487caec2c24ed5e7db4141b60e41b7a937645330180c74226bbb6b30359130e23929d53db1367be75c00585a9"
+filename = "create_hypertube-0.6.0-NEOFORGE.jar"
+
+[[mods.hypertube.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.iceandfire-ce]
 version = "2.1-beta.1"
 server_side = true
@@ -2361,6 +2670,19 @@ url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/RLpigSXC/immersive_melodi
 sha1 = "5f3cd9eb07465a88a22abc6230862e798f45ef82"
 sha512 = "79bf2f8dccb5b0db017f77956d73721d54e093416ebe4785f378515fc791ca9a2098d1039d6045c96e2f2c1eac7806de775b7ae84ab9b1b15e68adebebaeaff1"
 filename = "immersive_melodies-neoforge-0.8.0+1.21.1.jar"
+
+[mods.interiors]
+version = "0.6.1"
+server_side = true
+client_side = true
+
+[[mods.interiors.source]]
+
+[mods.interiors.source.Download]
+url = "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar"
+sha1 = "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+sha512 = "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5"
+filename = "interiors-1.21.1-neoforge-0.6.1.jar"
 
 [mods.inv-view-forge]
 version = "4.2.1-neoforge+1.21.1"
@@ -3007,6 +3329,19 @@ url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/nJBE6tif/noisium-neoforge
 sha1 = "1bea6b61378ba80f038256c4345d9ff3b67928c4"
 sha512 = "b50c37d2f69d51742d4407d272cea525b428784d2a39338d34b692937320495cd77d47b2d2321b3976713447028f50823e9ba44ca618900eba4ced907985ec84"
 filename = "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar"
+
+[mods.notenoughcrashes]
+version = "4.4.9+1.21.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.notenoughcrashes.source]]
+
+[mods.notenoughcrashes.source.Download]
+url = "https://cdn.modrinth.com/data/yM94ont6/versions/alR8L7vF/notenoughcrashes-neoforge-4.4.9%2B1.21.1.jar"
+sha1 = "4108c653e3e0d54a6df3c5354a752ea0ea801ffe"
+sha512 = "912c31c6e806e457a501742d668b82b70f03d5cdbb722f09da27ba19f3408f236b1704ccf9ed4a2bee82cc272ba78671bfe1fd8b46baefef1ac4ee56d703f04f"
+filename = "notenoughcrashes-neoforge-4.4.9+1.21.1.jar"
 
 [mods.observable]
 version = "5.4.4+neoforge"
@@ -3694,6 +4029,24 @@ sha1 = "1757289be21ed18db5b0d90703fa3db1b2de5693"
 sha512 = "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390"
 filename = "sodium-neoforge-0.8.13+mc1.21.1.jar"
 
+[mods.some-assembly-required]
+version = "5.2.8"
+server_side = true
+client_side = true
+
+[[mods.some-assembly-required.source]]
+
+[mods.some-assembly-required.source.Download]
+url = "https://cdn.modrinth.com/data/jZi8ogTA/versions/G8Lz8Txm/someassemblyrequired-5.2.8.jar"
+sha1 = "5e7fc02b85c7c6f128bdebd65b6133734fce7088"
+sha512 = "de9c76595188852b187718aaf6287a6057e4135b5f45dfe9201b302ccdd0a5cf967314e1025c305b4fdcbcc94d1dcab8a379e8488f6adedbf3e9eb2f959ff9cc"
+filename = "someassemblyrequired-5.2.8.jar"
+
+[[mods.some-assembly-required.deps]]
+name = "farmers-delight"
+version = "1.21.1-1.3.4"
+providers = ["Modrinth"]
+
 [mods.sound-physics-remastered]
 version = "neoforge-1.21.1-1.5.1"
 deps = []
@@ -3720,6 +4073,29 @@ url = "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-n
 sha1 = "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
 sha512 = "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
 filename = "spark-1.10.124-neoforge.jar"
+
+[mods.ssrd]
+version = "1.8.7"
+server_side = true
+client_side = true
+
+[[mods.ssrd.source]]
+
+[mods.ssrd.source.Download]
+url = "https://cdn.modrinth.com/data/fJ183v3D/versions/iZflRKdV/SSRD-1.8.7-1.21.1.jar"
+sha1 = "7da02fc5f783bedb55a29268e4c8ba7b0c3c9e6f"
+sha512 = "fb09bb6799f2f9d8b051bc87920a49ee68319c358d0d23be5beaea444542be8336a52f71b57f81e8871df274fe2e1310121b90a3aded615421e84bcd6dfbae47"
+filename = "SSRD-1.8.7-1.21.1.jar"
+
+[[mods.ssrd.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.ssrd.deps]]
+name = "sodium"
+version = "mc1.21.1-0.8.13-neoforge"
+providers = ["Modrinth"]
 
 [mods.storagedrawers]
 version = "1.21.1-13.11.4"

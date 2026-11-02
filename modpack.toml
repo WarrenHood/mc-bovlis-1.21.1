@@ -244,6 +244,10 @@ version = "*"
 name = "create-central-kitchen"
 version = "*"
 
+[mods.create-compressed]
+name = "create-compressed"
+version = "*"
+
 [mods.create-connected]
 name = "create-connected"
 version = "*"
@@ -254,6 +258,10 @@ version = "*"
 
 [mods.create-cosmonautics-expansion]
 name = "create-cosmonautics-expansion"
+version = "*"
+
+[mods.create-deco]
+name = "create-deco"
 version = "*"
 
 [mods.create-deep-seas]
@@ -268,12 +276,24 @@ version = "*"
 name = "create-diesel-generators"
 version = "*"
 
+[mods.create-electro-energetics]
+name = "create-electro-energetics"
+version = "*"
+
+[mods.create-encased]
+name = "create-encased"
+version = "*"
+
 [mods.create-enchantment-industry]
 name = "create-enchantment-industry"
 version = "*"
 
 [mods.create-flight-control]
 name = "create-flight-control"
+version = "*"
+
+[mods.create-framed]
+name = "create-framed"
 version = "*"
 
 [mods.create-garnished]
@@ -288,16 +308,38 @@ version = "*"
 name = "create-let-the-adventure-begin"
 version = "*"
 
+[mods.create-liquid-fuel]
+name = "create-liquid-fuel"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.create-metallurgy]
 name = "create-metallurgy"
+version = "*"
+
+[mods.create-mobile-packages]
+name = "create-mobile-packages"
 version = "*"
 
 [mods.create-new-age]
 name = "create-new-age"
 version = "*"
 
+[mods.create-pattern-schematics]
+name = "create-pattern-schematics"
+version = "*"
+
+[mods.create-power-loader]
+name = "create-power-loader"
+version = "*"
+
 [mods.create-propulsion-simulated]
 name = "create-propulsion-simulated"
+version = "*"
+
+[mods.create-rail-grinding]
+name = "create-rail-grinding"
 version = "*"
 
 [mods.create-smog]
@@ -306,6 +348,18 @@ version = "*"
 
 [mods."create-steam-n-rails-1.21.1"]
 name = "create-steam-n-rails-1.21.1"
+version = "*"
+
+[mods.create-trading-floor]
+name = "create-trading-floor"
+version = "*"
+
+[mods.create-ultimate-factory]
+name = "create-ultimate-factory"
+version = "*"
+
+[mods.create-vibrant-vaults]
+name = "create-vibrant-vaults"
 version = "*"
 
 [mods.createaddition]
@@ -326,6 +380,10 @@ version = "*"
 
 [mods.deeperdarker]
 name = "deeperdarker"
+version = "*"
+
+[mods.deployer]
+name = "deployer"
 version = "*"
 
 [mods.diabolical-islands]
@@ -362,6 +420,10 @@ version = "*"
 
 [mods.emi]
 name = "emi"
+version = "*"
+
+[mods.emi-create-schematics]
+name = "emi-create-schematics"
 version = "*"
 
 [mods.emi-loot]
@@ -408,6 +470,14 @@ version = "*"
 
 [mods.entitytexturefeatures]
 name = "entitytexturefeatures"
+version = "*"
+
+[mods.escalated]
+name = "escalated"
+version = "*"
+
+[mods.extra-gauges]
+name = "extra-gauges"
 version = "*"
 
 [mods.fallingleavesforge]
@@ -500,6 +570,10 @@ version = "*"
 name = "handcrafted"
 version = "*"
 
+[mods.hypertube]
+name = "hypertube"
+version = "*"
+
 [mods.iceandfire-ce]
 name = "iceandfire-ce"
 version = "*"
@@ -516,6 +590,10 @@ client_side = true
 
 [mods.immersive-melodies]
 name = "immersive-melodies"
+version = "*"
+
+[mods.interiors]
+name = "interiors"
 version = "*"
 
 [mods.inv-view-forge]
@@ -652,6 +730,10 @@ version = "*"
 
 [mods.noisium]
 name = "noisium"
+version = "*"
+
+[mods.notenoughcrashes]
+name = "notenoughcrashes"
 version = "*"
 
 [mods.observable]
@@ -802,12 +884,20 @@ client_side = true
 name = "sodium"
 version = "*"
 
+[mods.some-assembly-required]
+name = "some-assembly-required"
+version = "*"
+
 [mods.sound-physics-remastered]
 name = "sound-physics-remastered"
 version = "*"
 
 [mods.spark]
 name = "spark"
+version = "*"
+
+[mods.ssrd]
+name = "ssrd"
 version = "*"
 
 [mods.storagedrawers]
