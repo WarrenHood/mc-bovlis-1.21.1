@@ -240,6 +240,14 @@ version = "*"
 name = "create-big-cannons"
 version = "*"
 
+[mods.create-bits-n-bobs]
+name = "create-bits-n-bobs"
+version = "*"
+
+[mods.create-bits-n-dyes]
+name = "create-bits-n-dyes"
+version = "*"
+
 [mods.create-central-kitchen]
 name = "create-central-kitchen"
 version = "*"
@@ -642,6 +650,10 @@ version = "*"
 name = "l_enders-cataclysm"
 version = "*"
 
+[mods.ldlib]
+name = "ldlib"
+version = "*"
+
 [mods.leaves-be-gone]
 name = "leaves-be-gone"
 version = "*"
@@ -840,6 +852,10 @@ client_side = true
 
 [mods.runiclib]
 name = "runiclib"
+version = "*"
+
+[mods.sable-schematic-tool]
+name = "sable-schematic-tool"
 version = "*"
 
 [mods.serene-seasons]
