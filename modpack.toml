@@ -252,6 +252,10 @@ version = "*"
 name = "create-central-kitchen"
 version = "*"
 
+[mods.create-cobblestone]
+name = "create-cobblestone"
+version = "*"
+
 [mods.create-compressed]
 name = "create-compressed"
 version = "*"

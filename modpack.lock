@@ -1260,6 +1260,29 @@ name = "create-dragons-plus"
 version = "1.11.9"
 providers = ["Modrinth"]
 
+[mods.create-cobblestone]
+version = "1.5.1+neoforge-1.21.1-160"
+server_side = true
+client_side = true
+
+[[mods.create-cobblestone.source]]
+
+[mods.create-cobblestone.source.Download]
+url = "https://cdn.modrinth.com/data/ihpnEd80/versions/yJiZnWZD/createcobblestone-1.5.1%2Bneoforge-1.21.1-160.jar"
+sha1 = "b8c4bb988a38a733258ff7c882c873f07df4aaa1"
+sha512 = "86e87569446e78ac6bd73a8911e7ccbb3c8e97dfcdf1fc5842fc3c90d77f88c0023a207321e6e476d9053e23c7bcc7e47f080269973ee4d34de886f1c31cb853"
+filename = "createcobblestone-1.5.1+neoforge-1.21.1-160.jar"
+
+[[mods.create-cobblestone.deps]]
+name = "architectury-api"
+version = "13.0.11+neoforge"
+providers = ["Modrinth"]
+
+[[mods.create-cobblestone.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.create-compressed]
 version = "2.2.0"
 server_side = true
