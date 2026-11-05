@@ -3649,6 +3649,29 @@ sha1 = "fa6c5fa8a21229c85d564b47c73df7160b3bd4df"
 sha512 = "dce77fffebae80532fec39d35c9c8b5817ba756bb03569022cc0854a8a6cf1868690f91451b587bd60d813e8403b5de91adbc324796bc423ef28deecfb13c775"
 filename = "polymorph-neoforge-1.2.0+1.21.1.jar"
 
+[mods.power-grid]
+version = "0.6.2"
+server_side = true
+client_side = true
+
+[[mods.power-grid.source]]
+
+[mods.power-grid.source.Download]
+url = "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar"
+sha1 = "e09452dac8202e31f282149d45c49dcdb218bd54"
+sha512 = "60307e23a27526d22bf753d387edef5a2f2a063a04a47b69e98b7f71bbad32fdf17e05f9838008e47a5999a60e5e77a91f0695215d0ab57694f0034fde9873ca"
+filename = "powergrid-mc1.21.1-0.6.2.jar"
+
+[[mods.power-grid.deps]]
+name = "architectury-api"
+version = "13.0.11+neoforge"
+providers = ["Modrinth"]
+
+[[mods.power-grid.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
 [mods.prickle]
 version = "21.1.11"
 server_side = true

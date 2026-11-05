@@ -800,6 +800,10 @@ version = "*"
 name = "polymorph"
 version = "*"
 
+[mods.power-grid]
+name = "power-grid"
+version = "*"
+
 [mods.pufferfishs-unofficial-additions]
 name = "pufferfishs-unofficial-additions"
 version = "*"
