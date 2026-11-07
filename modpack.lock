@@ -3441,19 +3441,6 @@ sha1 = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
 sha512 = "fc564e55e8cc2050261db9540afbdbab9ebf6559c1c5cae58ab4a3d4d1b7f1b0842459e5ea1bc780e03fed620a0a2af6bbe1eace037d6a1411ae853dc5e77dae"
 filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
 
-[mods.noisium]
-version = "2.3.0+mc1.21-1.21.1"
-server_side = true
-client_side = false
-
-[[mods.noisium.source]]
-
-[mods.noisium.source.Download]
-url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/nJBE6tif/noisium-neoforge-2.3.0%2Bmc1.21-1.21.1.jar"
-sha1 = "1bea6b61378ba80f038256c4345d9ff3b67928c4"
-sha512 = "b50c37d2f69d51742d4407d272cea525b428784d2a39338d34b692937320495cd77d47b2d2321b3976713447028f50823e9ba44ca618900eba4ced907985ec84"
-filename = "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar"
-
 [mods.notenoughcrashes]
 version = "4.4.9+1.21.1-neoforge"
 server_side = true
@@ -3878,6 +3865,19 @@ name = "jauml"
 version = "3.0.0+neoforge-1.21.1"
 providers = ["Modrinth"]
 
+[mods.resourceful-config]
+version = "3.0.11"
+server_side = true
+client_side = true
+
+[[mods.resourceful-config.source]]
+
+[mods.resourceful-config.source.Download]
+url = "https://cdn.modrinth.com/data/M1953qlQ/versions/lSbyRD6v/resourcefulconfig-neoforge-1.21-3.0.11.jar"
+sha1 = "6bf2b6ea9c071c00a2abcdc552667fb6f7d21031"
+sha512 = "8e4ccc37732b3f5190e7e98df34dbc1339fe614494fcabf1aeaeab9ad8e5993522964b51be31882000c08c48a6d0096b5458364415bb81f2b2b775a7daf2eb87"
+filename = "resourcefulconfig-neoforge-1.21-3.0.11.jar"
+
 [mods.resourceful-lib]
 version = "3.0.12"
 server_side = true
@@ -4241,6 +4241,24 @@ url = "https://cdn.modrinth.com/data/guitPqEi/versions/px0CCB06/StorageDrawers-n
 sha1 = "b8e11e3d1fd63fd1a0d9277ec3f966c7e5cff385"
 sha512 = "df97b8b5053a902264a236a71e7585b78d9d48a0bce585033aa8b169896d775f6fda462cfc77431af79cc596ab356eb9642e0c69a205a46b02d4d6f7ab3e74e9"
 filename = "StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+
+[mods.structure-layout-optimizer]
+version = "1.0.12+1.21.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.structure-layout-optimizer.source]]
+
+[mods.structure-layout-optimizer.source.Download]
+url = "https://cdn.modrinth.com/data/ayPU0OHc/versions/eTz03Gfd/structure_layout_optimizer-neoforge-1.0.12.jar"
+sha1 = "052c31cb9881c04c17d949345539aa8684f474bf"
+sha512 = "8c38ebd0e221f5bfe887a40ab21caede40cadc90bfc3b8dbbc79888c07faee44d58f12a974f1c5af324c9feceaa2ed04ea62724c6453650c77e1910582914153"
+filename = "structure_layout_optimizer-neoforge-1.0.12.jar"
+
+[[mods.structure-layout-optimizer.deps]]
+name = "resourceful-config"
+version = "3.0.11"
+providers = ["Modrinth"]
 
 [mods.strut-your-stuff]
 version = "1.3.1"
@@ -4790,3 +4808,17 @@ filename = "YungsBridges-1.21.1-NeoForge-5.1.1.jar"
 name = "yungs-api"
 version = "1.21.1-NeoForge-5.1.9"
 providers = ["Modrinth"]
+
+[mods.zfastnoise]
+version = "1.0.13+1.21.1+neoforge"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.zfastnoise.source]]
+
+[mods.zfastnoise.source.Download]
+url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/9vSFkDAr/zfastnoise-1.0.13%2B1.21.1%2Bneoforge.jar"
+sha1 = "7b9f0b4d62a6e30505f8e64ebb58dfd2dc46c81e"
+sha512 = "23c50dc3d75da96d87b065381e32a979528017f872d056bf1cb012e085122734ab218ea8af7b5570403d83c88ebfb53296969af47198fdb637058753d3974278"
+filename = "zfastnoise-1.0.13+1.21.1+neoforge.jar"

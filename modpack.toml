@@ -758,10 +758,6 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
-[mods.noisium]
-name = "noisium"
-version = "*"
-
 [mods.notenoughcrashes]
 name = "notenoughcrashes"
 version = "*"
@@ -934,6 +930,12 @@ version = "*"
 name = "storagedrawers"
 version = "*"
 
+[mods.structure-layout-optimizer]
+name = "structure-layout-optimizer"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.synaxis]
 name = "synaxis"
 version = "*"
@@ -1088,6 +1090,12 @@ client_side = true
 
 [mods.yungs-bridges]
 name = "yungs-bridges"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.zfastnoise]
+name = "zfastnoise"
 version = "*"
 server_side = true
 client_side = true
