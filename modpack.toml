@@ -358,6 +358,14 @@ version = "*"
 name = "create-steam-n-rails-1.21.1"
 version = "*"
 
+[mods.create-timeless-and-classics-zero-tacz-port]
+name = "create-timeless-and-classics-zero-tacz-port"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/8087/867/tacz_c-1.0.2%2Bneoforge.1.21.1.jar"
+server_side = true
+client_side = true
+
 [mods.create-trading-floor]
 name = "create-trading-floor"
 version = "*"
