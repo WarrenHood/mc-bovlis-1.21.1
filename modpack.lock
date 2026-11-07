@@ -705,17 +705,17 @@ sha512 = "574215a764aaca8cddcf53739d9a0ea810eaf1133aa04cf5e3c4f9afda4f606924a866
 filename = "buildinggadgets2-21.1.1.jar"
 
 [mods.c2me-neoforge]
-version = "0.3.0+alpha.0.93+1.21.1"
+version = "0.4.0-alpha.0.124+1.21.1"
 server_side = true
 client_side = true
 
 [[mods.c2me-neoforge.source]]
 
 [mods.c2me-neoforge.source.Download]
-url = "https://cdn.modrinth.com/data/COlSi5iR/versions/KmfiVd28/c2me-neoforge-mc1.21.1-0.3.0%2Balpha.0.93.jar"
-sha1 = "942a6d51d4c475117418a6a36b46833a8128fbc7"
-sha512 = "7dbb5cabc4669b900c570547fc636ce77b24e08451f4c699db76ec9ed3c805a256323862d7823e7d8c5acd10baa15e83c27dae3384ed5ea765f7e883a41f6045"
-filename = "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar"
+url = "https://cdn.modrinth.com/data/COlSi5iR/versions/VACgDPOc/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.jar"
+sha1 = "469497c209e77742a85020845a361851f14d99e2"
+sha512 = "ad5675893a856663659b4d73285d154615e6c1924fef0f52513e3f07895ba474e3629778087aa8ec0edcfd802c21ee773f6483397bde858ff30a2b62887b208b"
+filename = "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.jar"
 
 [mods.caelus]
 version = "7.0.1+1.21.1"

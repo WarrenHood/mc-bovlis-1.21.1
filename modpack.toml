@@ -146,7 +146,7 @@ client_side = true
 
 [mods.c2me-neoforge]
 name = "c2me-neoforge"
-version = "0.3.0+alpha.0.93+1.21.1"
+version = "*"
 
 [mods.caelus]
 name = "caelus"
