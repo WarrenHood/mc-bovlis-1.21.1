@@ -1189,6 +1189,11 @@ target_path = "config/lithium.properties"
 side = "Both"
 apply_policy = "Always"
 
+[files."./common/config/railways-untold/config.toml"]
+target_path = "config/railways-untold/config.toml"
+side = "Both"
+apply_policy = "Always"
+
 [files."./common/config/sky_archipelago-common.toml"]
 target_path = "config/sky_archipelago-common.toml"
 side = "Both"
