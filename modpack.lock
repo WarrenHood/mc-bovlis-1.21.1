@@ -1994,19 +1994,6 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
-[mods.diabolical-islands]
-version = "1.0.0+mod"
-server_side = true
-client_side = true
-
-[[mods.diabolical-islands.source]]
-
-[mods.diabolical-islands.source.Download]
-url = "https://cdn.modrinth.com/data/t9gPp1Gu/versions/MonIzXwI/diabolical-islands-1.0.0.jar"
-sha1 = "31c9067be88e3fc603724c73ee7f0151ae7f0bc8"
-sha512 = "8bcbd8b3c00817eb1b67cb9fdc39ad3ac89fecfc30760544fb8b61f6acdba8a11762f984c12a48b8fe1bdd90641c6cae42f13cf8abf11ecccffd0f0a55179dec"
-filename = "diabolical-islands-1.0.0.jar"
-
 [mods.dimensional-dungeons]
 version = "203"
 server_side = true
@@ -3441,6 +3428,19 @@ sha1 = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
 sha512 = "fc564e55e8cc2050261db9540afbdbab9ebf6559c1c5cae58ab4a3d4d1b7f1b0842459e5ea1bc780e03fed620a0a2af6bbe1eace037d6a1411ae853dc5e77dae"
 filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
 
+[mods.noisium]
+version = "2.3.0+mc1.21-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.noisium.source]]
+
+[mods.noisium.source.Download]
+url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/nJBE6tif/noisium-neoforge-2.3.0%2Bmc1.21-1.21.1.jar"
+sha1 = "1bea6b61378ba80f038256c4345d9ff3b67928c4"
+sha512 = "b50c37d2f69d51742d4407d272cea525b428784d2a39338d34b692937320495cd77d47b2d2321b3976713447028f50823e9ba44ca618900eba4ced907985ec84"
+filename = "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar"
+
 [mods.notenoughcrashes]
 version = "4.4.9+1.21.1-neoforge"
 server_side = true
@@ -4058,6 +4058,19 @@ sha1 = "e7439fa56036bfacf228269b8b89f10cbbba13fd"
 sha512 = "0dd07a6ca391ce00975f5b6c147cd993ce83d4ab3dde634885bc124f2d7fdfdcb631425539e2dbfdf7e0925795737c27bd4560aa5a6940ac0547dbd72c130b7f"
 filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
 
+[mods.sky-archipelago]
+version = "1.4"
+server_side = true
+client_side = true
+
+[[mods.sky-archipelago.source]]
+
+[mods.sky-archipelago.source.Download]
+url = "https://cdn.modrinth.com/data/sHFNUlBU/versions/XPc17YJD/sky_archipelago-1.4.jar"
+sha1 = "ac462047df2c3887dc7b38b47af247c12293a11e"
+sha512 = "f5ba17eee21cd54577b3b306ff74560d57420fc0757577b044ef9d515cfc3d26356e0aee17c4510b3ad46e9b470b7243f2011b2efc100a602089e306d4856b4f"
+filename = "sky_archipelago-1.4.jar"
+
 [mods.sky-whales]
 version = "0.1.8"
 server_side = true
@@ -4085,19 +4098,6 @@ providers = ["Modrinth"]
 name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
-
-[mods.skylands-over-the-sea]
-version = "3.0.2+mod"
-server_side = true
-client_side = true
-
-[[mods.skylands-over-the-sea.source]]
-
-[mods.skylands-over-the-sea.source.Download]
-url = "https://cdn.modrinth.com/data/WAKcNdAc/versions/BAvqRhwy/skylands-over-the-sea-3.0.2.jar"
-sha1 = "852dd378db4f8d7c58d1f0406ff76e5bbdcab840"
-sha512 = "c3547a3b030c6f0c13cc32101e1ac3dbb0d1cebb28416f146fd592e2409f26402506675aaff636edb2cc00c8e666ca6cbd13e1721770ced4178f8e1d9861383d"
-filename = "skylands-over-the-sea-3.0.2.jar"
 
 [mods.slice-and-dice]
 version = "4.3.4"
@@ -4808,17 +4808,3 @@ filename = "YungsBridges-1.21.1-NeoForge-5.1.1.jar"
 name = "yungs-api"
 version = "1.21.1-NeoForge-5.1.9"
 providers = ["Modrinth"]
-
-[mods.zfastnoise]
-version = "1.0.13+1.21.1+neoforge"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.zfastnoise.source]]
-
-[mods.zfastnoise.source.Download]
-url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/9vSFkDAr/zfastnoise-1.0.13%2B1.21.1%2Bneoforge.jar"
-sha1 = "7b9f0b4d62a6e30505f8e64ebb58dfd2dc46c81e"
-sha512 = "23c50dc3d75da96d87b065381e32a979528017f872d056bf1cb012e085122734ab218ea8af7b5570403d83c88ebfb53296969af47198fdb637058753d3974278"
-filename = "zfastnoise-1.0.13+1.21.1+neoforge.jar"

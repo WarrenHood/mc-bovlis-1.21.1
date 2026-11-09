@@ -412,10 +412,6 @@ version = "*"
 name = "deployer"
 version = "*"
 
-[mods.diabolical-islands]
-name = "diabolical-islands"
-version = "*"
-
 [mods.dimensional-dungeons]
 name = "dimensional-dungeons"
 version = "*"
@@ -758,6 +754,12 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
+[mods.noisium]
+name = "noisium"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.notenoughcrashes]
 name = "notenoughcrashes"
 version = "*"
@@ -882,15 +884,13 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
+[mods.sky-archipelago]
+name = "sky-archipelago"
+version = "*"
+
 [mods.sky-whales]
 name = "sky-whales"
 version = "*"
-
-[mods.skylands-over-the-sea]
-name = "skylands-over-the-sea"
-version = "*"
-server_side = true
-client_side = true
 
 [mods.slice-and-dice]
 name = "slice-and-dice"
@@ -1094,12 +1094,6 @@ version = "*"
 server_side = true
 client_side = true
 
-[mods.zfastnoise]
-name = "zfastnoise"
-version = "*"
-server_side = true
-client_side = true
-
 [files."./client/config/cubes_without_borders.json"]
 target_path = "config/cubes_without_borders.json"
 side = "Client"
@@ -1192,6 +1186,11 @@ apply_policy = "Always"
 
 [files."./common/config/lithium.properties"]
 target_path = "config/lithium.properties"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/sky_archipelago-common.toml"]
+target_path = "config/sky_archipelago-common.toml"
 side = "Both"
 apply_policy = "Always"
 
