@@ -17,7 +17,7 @@
 	#Uses the registry name of the chunk generator (e.g. 'minecraft:noise', 'minecraft:flat').
 	#Modded generators can be added by their full ID (e.g. 'bigglobe:scripted').
 	#Set to an empty string to disable generation in all world types.
-	generateInWorldTypes = "minecraft:noise,minecraft:flat"
+	generateInWorldTypes = "minecraft:noise,minecraft:flat,sky_archipelago:sky_islands"
 
 #Feature Toggles
 [features]

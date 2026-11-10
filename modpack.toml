@@ -312,6 +312,14 @@ version = "*"
 name = "create-garnished"
 version = "*"
 
+[mods.create-infinite-railways]
+name = "create-infinite-railways"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/9101/403/create-infinite-railways-0.2.0.jar"
+server_side = true
+client_side = true
+
 [mods.create-integrated-farming]
 name = "create-integrated-farming"
 version = "*"
@@ -1176,6 +1184,11 @@ apply_policy = "MergeOverwrite"
 
 [files."./common/config/iceandfire/iaf-common.json"]
 target_path = "./config/iceandfire/iaf-common.json"
+side = "Both"
+apply_policy = "Always"
+
+[files."./common/config/infiniterailways-common.toml"]
+target_path = "config/infiniterailways-common.toml"
 side = "Both"
 apply_policy = "Always"
 

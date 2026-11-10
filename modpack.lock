@@ -1593,6 +1593,19 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-infinite-railways]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.create-infinite-railways.source]]
+
+[mods.create-infinite-railways.source.Download]
+url = "https://mediafilez.forgecdn.net/files/9101/403/create-infinite-railways-0.2.0.jar"
+sha1 = "093ea01ce7cfa199eb264a6003794e4a9e27f311"
+sha512 = "6590f5e7075eeb34c12580bb8b72ae00712b2c069844173b44b6309a132cd6b800b304fa6c87d1a52255639de17b6bbb6e9f0c525c4589baea95725dcbbb7b9a"
+filename = "create-infinite-railways-0.2.0.jar"
+
 [mods.create-integrated-farming]
 version = "1.4.3"
 server_side = true
