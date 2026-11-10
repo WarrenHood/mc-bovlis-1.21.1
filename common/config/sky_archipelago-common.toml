@@ -60,7 +60,7 @@ maxIslandY = 250
 #Maximum vertical island thickness in blocks. Prevents giant islands from becoming too tall/deep.
 # Default: 140
 # Range: 24 ~ 1024
-maxIslandThicknessBlocks = 300
+maxIslandThicknessBlocks = 140
 #Relative weight of the uncommon low-island height band.
 # Default: 0.5
 # Range: 0.0 ~ 10.0
