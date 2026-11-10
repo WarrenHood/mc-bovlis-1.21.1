@@ -197,7 +197,7 @@
 	#Build masts and overhead wires along the track and in stations. Requires Create: Pantographs & Wires
 	#or Create: Electro Energetics; ignored (nothing is placed) when neither is installed, even if true.
 	#Only applies to track placed from now on.
-	overheadWires = true
+	overheadWires = false
 	#Which mod's catenary to build. AUTO uses Pantographs & Wires when installed, else Electro Energetics.
 	#A mod that is not installed falls back to the other one.
 	#Allowed Values: AUTO, PANTOGRAPHS_AND_WIRES, ELECTRO_ENERGETICS
