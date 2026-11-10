@@ -2781,6 +2781,19 @@ sha1 = "5f3cd9eb07465a88a22abc6230862e798f45ef82"
 sha512 = "79bf2f8dccb5b0db017f77956d73721d54e093416ebe4785f378515fc791ca9a2098d1039d6045c96e2f2c1eac7806de775b7ae84ab9b1b15e68adebebaeaff1"
 filename = "immersive_melodies-neoforge-0.8.0+1.21.1.jar"
 
+[mods.infinite-railways-void-compat]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.infinite-railways-void-compat.source]]
+
+[mods.infinite-railways-void-compat.source.Download]
+url = "https://github.com/WarrenHood/mc-bovlis-1.21.1/releases/download/bovlis/infinite_railways_void_compat-0.1.0.jar"
+sha1 = "53b18f72d8830f938ac3353f618e488176f94838"
+sha512 = "bcf207ad9b5504ce0f1d7d40ebd4cab6f2a84d09922b577c04ae779681f6236148d3599184a9d7762b788f19d4880edcfdf0327b5a01322045bc01264d4ecb6e"
+filename = "infinite_railways_void_compat-0.1.0.jar"
+
 [mods.interiors]
 version = "0.6.1"
 server_side = true

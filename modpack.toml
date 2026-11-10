@@ -622,6 +622,14 @@ client_side = true
 name = "immersive-melodies"
 version = "*"
 
+[mods.infinite-railways-void-compat]
+name = "infinite-railways-void-compat"
+version = "*"
+providers = ["Raw"]
+download_url = "https://github.com/WarrenHood/mc-bovlis-1.21.1/releases/download/bovlis/infinite_railways_void_compat-0.1.0.jar"
+server_side = true
+client_side = true
+
 [mods.interiors]
 name = "interiors"
 version = "*"
