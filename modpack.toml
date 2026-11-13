@@ -784,6 +784,10 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
+[mods.no-prying-eyes]
+name = "no-prying-eyes"
+version = "*"
+
 [mods.noisium]
 name = "noisium"
 version = "*"

@@ -3507,6 +3507,19 @@ sha1 = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
 sha512 = "fc564e55e8cc2050261db9540afbdbab9ebf6559c1c5cae58ab4a3d4d1b7f1b0842459e5ea1bc780e03fed620a0a2af6bbe1eace037d6a1411ae853dc5e77dae"
 filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
 
+[mods.no-prying-eyes]
+version = "3.2.2-1.21.1-beta+neoforge"
+server_side = true
+client_side = true
+
+[[mods.no-prying-eyes.source]]
+
+[mods.no-prying-eyes.source.Download]
+url = "https://cdn.modrinth.com/data/LoXPgYhm/versions/VpvU4mYD/nopryingeyes-neoforge-1.21.1-3.2.2-beta.jar"
+sha1 = "0be10310cbea848b9de765be4b4080caf77a9393"
+sha512 = "145f1de5fb11792b4458bd1abb492dd6c1ab15d3fea92496aed3a3baa107a91c8b006097d510a0316a3a00bb35e5ed91a60082616600eed002075037aeb96e3a"
+filename = "nopryingeyes-neoforge-1.21.1-3.2.2-beta.jar"
+
 [mods.noisium]
 version = "2.3.0+mc1.21-1.21.1"
 server_side = true
