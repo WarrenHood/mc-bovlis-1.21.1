@@ -370,6 +370,10 @@ version = "*"
 name = "create-pattern-schematics"
 version = "*"
 
+[mods.create-pillager-arise]
+name = "create-pillager-arise"
+version = "*"
+
 [mods.create-power-loader]
 name = "create-power-loader"
 version = "*"
@@ -397,6 +401,12 @@ client_side = true
 [mods.create-trading-floor]
 name = "create-trading-floor"
 version = "*"
+
+[mods.create-transmission]
+name = "create-transmission"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.create-ultimate-factory]
 name = "create-ultimate-factory"

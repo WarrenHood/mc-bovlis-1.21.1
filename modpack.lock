@@ -1813,6 +1813,19 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
+[mods.create-pillager-arise]
+version = "132.36"
+server_side = true
+client_side = true
+
+[[mods.create-pillager-arise.source]]
+
+[mods.create-pillager-arise.source.Download]
+url = "https://cdn.modrinth.com/data/VT2rW2wr/versions/dSpuz2DS/create_pillagers_arise%20NeoForge%201.21.1-132.36.jar"
+sha1 = "ffc083a957c3e527d9aabf3fb851b780ef443b5a"
+sha512 = "81405f806b400c11b6052e35212923935f5e1052c8b0068f33794ea754c6b50ff658c8ec99b8eab7bd26c517b5f8572c07c8429e6391fc01066ea065c7adbee8"
+filename = "create_pillagers_arise NeoForge 1.21.1-132.36.jar"
+
 [mods.create-power-loader]
 version = "2.0.5-mc1.21.1"
 server_side = true
@@ -1902,6 +1915,24 @@ sha512 = "6eaf42758446093c1923a9c325b955f7ec38933bc0b271559547b73b7dc9950e47a825
 filename = "trading_floor-3.0.16.jar"
 
 [[mods.create-trading-floor.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-transmission]
+version = "1.2.2+neoforge-create6-1.21.1"
+server_side = true
+client_side = true
+
+[[mods.create-transmission.source]]
+
+[mods.create-transmission.source.Download]
+url = "https://cdn.modrinth.com/data/QFCkBuIh/versions/dOsq88jX/createtransmission-1.2.2%2Bneoforge-create6-1.21.1.jar"
+sha1 = "60e020b39a243e4eca5d15e3c9299fcdf8ed20d2"
+sha512 = "ed90c19f6e265a3862a2c96d95e9b204cb3b3be8b781d8364d0a2aea4d70877f5fe66056354da0fed2eb35fde22c6e4c2801b0cf31d8d7157e4933f1d8913233"
+filename = "createtransmission-1.2.2+neoforge-create6-1.21.1.jar"
+
+[[mods.create-transmission.deps]]
 name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
