@@ -192,6 +192,10 @@ version = "*"
 name = "clumps"
 version = "*"
 
+[mods.colorwheel]
+name = "colorwheel"
+version = "*"
+
 [mods.controlling]
 name = "controlling"
 version = "*"
@@ -410,6 +414,10 @@ client_side = true
 
 [mods.createaddition]
 name = "createaddition"
+version = "*"
+
+[mods.createbetterfps]
+name = "createbetterfps"
 version = "*"
 
 [mods.createnuclear]

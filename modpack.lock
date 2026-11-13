@@ -963,6 +963,24 @@ sha1 = "354d850ca72568b88d67e3c903efced7e62dc90f"
 sha512 = "acc300da463672a4091e0f48266df4a5b0704bc23e044e71ca47c3d56390d09eef3690baad8f8744d657bac8d5e02a2b4a2bb77ed0478dba9ad9b8c35901645f"
 filename = "CodeChickenLib-1.21.1-4.6.1.529.jar"
 
+[mods.colorwheel]
+version = "1.3.2+mc1.21.1"
+server_side = false
+client_side = true
+
+[[mods.colorwheel.source]]
+
+[mods.colorwheel.source.Download]
+url = "https://cdn.modrinth.com/data/BzHgFoGz/versions/lV874ox8/colorwheel-neoforge-1.3.2%2Bmc1.21.1.jar"
+sha1 = "d4d5681fb5f5b1d95a843b7e752ad746a56c4093"
+sha512 = "235137566db5f245b27f6db73153d1dac3f40286dc353e2dc7541c5c080ba08e6bb2b94cf0f71248e5b7c182efb84366a23d55e4dc7af90c076473dce60a005f"
+filename = "colorwheel-neoforge-1.3.2+mc1.21.1.jar"
+
+[[mods.colorwheel.deps]]
+name = "iris"
+version = "1.8.14-beta.1+1.21.1-neoforge"
+providers = ["Modrinth"]
+
 [mods.controlling]
 version = "19.0.5"
 server_side = false
@@ -1954,6 +1972,19 @@ url = "https://cdn.modrinth.com/data/kU1G12Nn/versions/hsjVajlP/createaddition-1
 sha1 = "8e7158d3144b1ee97e58092fe006675b0e09f6d8"
 sha512 = "f3a3ddb5600189da818fc71ea659d17f0d1097c5ad664433eed400b3ecc67d0f9305b348e5b7c5fd872d7a6e51330c7158b3181e77192c576c205a74dd0298ff"
 filename = "createaddition-1.7.2.jar"
+
+[mods.createbetterfps]
+version = "1.1.5"
+server_side = false
+client_side = true
+
+[[mods.createbetterfps.source]]
+
+[mods.createbetterfps.source.Download]
+url = "https://cdn.modrinth.com/data/lMYIHZNH/versions/dxmPYimo/createbetterfps-1.21.1-1.1.5.jar"
+sha1 = "c06111569e30af58d1cec4b4ee4b545f0021172a"
+sha512 = "d98deec79eefb8e0c8ddda7def8a46f4c66402a213da5242f8ff029f43b844e68914fa31af3c8aed646d131ee9bfac3a63032df399b1f76cc99b5c312f32df24"
+filename = "createbetterfps-1.21.1-1.1.5.jar"
 
 [mods.createnuclear]
 version = "2.0.0"
