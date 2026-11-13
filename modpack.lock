@@ -141,6 +141,24 @@ sha1 = "1201c14362f2bad7062d315f8a9b26afbabd2c9c"
 sha512 = "e7715d92987ad902f316ae657558a58e647b4f076d6962e6ac5b6bdb802755f1a37c2380b69002ce930b29dc02fe96989d41818462f7bc236c4ad709b0842480"
 filename = "alternate_current-mc1.21-1.9.0.jar"
 
+[mods.amendments]
+version = "1.21-2.2.7"
+server_side = true
+client_side = true
+
+[[mods.amendments.source]]
+
+[mods.amendments.source.Download]
+url = "https://cdn.modrinth.com/data/6iTJugQR/versions/w19mjFoT/amendments-1.21-2.2.7-neoforge.jar"
+sha1 = "f8db6e9b5610fab90a7c545c374feb9140fc7832"
+sha512 = "e244c23cd46a188b84b0f9a807d600da846f8f2d216dbee5809caa566c9f4270f0b9da49c426115e5097b4fc92d228ac1a0adee71fcc7cf3a25c74d042f0e6d8"
+filename = "amendments-1.21-2.2.7-neoforge.jar"
+
+[[mods.amendments.deps]]
+name = "moonlight"
+version = "1.21.1-3.8.3"
+providers = ["Modrinth"]
+
 [mods.ancient-reforging]
 version = "1.8.6"
 server_side = true
@@ -569,6 +587,20 @@ providers = ["Modrinth"]
 name = "playeranimator"
 version = "2.0.4+1.21.1-forge"
 providers = ["Modrinth"]
+
+[mods.better-modlist]
+version = "21.1.5"
+deps = []
+server_side = false
+client_side = true
+
+[[mods.better-modlist.source]]
+
+[mods.better-modlist.source.Download]
+url = "https://cdn.modrinth.com/data/sbpqhzIG/versions/QRL2q28j/better_modlist-21.1.5.jar"
+sha1 = "f562b7e1a05deb3b8bb8e1bd7958fc1dbd99b626"
+sha512 = "65f47d2e3d72d9411dd07ac0740c771a1ea2693a1e72d69b83ba7edf3b20abf67510abc88e6fc9f6f71899783315a62e252d08b945a13e8d1baacba6a284d680"
+filename = "better_modlist-21.1.5.jar"
 
 [mods.betterf3]
 version = "11.0.3"
@@ -1056,6 +1088,29 @@ version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
 [[mods.create-aeronautics.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[mods.create-aeronautics-climbable-rope]
+version = "2.2.2"
+server_side = true
+client_side = true
+
+[[mods.create-aeronautics-climbable-rope.source]]
+
+[mods.create-aeronautics-climbable-rope.source.Download]
+url = "https://cdn.modrinth.com/data/jImqv1M5/versions/1r3CmpkA/climbable_ropes-2.2.2.jar"
+sha1 = "5788f0263f701b56e7689c1da914ee537f5c3d23"
+sha512 = "829486044689c04d56528e3593a2d4fad60fe8693ea71af38bf5f2b4bb0b08258fabd7235af69731195fd5322a747804bcc898dbe50cab56850c05d16cc95ded"
+filename = "climbable_ropes-2.2.2.jar"
+
+[[mods.create-aeronautics-climbable-rope.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-aeronautics-climbable-rope.deps]]
 name = "sable"
 version = "2.0.6+mc1.21.1"
 providers = ["Modrinth"]
@@ -1628,6 +1683,19 @@ providers = ["Modrinth"]
 name = "create-dragons-plus"
 version = "1.11.9"
 providers = ["Modrinth"]
+
+[mods.create-kinetic-grip]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.create-kinetic-grip.source]]
+
+[mods.create-kinetic-grip.source.Download]
+url = "https://mediafilez.forgecdn.net/files/8265/245/KineticGrip-1.21.1-1.0.5.jar"
+sha1 = "c3363b8e398ea87f548547aaccb4739f0226a75c"
+sha512 = "2a7b40f9f3e385b9aecf306896c88d3ab82a7d9e2bdb577ae912774d2f201a1deb5f96ed3676271306a7be4c7329267e2076c27be7e0be8ba7700b2ea5d8bd6f"
+filename = "KineticGrip-1.21.1-1.0.5.jar"
 
 [mods.create-let-the-adventure-begin]
 version = "4.1.0"
@@ -3351,6 +3419,19 @@ sha1 = "c379b8d5dc1a4b1e8987da1052d6b4de81354d72"
 sha512 = "378d5da579e65e8c37d81aee510302f99b3097f0c6a4245f3621478f741fac3b55a3715227d9408153a66c98624f8fcb5f93e98027212e0f0a82b768315d0651"
 filename = "MoogsStructureLib-neoforge-1.21.1-3.4.2.jar"
 
+[mods.moonlight]
+version = "1.21.1-3.8.3"
+server_side = true
+client_side = true
+
+[[mods.moonlight.source]]
+
+[mods.moonlight.source.Download]
+url = "https://cdn.modrinth.com/data/twkfQtEc/versions/yBea1yLM/moonlight-1.21.1-3.8.3-neoforge.jar"
+sha1 = "046821d548a1269164c792bab46d55798085c285"
+sha512 = "7b6479af8052419080bb1f5d28742daeef38a62bf33f2b47b70a1dafb01a06afd485cbc22e9f95c210e72b62364b96f539257dc8e03f5631a586ee9c4b5121bf"
+filename = "moonlight-1.21.1-3.8.3-neoforge.jar"
+
 [mods.mouse-tweaks]
 version = "1.21-2.26.1-neoforge"
 server_side = false
@@ -4102,6 +4183,19 @@ name = "craterlib"
 version = "1.21-3.1.3"
 providers = ["Modrinth"]
 
+[mods.simulated-copycats]
+version = "1.3.2"
+server_side = true
+client_side = true
+
+[[mods.simulated-copycats.source]]
+
+[mods.simulated-copycats.source.Download]
+url = "https://cdn.modrinth.com/data/NYBH9vVY/versions/6zbD44Qe/sim_copycats-1.3.2.jar"
+sha1 = "5191a4741acb58199f7bdb6f162c5fab6abb287f"
+sha512 = "ee11cfd6f3616effd4dc2ec5c5cb3532e4f5155eb0684c07976ca11bfc673e7844b3834360d389db74e225cff4934f5ab0bb550f09adcfb39726e98ce889689c"
+filename = "sim_copycats-1.3.2.jar"
+
 [mods.skills]
 version = "0.19.2"
 server_side = true
@@ -4600,6 +4694,29 @@ url = "https://cdn.modrinth.com/data/84zcagOb/versions/pjhowbMS/voxy-server-side
 sha1 = "6e948d39f8b0d61f1ed2703f8c8555d2095fcdd0"
 sha512 = "4bf5afb5e51d309b245eaccb01de7d45014631fd0639772096488d9df261e3f5108c9bba29fd0cf58b0a00896d777d8b185a92648d1bad8bdbd1c11c169c02a0"
 filename = "voxy-server-side-neoforge.jar"
+
+[mods.voxy-worldgen]
+version = "2.4.2"
+server_side = true
+client_side = true
+
+[[mods.voxy-worldgen.source]]
+
+[mods.voxy-worldgen.source.Download]
+url = "https://cdn.modrinth.com/data/xT0lnNE9/versions/PzNUZlWw/Voxy%20World%20Gen%20V2-neoforge-1.21.1-2.4.2.jar"
+sha1 = "1e9483ed7b46e1f997637a4f064f38a15680c8b7"
+sha512 = "1407723c46d6320eac110f7d31fb047ed08b5c654b83f9b77b8f19c90b351b497bf9a1180718dbf647579f3566b1b2a4f85f356c0d0de975a909c965d82bff5a"
+filename = "Voxy World Gen V2-neoforge-1.21.1-2.4.2.jar"
+
+[[mods.voxy-worldgen.deps]]
+name = "better-modlist"
+version = "21.1.5"
+providers = ["Modrinth"]
+
+[[mods.voxy-worldgen.deps]]
+name = "cloth-config"
+version = "15.0.140+neoforge"
+providers = ["Modrinth"]
 
 [mods.waystones]
 version = "21.1.46+neoforge-1.21.1"

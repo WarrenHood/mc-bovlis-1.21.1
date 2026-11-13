@@ -44,6 +44,10 @@ version = "*"
 name = "alternate-current"
 version = "*"
 
+[mods.amendments]
+name = "amendments"
+version = "*"
+
 [mods.ancient-reforging]
 name = "ancient-reforging"
 version = "*"
@@ -212,6 +216,10 @@ version = "*"
 name = "create-aeronautics"
 version = "*"
 
+[mods.create-aeronautics-climbable-rope]
+name = "create-aeronautics-climbable-rope"
+version = "*"
+
 [mods.create-aeronautics-discovery]
 name = "create-aeronautics-discovery"
 version = "*"
@@ -323,6 +331,14 @@ client_side = true
 [mods.create-integrated-farming]
 name = "create-integrated-farming"
 version = "*"
+
+[mods.create-kinetic-grip]
+name = "create-kinetic-grip"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/8265/245/KineticGrip-1.21.1-1.0.5.jar"
+server_side = true
+client_side = true
 
 [mods.create-let-the-adventure-begin]
 name = "create-let-the-adventure-begin"
@@ -920,6 +936,12 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
+[mods.simulated-copycats]
+name = "simulated-copycats"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.sky-archipelago]
 name = "sky-archipelago"
 version = "*"
@@ -1051,6 +1073,12 @@ client_side = true
 [mods.voxy-server-side]
 name = "voxy-server-side"
 version = "*"
+
+[mods.voxy-worldgen]
+name = "voxy-worldgen"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.waystones]
 name = "waystones"
