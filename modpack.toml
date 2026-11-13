@@ -408,6 +408,14 @@ version = "*"
 name = "cull-leaves"
 version = "*"
 
+[mods.cupboard]
+name = "cupboard"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/8889/50/cupboard-1.21.1-4.2.jar"
+server_side = true
+client_side = true
+
 [mods.curios]
 name = "curios"
 version = "*"
@@ -870,6 +878,12 @@ client_side = true
 name = "runiclib"
 version = "*"
 
+[mods.sable-cleanup]
+name = "sable-cleanup"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.sable-ragdoll-corpse]
 name = "sable-ragdoll-corpse"
 version = "0.4.0"
@@ -955,6 +969,14 @@ version = "*"
 [mods.structure-layout-optimizer]
 name = "structure-layout-optimizer"
 version = "*"
+server_side = true
+client_side = true
+
+[mods.structureessentials]
+name = "structureessentials"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/9278/578/structureessentials-1.21.1-5.1.jar"
 server_side = true
 client_side = true
 
