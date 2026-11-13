@@ -1905,19 +1905,6 @@ name = "create"
 version = "6.0.10+mc1.21.1"
 providers = ["Modrinth"]
 
-[mods.creativecore]
-version = "2.13.51"
-server_side = true
-client_side = true
-
-[[mods.creativecore.source]]
-
-[mods.creativecore.source.Download]
-url = "https://cdn.modrinth.com/data/OsZiaDHq/versions/vRMtFt35/CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar"
-sha1 = "eb2242b3d4442ad4017ba0624a7f9588e778b157"
-sha512 = "864301fa1229511203fc291e9b683db5af3cb4aa4faed0ef1eb54112491b3c97f9b5006b42d41fb2c169f7fc93ad13459f5079c6ffc73dc4b145ee61b7687997"
-filename = "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar"
-
 [mods.cubes-without-borders]
 version = "3.0.0+1.21"
 deps = []
@@ -2636,20 +2623,6 @@ url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/S2TfWrZR/GlitchCore-neofo
 sha1 = "e3d4bb80a06f619be989ab529d0cd4e33e076943"
 sha512 = "7a009ed163d03536fdfaee7b37cb1ec3073204dffcb06a683369aa88da8dbc3780b0ac69d466bb32a3ad9394c97b698d0fda676e1b4dd4edfc50ac5aa2283c32"
 filename = "GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
-
-[mods.gravestone-mod]
-version = "neoforge-1.21.1-1.0.40"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.gravestone-mod.source]]
-
-[mods.gravestone-mod.source.Download]
-url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/rMGJpjaM/gravestone-neoforge-1.21.1-1.0.40.jar"
-sha1 = "97230b93af34ac6581ed36b0cc98f6b16b06c04e"
-sha512 = "5504a222d4085da1898ff6d4dff8eb1821fd14a8caaaac785554277147f984262e63925a411db3f1a34e9c7874652fb6737176bea4c0c3f01243f5eae4ea6eaa"
-filename = "gravestone-neoforge-1.21.1-1.0.40.jar"
 
 [mods.guide-api]
 version = "1.21.1-2.3.0"
@@ -3630,24 +3603,6 @@ sha1 = "05be8ddcc78532b9a5520c718edc6c971cd0057c"
 sha512 = "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f"
 filename = "player-animation-lib-forge-2.0.4+1.21.1.jar"
 
-[mods.playerrevive]
-version = "2.1.2"
-server_side = true
-client_side = true
-
-[[mods.playerrevive.source]]
-
-[mods.playerrevive.source.Download]
-url = "https://cdn.modrinth.com/data/ABIMzABM/versions/LS7UoW1b/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar"
-sha1 = "b1ee96cfefa36e1c05aaab8e92bfb3f9ae927d15"
-sha512 = "9f33feecb73d92a7771b389f684ec5ac762df956dfbe748e8b6c3d839eaa9d60b2476fbe95878ff657d8e4b46e1335c4db16094516e17436dca11c8f073aaf40"
-filename = "PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar"
-
-[[mods.playerrevive.deps]]
-name = "creativecore"
-version = "2.13.51"
-providers = ["Modrinth"]
-
 [mods.polymorph]
 version = "1.2.0+1.21.1"
 server_side = true
@@ -3968,6 +3923,60 @@ url = "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1
 sha1 = "cf46f7e8c1511f170abcdbee739944f0540549bf"
 sha512 = "76d293ce751a01cb9c095a3659b0a41e03e005480bc9d76dfdc73ec7c2eabf7923740c7b077921d42616673c496cd5143569f2085ddcebe174fd91d81e2a04b8"
 filename = "sable-neoforge-1.21.1-2.0.6.jar"
+
+[mods.sable-ragdoll-corpse]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.sable-ragdoll-corpse.source]]
+
+[mods.sable-ragdoll-corpse.source.Download]
+url = "https://cdn.modrinth.com/data/uetGbPKW/versions/7o7DeIN5/ragdoll_corpse-1.21.1-0.4.0.jar"
+sha1 = "0bcdfc1a2b78df7767ae6371042651bb780ad901"
+sha512 = "611493182032dbdad646ca61df53dfd8dfe0b5a536fe713de48cc71ce4c4c8d07ed24e27634371bed2f309e3df09336ae36f310caa29526e6e814f8c19a2d904"
+filename = "ragdoll_corpse-1.21.1-0.4.0.jar"
+
+[mods.sable-ragdoll-revival]
+version = "1.2.2"
+server_side = true
+client_side = true
+
+[[mods.sable-ragdoll-revival.source]]
+
+[mods.sable-ragdoll-revival.source.Download]
+url = "https://cdn.modrinth.com/data/1koTp7kY/versions/NHMoKedW/sable_ragdoll_revival-1.2.2.jar"
+sha1 = "fa081de8d44b296f192b229f42f4bc381eb5e027"
+sha512 = "14d57db090178c863561528c8a5fbbbf31390f1b00172e6399ad978b3340a3952b8bc7a019a1898e3f23600affab5906af8ffd95bc454f721bb6441df859fec1"
+filename = "sable_ragdoll_revival-1.2.2.jar"
+
+[[mods.sable-ragdoll-revival.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.sable-ragdoll-revival.deps]]
+name = "sable-ragdolls"
+version = "0.8.1"
+providers = ["Modrinth"]
+
+[mods.sable-ragdolls]
+version = "0.8.1"
+server_side = true
+client_side = true
+
+[[mods.sable-ragdolls.source]]
+
+[mods.sable-ragdolls.source.Download]
+url = "https://cdn.modrinth.com/data/I3mWDgfy/versions/7VQ9pGev/sable_player_ragdoll-1.21.1-0.8.1.jar"
+sha1 = "bfb37d0d38b7a1fab249dd4c7b044f80c8aee802"
+sha512 = "3cb14194cd5fac318cd0933a059442463a6a620926bdccb04d44d81e7c9fb0578f7a95f494f37f9b70ee32fac1e2f18e81203a2acc52f4d264897f1a691f8b85"
+filename = "sable_player_ragdoll-1.21.1-0.8.1.jar"
+
+[[mods.sable-ragdolls.deps]]
+name = "sable"
+version = "2.0.6+mc1.21.1"
+providers = ["Modrinth"]
 
 [mods.sable-schematic-tool]
 version = "1.0.1"
