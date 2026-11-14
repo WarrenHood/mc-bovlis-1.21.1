@@ -5195,21 +5195,3 @@ filename = "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
 name = "yungs-api"
 version = "1.21.1-NeoForge-5.1.9"
 providers = ["Modrinth"]
-
-[mods.yungs-bridges]
-version = "1.21.1-NeoForge-5.1.1"
-server_side = true
-client_side = true
-
-[[mods.yungs-bridges.source]]
-
-[mods.yungs-bridges.source.Download]
-url = "https://cdn.modrinth.com/data/Ht4BfYp6/versions/urkCzBf6/YungsBridges-1.21.1-NeoForge-5.1.1.jar"
-sha1 = "18099c2d54acd16bb8ab90a66f40fa16496d065e"
-sha512 = "20b07ae4c08974980f976bcae32f18ccb885745d6cd50d4a5d0156eb5c51c29e49f8b2bf7dc2ae160d39b62f2332513bd9850efc5cba13697e36a2ac2848bc3b"
-filename = "YungsBridges-1.21.1-NeoForge-5.1.1.jar"
-
-[[mods.yungs-bridges.deps]]
-name = "yungs-api"
-version = "1.21.1-NeoForge-5.1.9"
-providers = ["Modrinth"]

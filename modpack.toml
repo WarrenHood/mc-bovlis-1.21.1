@@ -1230,12 +1230,6 @@ version = "*"
 server_side = true
 client_side = true
 
-[mods.yungs-bridges]
-name = "yungs-bridges"
-version = "*"
-server_side = true
-client_side = true
-
 [files."./client/config/cubes_without_borders.json"]
 target_path = "config/cubes_without_borders.json"
 side = "Client"
