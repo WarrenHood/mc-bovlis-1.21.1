@@ -980,6 +980,10 @@ client_side = true
 name = "runiclib"
 version = "*"
 
+[mods.rustic-delight]
+name = "rustic-delight"
+version = "*"
+
 [mods.sable-cleanup]
 name = "sable-cleanup"
 version = "*"

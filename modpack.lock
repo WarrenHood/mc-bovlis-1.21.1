@@ -4335,6 +4335,24 @@ sha1 = "f0422c70689d5b31b65ef5a84c1d5eb2d7536d4c"
 sha512 = "c46d25abc6e034cd5d2b5fe53c7cc9fe23f17d5abc91fee7232872476ec9bd500da7504cfc69cab313ff2e7f4fa4c5f2a8b4b932112ebb2851b8e5cb0cd7e365"
 filename = "neoforge-runiclib-1.21.1-5.0.7.jar"
 
+[mods.rustic-delight]
+version = "1.7.1"
+server_side = true
+client_side = true
+
+[[mods.rustic-delight.source]]
+
+[mods.rustic-delight.source.Download]
+url = "https://cdn.modrinth.com/data/foa4fGIH/versions/sAaG4pSA/rusticdelight-neoforge-1.21-1.7.1.jar"
+sha1 = "697df889af0cec1823cf5330fca62bf7f6e5037f"
+sha512 = "1aa22e862f0775699782ee20aa5cf75ce528404711cf8587cb7a732c710aa76f4d14035d2cdd0ed92980eb5f9388765b7f17a5aa31bdeadb85382aad488a6d2a"
+filename = "rusticdelight-neoforge-1.21-1.7.1.jar"
+
+[[mods.rustic-delight.deps]]
+name = "farmers-delight"
+version = "1.21.1-1.3.4"
+providers = ["Modrinth"]
+
 [mods.sable]
 version = "2.0.6+mc1.21.1"
 deps = []
