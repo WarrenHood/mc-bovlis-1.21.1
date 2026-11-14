@@ -2783,24 +2783,6 @@ sha1 = "9563692efb708b6b568df27a01ec52f6311928ef"
 sha512 = "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417"
 filename = "ferritecore-7.0.3-neoforge.jar"
 
-[mods.forbidden-arcanus]
-version = "2.6.1"
-server_side = true
-client_side = true
-
-[[mods.forbidden-arcanus.source]]
-
-[mods.forbidden-arcanus.source.Download]
-url = "https://cdn.modrinth.com/data/MdlnLS7Q/versions/fNjxgZPH/forbidden_arcanus-2.6.1.jar"
-sha1 = "1de105be68b88de87a5e6749f320c790d550c120"
-sha512 = "012a1d5c779a0173a5c76ea79f429486753f040dfe59739bc45fd0817182d705a80110032f024757f0ac51a9bd10c546a11a730899aa9adbf7251a5040472724"
-filename = "forbidden_arcanus-2.6.1.jar"
-
-[[mods.forbidden-arcanus.deps]]
-name = "valhelsia-core"
-version = "1.1.4"
-providers = ["Modrinth"]
-
 [mods.forgified-fabric-api]
 version = "0.116.15+2.3.6+1.21.1"
 server_side = false
@@ -3556,19 +3538,6 @@ url = "https://cdn.modrinth.com/data/C7I0BCni/versions/rQUE4LCz/mcw-mcwwindows-2
 sha1 = "eb1d3c118acb450cc2fe14c2ce7ce247a1bca60c"
 sha512 = "7628aa390a689a211013e5856cca1c695729b1faa7e20da16fa1f8a3822d5b569631829e91222caa8f1b27c4a7d28ab49110502551551216de2fb471b6f2549f"
 filename = "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar"
-
-[mods.malum]
-version = "1.8.2"
-server_side = true
-client_side = true
-
-[[mods.malum.source]]
-
-[mods.malum.source.Download]
-url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/BIbVs1fo/malum-1.21.1-1.8.2.jar"
-sha1 = "7bea3f874f186a17ad3e271df145c179e81c2a1d"
-sha512 = "dd9ccc1dea3b090f69f807be3e7a8b99ec6d3d7d6b047e2893cb49ca505860bbf640cf767082c1a32ea403b35e2a9f9d1755327890bbfb2f8778058a9597a99e"
-filename = "malum-1.21.1-1.8.2.jar"
 
 [mods.mekanism]
 version = "10.7.19.85"
@@ -4780,29 +4749,6 @@ name = "resourceful-lib"
 version = "3.0.12"
 providers = ["Modrinth"]
 
-[mods.theurgy]
-version = "1.21.1-neoforge-1.79.0"
-server_side = true
-client_side = true
-
-[[mods.theurgy.source]]
-
-[mods.theurgy.source.Download]
-url = "https://cdn.modrinth.com/data/uOVMgoil/versions/EBO0aQOY/theurgy-1.21.1-neoforge-1.79.0.jar"
-sha1 = "a4e4707a5396b15d1d51eaf44fb4765114adfb26"
-sha512 = "2e92aa0a3462d400feed398d4a675f9492dab3613ad698f24fcbcce34b565a079a7362fb637c4e268dbb71be5d11fc6630758f149ecccc8d6603f2e9d96f0569"
-filename = "theurgy-1.21.1-neoforge-1.79.0.jar"
-
-[[mods.theurgy.deps]]
-name = "geckolib"
-version = "4.9.3"
-providers = ["Modrinth"]
-
-[[mods.theurgy.deps]]
-name = "modonomicon"
-version = "1.21.1-1.123.0"
-providers = ["Modrinth"]
-
 [mods.time-in-a-bottle-universal]
 version = "6.5.4"
 deps = []
@@ -4895,19 +4841,6 @@ url = "https://cdn.modrinth.com/data/3Acxy864/versions/1YdU56pR/uranus-2.4.1-1.2
 sha1 = "2d689d2d9e5861ea0a382a459fa8fb0a3e4b5091"
 sha512 = "bb7119fc18ed36095daa8dc0caffd5c5c3357ff1bae0ffce4edbab965d8a57a0fb7c63b7e07c1c790ffa4477a4cfc7625b0b23214b9ec7c5cfa10b7f0caa89b7"
 filename = "uranus-2.4.1-1.21.1-neoforge.jar"
-
-[mods.valhelsia-core]
-version = "1.1.4"
-server_side = true
-client_side = true
-
-[[mods.valhelsia-core.source]]
-
-[mods.valhelsia-core.source.Download]
-url = "https://cdn.modrinth.com/data/HsdNFinx/versions/cttRekq9/valhelsia_core-neoforge-1.21.1-1.1.4.jar"
-sha1 = "018cfbf150953b9f23923e6d6c760f102583b28f"
-sha512 = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
-filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
 
 [mods.vanillabackport]
 version = "1.2.2"

@@ -624,10 +624,6 @@ client_side = true
 name = "ferrite-core"
 version = "*"
 
-[mods.forbidden-arcanus]
-name = "forbidden-arcanus"
-version = "*"
-
 [mods.forgified-fabric-api]
 name = "forgified-fabric-api"
 version = "*"
@@ -814,10 +810,6 @@ version = "*"
 
 [mods.macaws-windows]
 name = "macaws-windows"
-version = "*"
-
-[mods.malum]
-name = "malum"
 version = "*"
 
 [mods.mekanism]
@@ -1098,10 +1090,6 @@ version = "*"
 
 [mods.the-bumblezone]
 name = "the-bumblezone"
-version = "*"
-
-[mods.theurgy]
-name = "theurgy"
 version = "*"
 
 [mods.time-in-a-bottle-universal]
