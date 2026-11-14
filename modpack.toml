@@ -12,6 +12,10 @@ version = "*"
 name = "accessories-compat-layer"
 version = "*"
 
+[mods.adorable-hamster-pets]
+name = "adorable-hamster-pets"
+version = "*"
+
 [mods.advanced-backups]
 name = "advanced-backups"
 version = "*"

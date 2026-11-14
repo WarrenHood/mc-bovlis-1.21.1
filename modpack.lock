@@ -44,6 +44,19 @@ name = "owo-lib"
 version = "0.12.15.6-beta.1+1.21"
 providers = ["Modrinth"]
 
+[mods.adorable-hamster-pets]
+version = "3.7.0-1.21.1+neoforge"
+server_side = true
+client_side = true
+
+[[mods.adorable-hamster-pets.source]]
+
+[mods.adorable-hamster-pets.source.Download]
+url = "https://cdn.modrinth.com/data/LmrhZdK2/versions/LyCV3JSL/adorablehamsterpets-3.7.0-1.21.1%2Bneoforge.jar"
+sha1 = "3d1bc31982eff30195e3a58247774b5136459e8d"
+sha512 = "0651244d2aaf4c127ee1818a24910bf6612a33bb3aa078217ee8c695abf2cbc8be118d29ed5e271f8f7ba316f146767b8882800a38713177993444db7df2041a"
+filename = "adorablehamsterpets-3.7.0-1.21.1+neoforge.jar"
+
 [mods.advanced-backups]
 version = "3.7.1"
 server_side = true
