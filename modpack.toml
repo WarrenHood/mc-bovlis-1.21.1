@@ -4,6 +4,14 @@ modloader = "NeoForge"
 default_providers = ["Modrinth"]
 forbidden_mods = ["fabric-api"]
 
+[mods.accessories]
+name = "accessories"
+version = "*"
+
+[mods.accessories-compat-layer]
+name = "accessories-compat-layer"
+version = "*"
+
 [mods.advanced-backups]
 name = "advanced-backups"
 version = "*"
@@ -114,6 +122,14 @@ version = "*"
 
 [mods.badoptimizations]
 name = "badoptimizations"
+version = "*"
+
+[mods.beltborne-lanterns]
+name = "beltborne-lanterns"
+version = "*"
+
+[mods.beltborne-lanterns-accessories-layer]
+name = "beltborne-lanterns-accessories-layer"
 version = "*"
 
 [mods.better-combat]
@@ -536,6 +552,12 @@ version = "*"
 name = "entity-model-features"
 version = "*"
 
+[mods.entity-player-compat]
+name = "entity-player-compat"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.entityculling]
 name = "entityculling"
 version = "*"
@@ -580,6 +602,12 @@ client_side = true
 name = "ferrite-core"
 version = "*"
 
+[mods.first-person-model]
+name = "first-person-model"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.forbidden-arcanus]
 name = "forbidden-arcanus"
 version = "*"
@@ -594,6 +622,12 @@ client_side = true
 name = "forgiving-void"
 version = "*"
 server_side = true
+client_side = true
+
+[mods.fpm-x-compat]
+name = "fpm-x-compat"
+version = "*"
+server_side = false
 client_side = true
 
 [mods.ftb-library]
@@ -711,6 +745,14 @@ version = "*"
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
 version = "*"
+
+[mods.lambdynamiclights]
+name = "lambdynamiclights"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar"
+server_side = false
+client_side = true
 
 [mods.ldlib]
 name = "ldlib"
@@ -865,12 +907,6 @@ version = "*"
 [mods.power-grid]
 name = "power-grid"
 version = "*"
-
-[mods.pufferfishs-unofficial-additions]
-name = "pufferfishs-unofficial-additions"
-version = "*"
-server_side = true
-client_side = true
 
 [mods.pv-addon-sculk]
 name = "pv-addon-sculk"

@@ -1,3 +1,49 @@
+[mods.accessories]
+version = "1.1.0-beta.54+1.21.1"
+server_side = true
+client_side = true
+
+[[mods.accessories.source]]
+
+[mods.accessories.source.Download]
+url = "https://cdn.modrinth.com/data/jtmvUHXj/versions/dy9BbDEy/accessories-neoforge-1.1.0-beta.54%2B1.21.1.jar"
+sha1 = "0d0b07fa319a9f93c82873f9851ad35e100031f6"
+sha512 = "2ebf453d11892fc8b12520af3b154a49acd9b93fc10c9c9777dcb6afe3b93ad17b0ce019b35ba7935a2ecb306b7094f97fecf056bbcb4dbeeb8477a76cd93f2d"
+filename = "accessories-neoforge-1.1.0-beta.54+1.21.1.jar"
+
+[[mods.accessories.deps]]
+name = "owo-lib"
+version = "0.12.15.6-beta.1+1.21"
+providers = ["Modrinth"]
+
+[mods.accessories-compat-layer]
+version = "0.1.13"
+server_side = true
+client_side = true
+
+[[mods.accessories-compat-layer.source]]
+
+[mods.accessories-compat-layer.source.Download]
+url = "https://cdn.modrinth.com/data/ySnjMzLg/versions/UB8bxpVn/accessories_compat_layer-neoforge-0.1.13%2B1.21.1.jar"
+sha1 = "87032a586140cded332c0240a4aed13b50f28a44"
+sha512 = "119bb3f01d861a7967dab772daa042ddeef8747cfa59d6849776ffc50ebd13afe75dc77317f48903da142a3e913cd4b220a2c5186c7e7002895f90f4273c82a4"
+filename = "accessories_compat_layer-neoforge-0.1.13+1.21.1.jar"
+
+[[mods.accessories-compat-layer.deps]]
+name = "accessories"
+version = "1.1.0-beta.54+1.21.1"
+providers = ["Modrinth"]
+
+[[mods.accessories-compat-layer.deps]]
+name = "curios"
+version = "9.5.1+1.21.1"
+providers = ["Modrinth"]
+
+[[mods.accessories-compat-layer.deps]]
+name = "owo-lib"
+version = "0.12.15.6-beta.1+1.21"
+providers = ["Modrinth"]
+
 [mods.advanced-backups]
 version = "3.7.1"
 server_side = true
@@ -564,6 +610,42 @@ url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/CquiaiDj/balm-neoforge-1.
 sha1 = "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74"
 sha512 = "0262d51c0e931d10c3dccefb3b5426a1622edecab243d4b15dce07a23309641370184776739765067d292d808242d088c6fbf249762689824eff9ba42c2d1e63"
 filename = "balm-neoforge-1.21.1-21.0.66.jar"
+
+[mods.beltborne-lanterns]
+version = "1.2.7-neoforge"
+server_side = true
+client_side = true
+
+[[mods.beltborne-lanterns.source]]
+
+[mods.beltborne-lanterns.source.Download]
+url = "https://cdn.modrinth.com/data/NUFDZAKS/versions/EJtEIU6u/beltborne_lanterns-1.2.7-neoforge%2B1.21.1.jar"
+sha1 = "7a8521c556b920107283886312fff2cb8f275777"
+sha512 = "f92adfef7ca706c3d270bbf836994f9d175dd1afbc5a7516823b04cd6f71df1717db2d4f5463aae4859b029ccd727abade6281000f655f24539117ed0926798f"
+filename = "beltborne_lanterns-1.2.7-neoforge+1.21.1.jar"
+
+[[mods.beltborne-lanterns.deps]]
+name = "cloth-config"
+version = "15.0.140+neoforge"
+providers = ["Modrinth"]
+
+[mods.beltborne-lanterns-accessories-layer]
+version = "1.2.3-neoforge"
+server_side = true
+client_side = true
+
+[[mods.beltborne-lanterns-accessories-layer.source]]
+
+[mods.beltborne-lanterns-accessories-layer.source.Download]
+url = "https://cdn.modrinth.com/data/geZ7ilkE/versions/9V3pBWLv/bl_accessories_layer-1.2.3-neoforge%2B1.21.1.jar"
+sha1 = "e37d7a9e049991384f11bc0963787f91acfb204f"
+sha512 = "c8eb5ed46cecea52526512410df532e33c742ad4c946dc2570674036e98579fc32c05387755c84c05f51c82cfdcb4415b5797f0b402acac696658629a065dbb6"
+filename = "bl_accessories_layer-1.2.3-neoforge+1.21.1.jar"
+
+[[mods.beltborne-lanterns-accessories-layer.deps]]
+name = "beltborne-lanterns"
+version = "1.2.7-neoforge"
+providers = ["Modrinth"]
 
 [mods.better-combat]
 version = "2.4.0+1.21.1-neoforge"
@@ -2464,6 +2546,24 @@ name = "entitytexturefeatures"
 version = "7.2.6-neoforge-1.21"
 providers = ["Modrinth"]
 
+[mods.entity-player-compat]
+version = "2.2.3"
+server_side = false
+client_side = true
+
+[[mods.entity-player-compat.source]]
+
+[mods.entity-player-compat.source.Download]
+url = "https://cdn.modrinth.com/data/G65BPCre/versions/QDxFSuUa/EPC-2.2.3-1.21.1-neoforge.jar"
+sha1 = "84c8ca1aaee7c95cee4be81f80b1f90b358fdeb7"
+sha512 = "27f419ce37866903da5d08ee6a3cb0c1547cb8a84efed8fd5680b179ce00845e863162182fd2bc1a04b4831edc6584119fdff5aad5a5df1809f89ff55c132225"
+filename = "EPC-2.2.3-1.21.1-neoforge.jar"
+
+[[mods.entity-player-compat.deps]]
+name = "entity-model-features"
+version = "3.3.12-neoforge-1.21"
+providers = ["Modrinth"]
+
 [mods.entityculling]
 version = "1.11.3"
 server_side = false
@@ -2586,6 +2686,24 @@ sha1 = "9563692efb708b6b568df27a01ec52f6311928ef"
 sha512 = "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417"
 filename = "ferritecore-7.0.3-neoforge.jar"
 
+[mods.first-person-model]
+version = "2.7.3"
+server_side = false
+client_side = true
+
+[[mods.first-person-model.source]]
+
+[mods.first-person-model.source.Download]
+url = "https://cdn.modrinth.com/data/H5XMjpHi/versions/eaj8cYpD/firstperson-neoforge-2.7.3-mc1.21.1.jar"
+sha1 = "6e0be1de6a5aab6cda8496984376a0114cf5a840"
+sha512 = "979a3c50048042e1bcb623d89c04c7fe7048e173d7f77305edc7adc5b5580040439a7c5e001a55eab2d7cc6e2e0d13e75d8be165da13dea61ee126a794101763"
+filename = "firstperson-neoforge-2.7.3-mc1.21.1.jar"
+
+[[mods.first-person-model.deps]]
+name = "not-enough-animations"
+version = "1.12.7"
+providers = ["Modrinth"]
+
 [mods.forbidden-arcanus]
 version = "2.6.1"
 server_side = true
@@ -2633,6 +2751,29 @@ filename = "forgivingvoid-neoforge-1.21.1-21.1.7.jar"
 [[mods.forgiving-void.deps]]
 name = "balm"
 version = "21.0.66+neoforge-1.21.1"
+providers = ["Modrinth"]
+
+[mods.fpm-x-compat]
+version = "1.2.1"
+server_side = false
+client_side = true
+
+[[mods.fpm-x-compat.source]]
+
+[mods.fpm-x-compat.source.Download]
+url = "https://cdn.modrinth.com/data/FQu70XYH/versions/QJKhUegk/fpm_x_compat-neoforge-1.2.1%2B1.21.1.jar"
+sha1 = "eb9c045579e6d37cc956a29acc7c63063cc5aee4"
+sha512 = "b68b7a25a56e3159f3070628c529b9e2fda97f733157f15182f43a2938505ce7a0d04390285f4529eb31da227d748a572750c9e17c6b88cf23ad7c82a95e069d"
+filename = "fpm_x_compat-neoforge-1.2.1+1.21.1.jar"
+
+[[mods.fpm-x-compat.deps]]
+name = "cloth-config"
+version = "15.0.140+neoforge"
+providers = ["Modrinth"]
+
+[[mods.fpm-x-compat.deps]]
+name = "first-person-model"
+version = "2.7.3"
 providers = ["Modrinth"]
 
 [mods.ftb-library]
@@ -3167,6 +3308,19 @@ name = "lionfish-api"
 version = "3.1"
 providers = ["Modrinth"]
 
+[mods.lambdynamiclights]
+version = "Unknown"
+server_side = false
+client_side = true
+
+[[mods.lambdynamiclights.source]]
+
+[mods.lambdynamiclights.source.Download]
+url = "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar"
+sha1 = "7b5afc75a094b4e8a7118f9856eec959b10f2422"
+sha512 = "0286076e8b2922dfbe90cd4544a0d16e6d07d7249c732a37479ea4281e9cf96c86dd2e1ce5261489bd5553ceba33044bc550a04b9eb582645eb97f15c9c6a64c"
+filename = "lambdynamiclights-4.8.11%2B1.21.1.jar"
+
 [mods.ldlib]
 version = "mc1.21.1-2.2.45-neoforge"
 deps = []
@@ -3608,6 +3762,19 @@ sha1 = "1bea6b61378ba80f038256c4345d9ff3b67928c4"
 sha512 = "b50c37d2f69d51742d4407d272cea525b428784d2a39338d34b692937320495cd77d47b2d2321b3976713447028f50823e9ba44ca618900eba4ced907985ec84"
 filename = "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar"
 
+[mods.not-enough-animations]
+version = "1.12.7"
+server_side = false
+client_side = true
+
+[[mods.not-enough-animations.source]]
+
+[mods.not-enough-animations.source.Download]
+url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/f9RkhlA0/notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
+sha1 = "137a878ed276a3dfab2715df1864d14f60bd3237"
+sha512 = "0d0a2080c14a513962e9183aae028649b0d40514881481735141d7e137a3e9d5751f6c5468ace369bde09f81c15c06f76e3f8f5785f8c783fce2c26a4f3c4fbf"
+filename = "notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
+
 [mods.notenoughcrashes]
 version = "4.4.9+1.21.1-neoforge"
 server_side = true
@@ -3833,24 +4000,6 @@ url = "https://cdn.modrinth.com/data/aaRl8GiW/versions/EE1FHDyD/prickle-neoforge
 sha1 = "5174059ecf97340a0de5ef211b938de26c4eaa36"
 sha512 = "154d42795ccf1f3e07714775cdb82fd5db17574319286ced13d86b0456b64e4cf5bb89ffbcbfcefce67b73ed0b83e4e2944e493d79d9a385ff9de23006ee7bf5"
 filename = "prickle-neoforge-1.21.1-21.1.11.jar"
-
-[mods.pufferfishs-unofficial-additions]
-version = "2.2.8"
-server_side = true
-client_side = true
-
-[[mods.pufferfishs-unofficial-additions.source]]
-
-[mods.pufferfishs-unofficial-additions.source.Download]
-url = "https://cdn.modrinth.com/data/IAao6ECB/versions/Gg8lwHYR/pufferfish_unofficial_additions-1.21.1-2.2.8.jar"
-sha1 = "b273ea691e027b33fb9a19fb966c5f072edfa5c0"
-sha512 = "ca2dc10f2b8751948e5fa5d8d8e02581cb15e20a6ca6b446bfe4422ff1e76d2ab10f00536272f97c5e54cfa0334161e9a4d4f14c094263c1be2bee04ca925ce3"
-filename = "pufferfish_unofficial_additions-1.21.1-2.2.8.jar"
-
-[[mods.pufferfishs-unofficial-additions.deps]]
-name = "skills"
-version = "0.19.2"
-providers = ["Modrinth"]
 
 [mods.puzzles-lib]
 version = "21.1.64"
@@ -4283,19 +4432,6 @@ url = "https://cdn.modrinth.com/data/NYBH9vVY/versions/6zbD44Qe/sim_copycats-1.3
 sha1 = "5191a4741acb58199f7bdb6f162c5fab6abb287f"
 sha512 = "ee11cfd6f3616effd4dc2ec5c5cb3532e4f5155eb0684c07976ca11bfc673e7844b3834360d389db74e225cff4934f5ab0bb550f09adcfb39726e98ce889689c"
 filename = "sim_copycats-1.3.2.jar"
-
-[mods.skills]
-version = "0.19.2"
-server_side = true
-client_side = true
-
-[[mods.skills.source]]
-
-[mods.skills.source.Download]
-url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/8tfcI2wU/puffish_skills-0.19.2-1.21-neoforge.jar"
-sha1 = "e7439fa56036bfacf228269b8b89f10cbbba13fd"
-sha512 = "0dd07a6ca391ce00975f5b6c147cd993ce83d4ab3dde634885bc124f2d7fdfdcb631425539e2dbfdf7e0925795737c27bd4560aa5a6940ac0547dbd72c130b7f"
-filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
 
 [mods.sky-archipelago]
 version = "1.4"
