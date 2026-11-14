@@ -812,6 +812,10 @@ version = "*"
 name = "macaws-windows"
 version = "*"
 
+[mods.maidusehandcrank]
+name = "maidusehandcrank"
+version = "*"
+
 [mods.mekanism]
 name = "mekanism"
 version = "*"
