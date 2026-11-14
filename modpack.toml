@@ -1028,10 +1028,6 @@ client_side = true
 name = "sky-archipelago"
 version = "*"
 
-[mods.sky-whales]
-name = "sky-whales"
-version = "*"
-
 [mods.slice-and-dice]
 name = "slice-and-dice"
 version = "*"
@@ -1088,10 +1084,6 @@ client_side = true
 name = "synaxis"
 version = "*"
 
-[mods."tacz-1.21.1"]
-name = "tacz-1.21.1"
-version = "*"
-
 [mods.tacz-aeronautics-compat]
 name = "tacz-aeronautics-compat"
 version = "*"
@@ -1114,6 +1106,10 @@ version = "*"
 
 [mods.time-in-a-bottle-universal]
 name = "time-in-a-bottle-universal"
+version = "*"
+
+[mods.timeless-and-classics-zero]
+name = "timeless-and-classics-zero"
 version = "*"
 
 [mods.too-fast]
