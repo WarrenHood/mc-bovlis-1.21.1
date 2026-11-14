@@ -168,7 +168,7 @@
 	#Extra width beyond the corridor where trees and plants are removed, in blocks.
 	# Default: 2
 	# Range: 0 ~ 8
-	vegetationClearWidth = 2
+	vegetationClearWidth = 0
 
 #Create train signals.
 [Signals]
@@ -223,15 +223,15 @@
 	#Extra height cleared above the track in cuttings, in blocks.
 	# Default: 2
 	# Range: 0 ~ 8
-	cutExtraHeight = 2
+	cutExtraHeight = 0
 	#Steepness of cutting sides, in blocks across per block up (1.0 = 45 degrees, 2.0 = gentler).
 	# Default: 1.0
 	# Range: 0.5 ~ 3.0
-	cutSlope = 1.0
+	cutSlope = 0.5
 	#Widest a cutting side may slope out, in blocks. Beyond that a retaining wall is built.
 	# Default: 10
 	# Range: 2 ~ 24
-	cutMaxWidth = 10
+	cutMaxWidth = 2
 	#Tallest retaining wall in a cutting, in blocks.
 	# Default: 12
 	# Range: 2 ~ 32
@@ -246,7 +246,7 @@
 	# Range: 0.0 ~ 1.0
 	tunnelWeathering = 1.0
 	#Build a masonry facade at tunnel entrances.
-	tunnelPortalFacade = true
+	tunnelPortalFacade = false
 	#Extra interior height of tunnels, in blocks. With overhead wires, tunnels are at least Contact Wire Height + 1 tall anyway.
 	# Default: 1
 	# Range: 0 ~ 8
@@ -254,7 +254,7 @@
 	#Shortest tunnel, in blocks. Shorter ones are dug as open cuttings.
 	# Default: 16
 	# Range: 0 ~ 64
-	tunnelMinLength = 16
+	tunnelMinLength = 0
 	#Two tunnels closer than this are joined into one, in blocks.
 	# Default: 24
 	# Range: 0 ~ 64
