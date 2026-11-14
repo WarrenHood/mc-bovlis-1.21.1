@@ -1106,6 +1106,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.touhou-little-maid]
+name = "touhou-little-maid"
+version = "*"
+
 [mods.travelersbackpack]
 name = "travelersbackpack"
 version = "*"

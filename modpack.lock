@@ -4789,6 +4789,19 @@ sha1 = "7940d2516a492ff687696dfc0f8b66a6c628baad"
 sha512 = "4108ff7d3ca21c4392f99df510bdcc5ca968def79ed0a855c8e77be91b583b4f435ee643b952a8238369db3bdcda3725c2efc84ca105fd0978b76c803ea250ec"
 filename = "toofast-1.21.0-0.4.3.5.jar"
 
+[mods.touhou-little-maid]
+version = "1.5.3-neoforge+mc1.21.1"
+server_side = true
+client_side = true
+
+[[mods.touhou-little-maid.source]]
+
+[mods.touhou-little-maid.source.Download]
+url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/tXG1TkGx/touhoulittlemaid-1.5.3-neoforge%2Bmc1.21.1.jar"
+sha1 = "f96507810deaa2ffd8c3bd86a79d6ccbd56ca32e"
+sha512 = "147bc10f5cc7159ee16c4918795155b3e52cf6bab5e09f588ed3fec14f8b47bbc512948bb8fef30346a47feba2692b6dbe20781c6cc1dc1d2c6b9377a9649bbe"
+filename = "touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar"
+
 [mods.travelersbackpack]
 version = "1.21.1-10.1.41"
 deps = []
