@@ -688,6 +688,12 @@ version = "*"
 name = "jade"
 version = "*"
 
+[mods.jade-sable-compat]
+name = "jade-sable-compat"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.jei]
 name = "jei"
 version = "*"
@@ -802,9 +808,11 @@ version = "*"
 name = "natures-compass"
 version = "*"
 
-[mods.no-prying-eyes]
-name = "no-prying-eyes"
+[mods.no-chat-reports]
+name = "no-chat-reports"
 version = "*"
+server_side = true
+client_side = true
 
 [mods.noisium]
 name = "noisium"
@@ -1101,6 +1109,10 @@ name = "voxy-worldgen"
 version = "*"
 server_side = true
 client_side = true
+
+[mods.vs-hose-connectors]
+name = "vs-hose-connectors"
+version = "*"
 
 [mods.waystones]
 name = "waystones"
