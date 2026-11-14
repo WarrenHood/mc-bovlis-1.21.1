@@ -2982,6 +2982,80 @@ sha1 = "e3d4bb80a06f619be989ab529d0cd4e33e076943"
 sha512 = "7a009ed163d03536fdfaee7b37cb1ec3073204dffcb06a683369aa88da8dbc3780b0ac69d466bb32a3ad9394c97b698d0fda676e1b4dd4edfc50ac5aa2283c32"
 filename = "GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
 
+[mods.goety]
+version = "3.2.2"
+server_side = true
+client_side = true
+
+[[mods.goety.source]]
+
+[mods.goety.source.Download]
+url = "https://cdn.modrinth.com/data/4ZVIxU8x/versions/xLTYSsZD/goety-3.2.2.jar"
+sha1 = "d7fe0abd288d279f6996d5e9e2bd4f74f476fc48"
+sha512 = "d68103012faad1b74cf96017aa22711d80033d04035e98e5452f4f70d6fbc30c6523b4d3f561fedba798e116055caf598432b472b13e8a11dca07d00468b8b46"
+filename = "goety-3.2.2.jar"
+
+[[mods.goety.deps]]
+name = "curios"
+version = "9.5.1+1.21.1"
+providers = ["Modrinth"]
+
+[[mods.goety.deps]]
+name = "patchouli"
+version = "1.21.1-93-neoforge"
+providers = ["Modrinth"]
+
+[mods.goety-cataclysm]
+version = "1.21.1-1.9.0"
+server_side = true
+client_side = true
+
+[[mods.goety-cataclysm.source]]
+
+[mods.goety-cataclysm.source.Download]
+url = "https://cdn.modrinth.com/data/YwmuwbXi/versions/gv1JY0TU/goety_cataclysm-1.21.1-1.8.4.jar"
+sha1 = "b8b066f0ee12099505306043455cdc879e2d3949"
+sha512 = "45e390fb44ea7aa6b5f81b95b57ca224489a527a66167de1bdcf9a53c71cb5a54f6d29b69fa30b3f342e853c30bee677cf2c3701d141edf76b0be8515b6b6b60"
+filename = "goety_cataclysm-1.21.1-1.8.4.jar"
+
+[[mods.goety-cataclysm.deps]]
+name = "curios"
+version = "9.5.1+1.21.1"
+providers = ["Modrinth"]
+
+[[mods.goety-cataclysm.deps]]
+name = "goety"
+version = "3.2.2"
+providers = ["Modrinth"]
+
+[[mods.goety-cataclysm.deps]]
+name = "l_enders-cataclysm"
+version = "3.33"
+providers = ["Modrinth"]
+
+[[mods.goety-cataclysm.deps]]
+name = "lionfish-api"
+version = "3.1"
+providers = ["Modrinth"]
+
+[[mods.goety-cataclysm.deps]]
+name = "patchouli"
+version = "1.21.1-93-neoforge"
+providers = ["Modrinth"]
+
+[mods.goetydelight]
+version = "1.5.0-1.21.1-20260911_alpha-7"
+server_side = true
+client_side = true
+
+[[mods.goetydelight.source]]
+
+[mods.goetydelight.source.Download]
+url = "https://cdn.modrinth.com/data/QTy3tT6m/versions/RnBqHDpE/goetydelight-1.5.0-1.21.1-20260911_alpha-7%281%29.jar"
+sha1 = "1550a66f73d7c754d3e9678ea0070e7f6f9eb1c0"
+sha512 = "0beddc3171c99787861d9fa4546590f1b051cdd8f8a21ea25d16616894e1da7425dbf578bee8df3c34ca7bcbae745bd0a2abf3b4a2b22a8771a4f28c8f6b90da"
+filename = "goetydelight-1.5.0-1.21.1-20260911_alpha-7(1).jar"
+
 [mods.guide-api]
 version = "1.21.1-2.3.0"
 server_side = true

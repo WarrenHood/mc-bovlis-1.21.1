@@ -678,6 +678,18 @@ version = "*"
 name = "gliders"
 version = "*"
 
+[mods.goety]
+name = "goety"
+version = "*"
+
+[mods.goety-cataclysm]
+name = "goety-cataclysm"
+version = "*"
+
+[mods.goetydelight]
+name = "goetydelight"
+version = "*"
+
 [mods.guide-api]
 name = "guide-api"
 version = "*"
