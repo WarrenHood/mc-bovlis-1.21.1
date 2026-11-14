@@ -624,12 +624,6 @@ client_side = true
 name = "ferrite-core"
 version = "*"
 
-[mods.first-person-model]
-name = "first-person-model"
-version = "*"
-server_side = false
-client_side = true
-
 [mods.forbidden-arcanus]
 name = "forbidden-arcanus"
 version = "*"
@@ -644,12 +638,6 @@ client_side = true
 name = "forgiving-void"
 version = "*"
 server_side = true
-client_side = true
-
-[mods.fpm-x-compat]
-name = "fpm-x-compat"
-version = "*"
-server_side = false
 client_side = true
 
 [mods.ftb-library]
@@ -882,6 +870,12 @@ client_side = true
 name = "noisium"
 version = "*"
 server_side = true
+client_side = true
+
+[mods.not-enough-animations]
+name = "not-enough-animations"
+version = "*"
+server_side = false
 client_side = true
 
 [mods.notenoughcrashes]

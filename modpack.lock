@@ -2768,24 +2768,6 @@ sha1 = "9563692efb708b6b568df27a01ec52f6311928ef"
 sha512 = "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417"
 filename = "ferritecore-7.0.3-neoforge.jar"
 
-[mods.first-person-model]
-version = "2.7.3"
-server_side = false
-client_side = true
-
-[[mods.first-person-model.source]]
-
-[mods.first-person-model.source.Download]
-url = "https://cdn.modrinth.com/data/H5XMjpHi/versions/eaj8cYpD/firstperson-neoforge-2.7.3-mc1.21.1.jar"
-sha1 = "6e0be1de6a5aab6cda8496984376a0114cf5a840"
-sha512 = "979a3c50048042e1bcb623d89c04c7fe7048e173d7f77305edc7adc5b5580040439a7c5e001a55eab2d7cc6e2e0d13e75d8be165da13dea61ee126a794101763"
-filename = "firstperson-neoforge-2.7.3-mc1.21.1.jar"
-
-[[mods.first-person-model.deps]]
-name = "not-enough-animations"
-version = "1.12.7"
-providers = ["Modrinth"]
-
 [mods.forbidden-arcanus]
 version = "2.6.1"
 server_side = true
@@ -2833,29 +2815,6 @@ filename = "forgivingvoid-neoforge-1.21.1-21.1.7.jar"
 [[mods.forgiving-void.deps]]
 name = "balm"
 version = "21.0.66+neoforge-1.21.1"
-providers = ["Modrinth"]
-
-[mods.fpm-x-compat]
-version = "1.2.1"
-server_side = false
-client_side = true
-
-[[mods.fpm-x-compat.source]]
-
-[mods.fpm-x-compat.source.Download]
-url = "https://cdn.modrinth.com/data/FQu70XYH/versions/QJKhUegk/fpm_x_compat-neoforge-1.2.1%2B1.21.1.jar"
-sha1 = "eb9c045579e6d37cc956a29acc7c63063cc5aee4"
-sha512 = "b68b7a25a56e3159f3070628c529b9e2fda97f733157f15182f43a2938505ce7a0d04390285f4529eb31da227d748a572750c9e17c6b88cf23ad7c82a95e069d"
-filename = "fpm_x_compat-neoforge-1.2.1+1.21.1.jar"
-
-[[mods.fpm-x-compat.deps]]
-name = "cloth-config"
-version = "15.0.140+neoforge"
-providers = ["Modrinth"]
-
-[[mods.fpm-x-compat.deps]]
-name = "first-person-model"
-version = "2.7.3"
 providers = ["Modrinth"]
 
 [mods.ftb-library]
