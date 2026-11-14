@@ -424,6 +424,10 @@ version = "*"
 name = "create-redstone-link-gui"
 version = "*"
 
+[mods.create-sophisticated-backpacks-compat]
+name = "create-sophisticated-backpacks-compat"
+version = "*"
+
 [mods."create-steam-n-rails-1.21.1"]
 name = "create-steam-n-rails-1.21.1"
 version = "*"
@@ -1050,6 +1054,14 @@ version = "*"
 name = "some-assembly-required"
 version = "*"
 
+[mods.sophisticated-backpacks]
+name = "sophisticated-backpacks"
+version = "*"
+
+[mods.sophisticated-backpacks-create-integration]
+name = "sophisticated-backpacks-create-integration"
+version = "*"
+
 [mods.sound-physics-remastered]
 name = "sound-physics-remastered"
 version = "*"
@@ -1116,10 +1128,6 @@ client_side = true
 
 [mods.touhou-little-maid]
 name = "touhou-little-maid"
-version = "*"
-
-[mods.travelersbackpack]
-name = "travelersbackpack"
 version = "*"
 
 [mods.treechop]

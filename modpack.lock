@@ -2024,6 +2024,29 @@ sha1 = "408f1af35409f8931171dc9c5ab724b762bf65c1"
 sha512 = "aa5271c30c343d1f03073283c79d144e5690fe0c68b206f24e29f4dd5299bd137870e4c95ec7878fccb32c76c8924cec5f38013cad7f833cef08013570cf3762"
 filename = "createredstonelinkgui-1.21.1-1.9.2.jar"
 
+[mods.create-sophisticated-backpacks-compat]
+version = "1.0"
+server_side = true
+client_side = true
+
+[[mods.create-sophisticated-backpacks-compat.source]]
+
+[mods.create-sophisticated-backpacks-compat.source.Download]
+url = "https://cdn.modrinth.com/data/BAEkFrvn/versions/MGpIgh9e/create_sophback_compat-1.0.jar"
+sha1 = "401e8b83ab79c13bf71ba6209f4c8c487c001b38"
+sha512 = "93f18ab387f7c889e9e16d9df6089ec54a1db8e1be8a3404ddeb825dc8f6ccbc736e920a1a5f854951d0f6a7eaf105b936629d6b20d976d6160d3a1e22dae09d"
+filename = "create_sophback_compat-1.0.jar"
+
+[[mods.create-sophisticated-backpacks-compat.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.create-sophisticated-backpacks-compat.deps]]
+name = "sophisticated-backpacks"
+version = "1.21.1-3.26.21.2249"
+providers = ["Modrinth"]
+
 [mods."create-steam-n-rails-1.21.1"]
 version = "0.3.0-beta.2+neoforge-mc1.21.1"
 server_side = true
@@ -4602,6 +4625,65 @@ name = "farmers-delight"
 version = "1.21.1-1.3.4"
 providers = ["Modrinth"]
 
+[mods.sophisticated-backpacks]
+version = "1.21.1-3.26.21.2249"
+server_side = true
+client_side = true
+
+[[mods.sophisticated-backpacks.source]]
+
+[mods.sophisticated-backpacks.source.Download]
+url = "https://cdn.modrinth.com/data/TyCTlI4b/versions/tJnK2DE1/sophisticatedbackpacks-1.21.1-3.26.21.2249.jar"
+sha1 = "940e93e9eaaf7db50c308c2a849a471830f6c1ea"
+sha512 = "1373f5cdf9093e9613c82d429b6670538bf0fa1a397f5cc1e5e807fca0debd77139de67764c111bc369eea4cc1a395bbd790ec337413353fd1c987b7d9376249"
+filename = "sophisticatedbackpacks-1.21.1-3.26.21.2249.jar"
+
+[[mods.sophisticated-backpacks.deps]]
+name = "sophisticated-core"
+version = "1.21.1-1.5.35.2473"
+providers = ["Modrinth"]
+
+[mods.sophisticated-backpacks-create-integration]
+version = "1.21.1-0.2.3.194"
+server_side = true
+client_side = true
+
+[[mods.sophisticated-backpacks-create-integration.source]]
+
+[mods.sophisticated-backpacks-create-integration.source.Download]
+url = "https://cdn.modrinth.com/data/s85zLEDe/versions/PWwbiDmx/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar"
+sha1 = "911bc3a5c440dc6894920ebd5a848ae8a5c47ec3"
+sha512 = "b28d70f9db4e616accf8818f95ef7521eda0f56abca81141ea507b0a0fea7a4460a01df6e9e86aa9020369066e55157359e36ec3e65d0ffabf782a5f22f22c44"
+filename = "sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar"
+
+[[mods.sophisticated-backpacks-create-integration.deps]]
+name = "create"
+version = "6.0.10+mc1.21.1"
+providers = ["Modrinth"]
+
+[[mods.sophisticated-backpacks-create-integration.deps]]
+name = "sophisticated-backpacks"
+version = "1.21.1-3.26.21.2249"
+providers = ["Modrinth"]
+
+[[mods.sophisticated-backpacks-create-integration.deps]]
+name = "sophisticated-core"
+version = "1.21.1-1.5.35.2473"
+providers = ["Modrinth"]
+
+[mods.sophisticated-core]
+version = "1.21.1-1.5.35.2473"
+server_side = true
+client_side = true
+
+[[mods.sophisticated-core.source]]
+
+[mods.sophisticated-core.source.Download]
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/FilyXPLY/sophisticatedcore-1.21.1-1.5.35.2473.jar"
+sha1 = "6e480fff57d27aa20a9c3488419422ac707a5f14"
+sha512 = "7c2ad552f973210a754c2791eaead92d302784859c0f01eefa21ca188bd0a993b433a5919cdb2ebba2a81f94573f8f9d4d0dc57812e0e967a24a94d3c4883e99"
+filename = "sophisticatedcore-1.21.1-1.5.35.2473.jar"
+
 [mods.sound-physics-remastered]
 version = "neoforge-1.21.1-1.5.2"
 deps = []
@@ -4837,20 +4919,6 @@ url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/tXG1TkGx/touhoulittlemaid
 sha1 = "f96507810deaa2ffd8c3bd86a79d6ccbd56ca32e"
 sha512 = "147bc10f5cc7159ee16c4918795155b3e52cf6bab5e09f588ed3fec14f8b47bbc512948bb8fef30346a47feba2692b6dbe20781c6cc1dc1d2c6b9377a9649bbe"
 filename = "touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar"
-
-[mods.travelersbackpack]
-version = "1.21.1-10.1.41"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.travelersbackpack.source]]
-
-[mods.travelersbackpack.source.Download]
-url = "https://cdn.modrinth.com/data/rlloIFEV/versions/JrOhWsXk/travelersbackpack-neoforge-1.21.1-10.1.41.jar"
-sha1 = "a7f629c076aa02badd255ac15e5ebd2eef5717a2"
-sha512 = "3ccd52fd53286ef109fec63b246a4031ad71e830d2ac112a339b50fb087cebe991dd8a7662a2cf2cca82098627c0d0b17fcf33765dd3b88bde3211ee7f078ec0"
-filename = "travelersbackpack-neoforge-1.21.1-10.1.41.jar"
 
 [mods.treechop]
 version = "0.19.3"
