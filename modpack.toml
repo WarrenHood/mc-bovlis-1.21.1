@@ -340,6 +340,14 @@ version = "*"
 name = "create-garnished"
 version = "*"
 
+[mods.create-hostile-skies]
+name = "create-hostile-skies"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/78hqRjWm/versions/HaZ4GxKd/hostile_skies-0.2.6.jar?mr_download_reason=standalone"
+server_side = true
+client_side = true
+
 [mods.create-infinite-railways]
 name = "create-infinite-railways"
 version = "*"
@@ -363,6 +371,12 @@ client_side = true
 [mods.create-let-the-adventure-begin]
 name = "create-let-the-adventure-begin"
 version = "*"
+
+[mods.create-lift-n-load]
+name = "create-lift-n-load"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.create-liquid-fuel]
 name = "create-liquid-fuel"
@@ -400,6 +414,10 @@ version = "*"
 
 [mods.create-rail-grinding]
 name = "create-rail-grinding"
+version = "*"
+
+[mods.create-redstone-link-gui]
+name = "create-redstone-link-gui"
 version = "*"
 
 [mods."create-steam-n-rails-1.21.1"]
@@ -490,6 +508,10 @@ download_url = "https://mediafilez.forgecdn.net/files/8208/414/doespotatotick-1.
 
 [mods.draconic-evolution]
 name = "draconic-evolution"
+version = "*"
+
+[mods.drive-by-sable]
+name = "drive-by-sable"
 version = "*"
 
 [mods.dungeons_delight]
