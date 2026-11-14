@@ -156,7 +156,7 @@
 	#Lay curves as wide as possible, like Create's track placement with sprint (Left Ctrl) held. Off = Create's standard curves.
 	maximiseTurns = true
 	#Lay two parallel tracks along every route. Only applies to track placed from now on.
-	dualTrack = true
+	dualTrack = false
 	#Distance from the route's centre line to each of the two tracks, in blocks.
 	# Default: 2
 	# Range: 2 ~ 6
@@ -284,9 +284,9 @@
 	#Build masonry arch viaducts under bridges. Off = Railways Untold's plain piers.
 	bridgeArches = true
 	#Block for arch piers and walls.
-	bridgeBlock = "minecraft:air"
+	bridgeBlock = "minecraft:stone_bricks"
 	#Stair block for arch curves and cornices. Empty = plain blocks.
-	bridgeStairBlock = "minecraft:air"
+	bridgeStairBlock = "minecraft:stone_bricks"
 	#Amount of weathered and mossy blocks in the masonry (stone bricks only). 0 = none.
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
